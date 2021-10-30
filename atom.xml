@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>太渊-Asgard</title>
+  
+  <subtitle>TIME-[酒一壶卜一卦]</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-10-30T14:14:56.914Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Alan Root</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown快速入门小技巧</title>
+    <link href="http://example.com/2021/10/29/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>http://example.com/2021/10/29/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</id>
+    <published>2021-10-28T16:00:00.000Z</published>
+    <updated>2021-10-30T14:14:56.914Z</updated>
+    
+    
+    <summary type="html">友链</summary>
+    
+    
+    
+    <category term="hexo博客" scheme="http://example.com/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Markdown" scheme="http://example.com/categories/hexo%E5%8D%9A%E5%AE%A2/Markdown/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>道德经</title>
+    <link href="http://example.com/2021/10/28/%E9%81%93%E5%BE%B7%E7%BB%8F/"/>
+    <id>http://example.com/2021/10/28/%E9%81%93%E5%BE%B7%E7%BB%8F/</id>
+    <published>2021-10-27T22:50:02.000Z</published>
+    <updated>2021-10-30T10:47:10.435Z</updated>
+    
+    
+    <summary type="html">老子</summary>
+    
+    
+    
+    
+    <category term="Book" scheme="http://example.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>周易</title>
+    <link href="http://example.com/2021/10/28/%E5%91%A8%E6%98%93/"/>
+    <id>http://example.com/2021/10/28/%E5%91%A8%E6%98%93/</id>
+    <published>2021-10-27T22:49:44.000Z</published>
+    <updated>2021-10-30T10:40:43.975Z</updated>
+    
+    
+    <summary type="html">8*8</summary>
+    
+    
+    
+    
+    <category term="Book" scheme="http://example.com/tags/Book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>骚话大全</title>
+    <link href="http://example.com/2021/10/28/%E9%AA%9A%E8%AF%9D%E5%A4%A7%E5%85%A8/"/>
+    <id>http://example.com/2021/10/28/%E9%AA%9A%E8%AF%9D%E5%A4%A7%E5%85%A8/</id>
+    <published>2021-10-27T22:49:09.000Z</published>
+    <updated>2021-10-27T23:02:21.635Z</updated>
+    
+    
+    <summary type="html">hhh</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="http://example.com/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Film</title>
+    <link href="http://example.com/2021/10/27/Film/"/>
+    <id>http://example.com/2021/10/27/Film/</id>
+    <published>2021-10-27T11:34:31.000Z</published>
+    <updated>2021-10-30T13:34:18.609Z</updated>
+    
+    
+    <summary type="html">Montgomery Clift</summary>
+    
+    
+    
+    
+    <category term="film" scheme="http://example.com/tags/film/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>symbol</title>
+    <link href="http://example.com/2021/10/26/symbol/"/>
+    <id>http://example.com/2021/10/26/symbol/</id>
+    <published>2021-10-26T15:53:46.000Z</published>
+    <updated>2021-10-26T15:57:04.842Z</updated>
+    
+    
+    <summary type="html">打钩符号,√,变异体打勾符号请看文章正文</summary>
+    
+    
+    
+    
+    <category term="Web" scheme="http://example.com/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于Markdown语法</title>
+    <link href="http://example.com/2021/10/26/%E5%85%B3%E4%BA%8EMarkdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://example.com/2021/10/26/%E5%85%B3%E4%BA%8EMarkdown%E8%AF%AD%E6%B3%95/</id>
+    <published>2021-10-26T00:33:44.000Z</published>
+    <updated>2021-10-27T06:33:38.571Z</updated>
+    
+    
+    <summary type="html">about Markdown</summary>
+    
+    
+    
+    
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于hexo</title>
+    <link href="http://example.com/2021/10/26/%E5%85%B3%E4%BA%8Ehexo/"/>
+    <id>http://example.com/2021/10/26/%E5%85%B3%E4%BA%8Ehexo/</id>
+    <published>2021-10-26T00:31:14.000Z</published>
+    <updated>2021-10-30T14:43:57.571Z</updated>
+    
+    
+    <summary type="html">hexo实验机</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>容斥原理</title>
+    <link href="http://example.com/2021/10/26/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2021/10/26/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/</id>
+    <published>2021-10-25T23:53:31.000Z</published>
+    <updated>2021-10-27T06:48:25.158Z</updated>
+    
+    
+    <summary type="html">料得是与非</summary>
+    
+    
+    
+    
+    <category term="Math" scheme="http://example.com/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>白雪猪头</title>
+    <link href="http://example.com/2021/10/25/%E7%99%BD%E9%9B%AA%E7%8C%AA%E5%A4%B4/"/>
+    <id>http://example.com/2021/10/25/%E7%99%BD%E9%9B%AA%E7%8C%AA%E5%A4%B4/</id>
+    <published>2021-10-25T13:14:19.000Z</published>
+    <updated>2021-10-27T12:12:11.750Z</updated>
+    
+    
+    <summary type="html">苏童</summary>
+    
+    
+    
+    
+    <category term="阅读" scheme="http://example.com/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="小说" scheme="http://example.com/tags/%E5%B0%8F%E8%AF%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>特殊情况下加法对乘法的分配律</title>
+    <link href="http://example.com/2021/10/25/%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%E4%B8%8B%E5%8A%A0%E6%B3%95%E5%AF%B9%E4%B9%98%E6%B3%95%E7%9A%84%E5%88%86%E9%85%8D%E5%BE%8B/"/>
+    <id>http://example.com/2021/10/25/%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%E4%B8%8B%E5%8A%A0%E6%B3%95%E5%AF%B9%E4%B9%98%E6%B3%95%E7%9A%84%E5%88%86%E9%85%8D%E5%BE%8B/</id>
+    <published>2021-10-25T10:16:29.000Z</published>
+    <updated>2021-10-27T12:14:12.770Z</updated>
+    
+    
+    <summary type="html">所以可能</summary>
+    
+    
+    
+    
+    <category term="Math" scheme="http://example.com/tags/Math/"/>
+    
+    <category term="Note" scheme="http://example.com/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>姚鸿泽访谈</title>
+    <link href="http://example.com/2021/10/25/Math/"/>
+    <id>http://example.com/2021/10/25/Math/</id>
+    <published>2021-10-25T04:56:42.000Z</published>
+    <updated>2021-10-25T05:19:21.685Z</updated>
+    
+    
+    <summary type="html">烛火与守夜人</summary>
+    
+    
+    
+    
+    <category term="Math" scheme="http://example.com/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://example.com/2021/10/21/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://example.com/2021/10/21/%E6%B5%8B%E8%AF%95/</id>
+    <published>2021-10-21T05:33:43.000Z</published>
+    <updated>2021-10-27T06:48:30.597Z</updated>
+    
+    
+    <summary type="html">测试实验室</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>java // 俄文字母表</title>
+    <link href="http://example.com/2021/10/21/%E4%BF%84%E6%96%87%E5%AD%97%E6%AF%8D/"/>
+    <id>http://example.com/2021/10/21/%E4%BF%84%E6%96%87%E5%AD%97%E6%AF%8D/</id>
+    <published>2021-10-20T16:00:00.000Z</published>
+    <updated>2021-10-30T13:31:32.220Z</updated>
+    
+    
+    <summary type="html">曾经沧海难为水， 除却巫山不是云。</summary>
+    
+    
+    
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java // 素数</title>
+    <link href="http://example.com/2021/10/21/java%E7%B4%A0%E6%95%B0/"/>
+    <id>http://example.com/2021/10/21/java%E7%B4%A0%E6%95%B0/</id>
+    <published>2021-10-20T16:00:00.000Z</published>
+    <updated>2021-10-30T13:32:34.470Z</updated>
+    
+    
+    <summary type="html">取次花丛懒回顾， 半缘修道半缘君</summary>
+    
+    
+    
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java // 阶乘求和</title>
+    <link href="http://example.com/2021/10/21/%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/"/>
+    <id>http://example.com/2021/10/21/%E9%98%B6%E4%B9%98%E6%B1%82%E5%92%8C/</id>
+    <published>2021-10-20T16:00:00.000Z</published>
+    <updated>2021-10-30T13:29:46.475Z</updated>
+    
+    
+    <summary type="html">汝果欲学诗，工夫在诗外</summary>
+    
+    
+    
+    
+    <category term="JAVA" scheme="http://example.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2013/01/14/hello-world/"/>
+    <id>http://example.com/2013/01/14/hello-world/</id>
+    <published>2013-01-13T16:00:00.000Z</published>
+    <updated>2021-10-30T13:36:17.360Z</updated>
+    
+    
+    <summary type="html">癫狂的好奇 [Tregear τρέλα+περιέργεια]</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
