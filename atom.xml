@@ -3,11 +3,11 @@
   <title>太渊-Asgard</title>
   
   <subtitle>天地与我并生，万物与我为一</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://69asgard.github.io/"/>
   <updated>2021-11-03T07:46:31.000Z</updated>
-  <id>http://example.com/</id>
+  <id>https://69asgard.github.io/</id>
   
   <author>
     <name>Alan Root</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>镜子前的人体</title>
-    <link href="http://example.com/2021/11/03/%E9%95%9C%E5%AD%90%E5%89%8D%E7%9A%84%E4%BA%BA%E4%BD%93/"/>
-    <id>http://example.com/2021/11/03/%E9%95%9C%E5%AD%90%E5%89%8D%E7%9A%84%E4%BA%BA%E4%BD%93/</id>
+    <link href="https://69asgard.github.io/2021/11/03/%E9%95%9C%E5%AD%90%E5%89%8D%E7%9A%84%E4%BA%BA%E4%BD%93/"/>
+    <id>https://69asgard.github.io/2021/11/03/%E9%95%9C%E5%AD%90%E5%89%8D%E7%9A%84%E4%BA%BA%E4%BD%93/</id>
     <published>2021-11-03T07:46:31.000Z</published>
     <updated>2021-11-03T07:46:31.000Z</updated>
     
@@ -28,17 +28,17 @@
     
     
     
-    <category term="Note" scheme="http://example.com/categories/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/categories/Note/"/>
     
     
-    <category term="Note" scheme="http://example.com/tags/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>女导师</title>
-    <link href="http://example.com/2021/11/03/%E5%A5%B3%E5%AF%BC%E5%B8%88/"/>
-    <id>http://example.com/2021/11/03/%E5%A5%B3%E5%AF%BC%E5%B8%88/</id>
+    <link href="https://69asgard.github.io/2021/11/03/%E5%A5%B3%E5%AF%BC%E5%B8%88/"/>
+    <id>https://69asgard.github.io/2021/11/03/%E5%A5%B3%E5%AF%BC%E5%B8%88/</id>
     <published>2021-11-03T07:45:59.000Z</published>
     <updated>2021-11-03T07:45:59.000Z</updated>
     
@@ -47,17 +47,17 @@
     
     
     
-    <category term="Note" scheme="http://example.com/categories/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/categories/Note/"/>
     
     
-    <category term="Note" scheme="http://example.com/tags/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>他说</title>
-    <link href="http://example.com/2021/11/02/%E4%BB%96%E8%AF%B4/"/>
-    <id>http://example.com/2021/11/02/%E4%BB%96%E8%AF%B4/</id>
+    <link href="https://69asgard.github.io/2021/11/02/%E4%BB%96%E8%AF%B4/"/>
+    <id>https://69asgard.github.io/2021/11/02/%E4%BB%96%E8%AF%B4/</id>
     <published>2021-11-01T23:44:16.000Z</published>
     <updated>2021-11-01T23:44:16.000Z</updated>
     
@@ -66,17 +66,17 @@
     
     
     
-    <category term="diary" scheme="http://example.com/categories/diary/"/>
+    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
     
     
-    <category term="diary" scheme="http://example.com/tags/diary/"/>
+    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>符号</title>
-    <link href="http://example.com/2021/11/01/%E7%AC%A6%E5%8F%B7%E5%A4%A7%E5%85%A8/"/>
-    <id>http://example.com/2021/11/01/%E7%AC%A6%E5%8F%B7%E5%A4%A7%E5%85%A8/</id>
+    <link href="https://69asgard.github.io/2021/11/01/%E7%AC%A6%E5%8F%B7%E5%A4%A7%E5%85%A8/"/>
+    <id>https://69asgard.github.io/2021/11/01/%E7%AC%A6%E5%8F%B7%E5%A4%A7%E5%85%A8/</id>
     <published>2021-11-01T05:15:57.000Z</published>
     <updated>2021-11-01T05:15:57.000Z</updated>
     
@@ -85,19 +85,19 @@
     
     
     
-    <category term="Math" scheme="http://example.com/categories/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
     
     
-    <category term="Note" scheme="http://example.com/tags/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
-    <category term="Math" scheme="http://example.com/tags/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
     
   </entry>
   
   <entry>
     <title>Green公式</title>
-    <link href="http://example.com/2021/11/01/Green%E5%85%AC%E5%BC%8F/"/>
-    <id>http://example.com/2021/11/01/Green%E5%85%AC%E5%BC%8F/</id>
+    <link href="https://69asgard.github.io/2021/11/01/Green%E5%85%AC%E5%BC%8F/"/>
+    <id>https://69asgard.github.io/2021/11/01/Green%E5%85%AC%E5%BC%8F/</id>
     <published>2021-11-01T05:13:02.000Z</published>
     <updated>2021-11-01T05:13:02.000Z</updated>
     
@@ -106,19 +106,19 @@
     
     
     
-    <category term="Math" scheme="http://example.com/categories/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
     
     
-    <category term="Note" scheme="http://example.com/tags/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
-    <category term="Math" scheme="http://example.com/tags/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
     
   </entry>
   
   <entry>
     <title>异同</title>
-    <link href="http://example.com/2021/11/01/diary-1/"/>
-    <id>http://example.com/2021/11/01/diary-1/</id>
+    <link href="https://69asgard.github.io/2021/11/01/diary-1/"/>
+    <id>https://69asgard.github.io/2021/11/01/diary-1/</id>
     <published>2021-11-01T05:08:20.000Z</published>
     <updated>2021-11-01T05:08:20.000Z</updated>
     
@@ -127,17 +127,17 @@
     
     
     
-    <category term="diary" scheme="http://example.com/categories/diary/"/>
+    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
     
     
-    <category term="diary" scheme="http://example.com/tags/diary/"/>
+    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>所以</title>
-    <link href="http://example.com/2021/10/31/diary/"/>
-    <id>http://example.com/2021/10/31/diary/</id>
+    <link href="https://69asgard.github.io/2021/10/31/diary/"/>
+    <id>https://69asgard.github.io/2021/10/31/diary/</id>
     <published>2021-10-31T07:33:34.000Z</published>
     <updated>2021-10-31T07:33:34.000Z</updated>
     
@@ -146,17 +146,17 @@
     
     
     
-    <category term="diary" scheme="http://example.com/categories/diary/"/>
+    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
     
     
-    <category term="diary" scheme="http://example.com/tags/diary/"/>
+    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
     
   </entry>
   
   <entry>
     <title>Markdown快速入门小技巧</title>
-    <link href="http://example.com/2021/10/29/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    <id>http://example.com/2021/10/29/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</id>
+    <link href="https://69asgard.github.io/2021/10/29/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>https://69asgard.github.io/2021/10/29/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</id>
     <published>2021-10-28T16:00:00.000Z</published>
     <updated>2021-10-28T16:00:00.000Z</updated>
     
@@ -165,21 +165,21 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://69asgard.github.io/categories/Hexo/"/>
     
-    <category term="Markdown" scheme="http://example.com/categories/Hexo/Markdown/"/>
+    <category term="Markdown" scheme="https://69asgard.github.io/categories/Hexo/Markdown/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://69asgard.github.io/tags/Hexo/"/>
     
-    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://69asgard.github.io/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>道德经</title>
-    <link href="http://example.com/2021/10/28/%E9%81%93%E5%BE%B7%E7%BB%8F/"/>
-    <id>http://example.com/2021/10/28/%E9%81%93%E5%BE%B7%E7%BB%8F/</id>
+    <link href="https://69asgard.github.io/2021/10/28/%E9%81%93%E5%BE%B7%E7%BB%8F/"/>
+    <id>https://69asgard.github.io/2021/10/28/%E9%81%93%E5%BE%B7%E7%BB%8F/</id>
     <published>2021-10-27T22:50:02.000Z</published>
     <updated>2021-10-27T22:50:02.000Z</updated>
     
@@ -188,17 +188,17 @@
     
     
     
-    <category term="Book" scheme="http://example.com/categories/Book/"/>
+    <category term="Book" scheme="https://69asgard.github.io/categories/Book/"/>
     
     
-    <category term="Book" scheme="http://example.com/tags/Book/"/>
+    <category term="Book" scheme="https://69asgard.github.io/tags/Book/"/>
     
   </entry>
   
   <entry>
     <title>周易</title>
-    <link href="http://example.com/2021/10/28/%E5%91%A8%E6%98%93/"/>
-    <id>http://example.com/2021/10/28/%E5%91%A8%E6%98%93/</id>
+    <link href="https://69asgard.github.io/2021/10/28/%E5%91%A8%E6%98%93/"/>
+    <id>https://69asgard.github.io/2021/10/28/%E5%91%A8%E6%98%93/</id>
     <published>2021-10-27T22:49:44.000Z</published>
     <updated>2021-10-27T22:49:44.000Z</updated>
     
@@ -207,17 +207,17 @@
     
     
     
-    <category term="Book" scheme="http://example.com/categories/Book/"/>
+    <category term="Book" scheme="https://69asgard.github.io/categories/Book/"/>
     
     
-    <category term="Book" scheme="http://example.com/tags/Book/"/>
+    <category term="Book" scheme="https://69asgard.github.io/tags/Book/"/>
     
   </entry>
   
   <entry>
     <title>骚话语录</title>
-    <link href="http://example.com/2021/10/28/%E9%AA%9A%E8%AF%9D%E5%A4%A7%E5%85%A8/"/>
-    <id>http://example.com/2021/10/28/%E9%AA%9A%E8%AF%9D%E5%A4%A7%E5%85%A8/</id>
+    <link href="https://69asgard.github.io/2021/10/28/%E9%AA%9A%E8%AF%9D%E5%A4%A7%E5%85%A8/"/>
+    <id>https://69asgard.github.io/2021/10/28/%E9%AA%9A%E8%AF%9D%E5%A4%A7%E5%85%A8/</id>
     <published>2021-10-27T22:49:09.000Z</published>
     <updated>2021-10-27T22:49:09.000Z</updated>
     
@@ -226,17 +226,17 @@
     
     
     
-    <category term="Note" scheme="http://example.com/categories/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/categories/Note/"/>
     
     
-    <category term="Note" scheme="http://example.com/tags/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
   </entry>
   
   <entry>
     <title>Film</title>
-    <link href="http://example.com/2021/10/27/Film/"/>
-    <id>http://example.com/2021/10/27/Film/</id>
+    <link href="https://69asgard.github.io/2021/10/27/Film/"/>
+    <id>https://69asgard.github.io/2021/10/27/Film/</id>
     <published>2021-10-27T11:34:31.000Z</published>
     <updated>2021-10-27T11:34:31.000Z</updated>
     
@@ -245,17 +245,17 @@
     
     
     
-    <category term="film" scheme="http://example.com/categories/film/"/>
+    <category term="film" scheme="https://69asgard.github.io/categories/film/"/>
     
     
-    <category term="film" scheme="http://example.com/tags/film/"/>
+    <category term="film" scheme="https://69asgard.github.io/tags/film/"/>
     
   </entry>
   
   <entry>
     <title>symbol</title>
-    <link href="http://example.com/2021/10/26/symbol/"/>
-    <id>http://example.com/2021/10/26/symbol/</id>
+    <link href="https://69asgard.github.io/2021/10/26/symbol/"/>
+    <id>https://69asgard.github.io/2021/10/26/symbol/</id>
     <published>2021-10-26T15:53:46.000Z</published>
     <updated>2021-10-26T15:53:46.000Z</updated>
     
@@ -264,17 +264,17 @@
     
     
     
-    <category term="Web" scheme="http://example.com/categories/Web/"/>
+    <category term="Web" scheme="https://69asgard.github.io/categories/Web/"/>
     
     
-    <category term="Web" scheme="http://example.com/tags/Web/"/>
+    <category term="Web" scheme="https://69asgard.github.io/tags/Web/"/>
     
   </entry>
   
   <entry>
     <title>关于Markdown语法</title>
-    <link href="http://example.com/2021/10/26/%E5%85%B3%E4%BA%8EMarkdown%E8%AF%AD%E6%B3%95/"/>
-    <id>http://example.com/2021/10/26/%E5%85%B3%E4%BA%8EMarkdown%E8%AF%AD%E6%B3%95/</id>
+    <link href="https://69asgard.github.io/2021/10/26/%E5%85%B3%E4%BA%8EMarkdown%E8%AF%AD%E6%B3%95/"/>
+    <id>https://69asgard.github.io/2021/10/26/%E5%85%B3%E4%BA%8EMarkdown%E8%AF%AD%E6%B3%95/</id>
     <published>2021-10-26T00:33:44.000Z</published>
     <updated>2021-10-26T00:33:44.000Z</updated>
     
@@ -283,21 +283,21 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://69asgard.github.io/categories/Hexo/"/>
     
-    <category term="Markdown" scheme="http://example.com/categories/Hexo/Markdown/"/>
+    <category term="Markdown" scheme="https://69asgard.github.io/categories/Hexo/Markdown/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://69asgard.github.io/tags/Hexo/"/>
     
-    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://69asgard.github.io/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>关于hexo</title>
-    <link href="http://example.com/2021/10/26/%E5%85%B3%E4%BA%8Ehexo/"/>
-    <id>http://example.com/2021/10/26/%E5%85%B3%E4%BA%8Ehexo/</id>
+    <link href="https://69asgard.github.io/2021/10/26/%E5%85%B3%E4%BA%8Ehexo/"/>
+    <id>https://69asgard.github.io/2021/10/26/%E5%85%B3%E4%BA%8Ehexo/</id>
     <published>2021-10-26T00:31:14.000Z</published>
     <updated>2021-10-26T00:31:14.000Z</updated>
     
@@ -306,17 +306,17 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://69asgard.github.io/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://69asgard.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>容斥原理</title>
-    <link href="http://example.com/2021/10/26/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/"/>
-    <id>http://example.com/2021/10/26/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/</id>
+    <link href="https://69asgard.github.io/2021/10/26/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/"/>
+    <id>https://69asgard.github.io/2021/10/26/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/</id>
     <published>2021-10-25T23:53:31.000Z</published>
     <updated>2021-10-25T23:53:31.000Z</updated>
     
@@ -325,17 +325,17 @@
     
     
     
-    <category term="Math" scheme="http://example.com/categories/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
     
     
-    <category term="Math" scheme="http://example.com/tags/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
     
   </entry>
   
   <entry>
     <title>白雪猪头</title>
-    <link href="http://example.com/2021/10/25/%E7%99%BD%E9%9B%AA%E7%8C%AA%E5%A4%B4/"/>
-    <id>http://example.com/2021/10/25/%E7%99%BD%E9%9B%AA%E7%8C%AA%E5%A4%B4/</id>
+    <link href="https://69asgard.github.io/2021/10/25/%E7%99%BD%E9%9B%AA%E7%8C%AA%E5%A4%B4/"/>
+    <id>https://69asgard.github.io/2021/10/25/%E7%99%BD%E9%9B%AA%E7%8C%AA%E5%A4%B4/</id>
     <published>2021-10-25T13:14:19.000Z</published>
     <updated>2021-10-25T13:14:19.000Z</updated>
     
@@ -344,21 +344,21 @@
     
     
     
-    <category term="阅读" scheme="http://example.com/categories/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/"/>
     
-    <category term="小说" scheme="http://example.com/categories/%E9%98%85%E8%AF%BB/%E5%B0%8F%E8%AF%B4/"/>
+    <category term="小说" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/%E5%B0%8F%E8%AF%B4/"/>
     
     
-    <category term="阅读" scheme="http://example.com/tags/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://69asgard.github.io/tags/%E9%98%85%E8%AF%BB/"/>
     
-    <category term="小说" scheme="http://example.com/tags/%E5%B0%8F%E8%AF%B4/"/>
+    <category term="小说" scheme="https://69asgard.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
     
   </entry>
   
   <entry>
     <title>特殊情况下加法对乘法的分配律</title>
-    <link href="http://example.com/2021/10/25/%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%E4%B8%8B%E5%8A%A0%E6%B3%95%E5%AF%B9%E4%B9%98%E6%B3%95%E7%9A%84%E5%88%86%E9%85%8D%E5%BE%8B/"/>
-    <id>http://example.com/2021/10/25/%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%E4%B8%8B%E5%8A%A0%E6%B3%95%E5%AF%B9%E4%B9%98%E6%B3%95%E7%9A%84%E5%88%86%E9%85%8D%E5%BE%8B/</id>
+    <link href="https://69asgard.github.io/2021/10/25/%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%E4%B8%8B%E5%8A%A0%E6%B3%95%E5%AF%B9%E4%B9%98%E6%B3%95%E7%9A%84%E5%88%86%E9%85%8D%E5%BE%8B/"/>
+    <id>https://69asgard.github.io/2021/10/25/%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%E4%B8%8B%E5%8A%A0%E6%B3%95%E5%AF%B9%E4%B9%98%E6%B3%95%E7%9A%84%E5%88%86%E9%85%8D%E5%BE%8B/</id>
     <published>2021-10-25T10:16:29.000Z</published>
     <updated>2021-10-25T10:16:29.000Z</updated>
     
@@ -367,19 +367,19 @@
     
     
     
-    <category term="Math" scheme="http://example.com/categories/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
     
     
-    <category term="Note" scheme="http://example.com/tags/Note/"/>
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
-    <category term="Math" scheme="http://example.com/tags/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
     
   </entry>
   
   <entry>
     <title>姚鸿泽访谈</title>
-    <link href="http://example.com/2021/10/25/Math/"/>
-    <id>http://example.com/2021/10/25/Math/</id>
+    <link href="https://69asgard.github.io/2021/10/25/Math/"/>
+    <id>https://69asgard.github.io/2021/10/25/Math/</id>
     <published>2021-10-25T04:56:42.000Z</published>
     <updated>2021-10-25T04:56:42.000Z</updated>
     
@@ -388,17 +388,17 @@
     
     
     
-    <category term="Math" scheme="http://example.com/categories/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
     
     
-    <category term="Math" scheme="http://example.com/tags/Math/"/>
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
     
   </entry>
   
   <entry>
     <title>测试</title>
-    <link href="http://example.com/2021/10/21/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://example.com/2021/10/21/%E6%B5%8B%E8%AF%95/</id>
+    <link href="https://69asgard.github.io/2021/10/21/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://69asgard.github.io/2021/10/21/%E6%B5%8B%E8%AF%95/</id>
     <published>2021-10-21T05:33:43.000Z</published>
     <updated>2021-10-21T05:33:43.000Z</updated>
     
@@ -407,10 +407,10 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://69asgard.github.io/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://69asgard.github.io/tags/Hexo/"/>
     
   </entry>
   
