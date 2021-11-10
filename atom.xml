@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2021-11-04T13:11:22.000Z</updated>
+  <updated>2021-11-10T07:05:56.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,63 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>27与3</title>
+    <link href="https://69asgard.github.io/2021/11/10/27%E4%B8%8E3/"/>
+    <id>https://69asgard.github.io/2021/11/10/27%E4%B8%8E3/</id>
+    <published>2021-11-10T07:05:56.000Z</published>
+    <updated>2021-11-10T07:05:56.000Z</updated>
+    
+    
+    <summary type="html">颐养</summary>
+    
+    
+    
+    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>综合练习</title>
+    <link href="https://69asgard.github.io/2021/11/10/%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/"/>
+    <id>https://69asgard.github.io/2021/11/10/%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/</id>
+    <published>2021-11-10T06:31:02.000Z</published>
+    <updated>2021-11-10T06:31:02.000Z</updated>
+    
+    
+    <summary type="html">百转千回处柳暗花明</summary>
+    
+    
+    
+    <category term="JAVA" scheme="https://69asgard.github.io/categories/JAVA/"/>
+    
+    
+    <category term="JAVA" scheme="https://69asgard.github.io/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java基本功</title>
+    <link href="https://69asgard.github.io/2021/11/07/java%E5%9F%BA%E6%9C%AC%E5%8A%9F/"/>
+    <id>https://69asgard.github.io/2021/11/07/java%E5%9F%BA%E6%9C%AC%E5%8A%9F/</id>
+    <published>2021-11-07T08:46:30.000Z</published>
+    <updated>2021-11-07T08:46:30.000Z</updated>
+    
+    
+    <summary type="html">日上三竿</summary>
+    
+    
+    
+    <category term="JAVA" scheme="https://69asgard.github.io/categories/JAVA/"/>
+    
+    
+    <category term="JAVA" scheme="https://69asgard.github.io/tags/JAVA/"/>
+    
+  </entry>
   
   <entry>
     <title>非人性的</title>
@@ -348,69 +405,6 @@
     
     
     <category term="Hexo" scheme="https://69asgard.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>容斥原理</title>
-    <link href="https://69asgard.github.io/2021/10/26/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/"/>
-    <id>https://69asgard.github.io/2021/10/26/%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86/</id>
-    <published>2021-10-25T23:53:31.000Z</published>
-    <updated>2021-10-25T23:53:31.000Z</updated>
-    
-    
-    <summary type="html">料得是与非</summary>
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>白雪猪头</title>
-    <link href="https://69asgard.github.io/2021/10/25/%E7%99%BD%E9%9B%AA%E7%8C%AA%E5%A4%B4/"/>
-    <id>https://69asgard.github.io/2021/10/25/%E7%99%BD%E9%9B%AA%E7%8C%AA%E5%A4%B4/</id>
-    <published>2021-10-25T13:14:19.000Z</published>
-    <updated>2021-10-25T13:14:19.000Z</updated>
-    
-    
-    <summary type="html">苏童</summary>
-    
-    
-    
-    <category term="阅读" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="小说" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/%E5%B0%8F%E8%AF%B4/"/>
-    
-    
-    <category term="阅读" scheme="https://69asgard.github.io/tags/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="小说" scheme="https://69asgard.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>特殊情况下加法对乘法的分配律</title>
-    <link href="https://69asgard.github.io/2021/10/25/%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%E4%B8%8B%E5%8A%A0%E6%B3%95%E5%AF%B9%E4%B9%98%E6%B3%95%E7%9A%84%E5%88%86%E9%85%8D%E5%BE%8B/"/>
-    <id>https://69asgard.github.io/2021/10/25/%E7%89%B9%E6%AE%8A%E6%83%85%E5%86%B5%E4%B8%8B%E5%8A%A0%E6%B3%95%E5%AF%B9%E4%B9%98%E6%B3%95%E7%9A%84%E5%88%86%E9%85%8D%E5%BE%8B/</id>
-    <published>2021-10-25T10:16:29.000Z</published>
-    <updated>2021-10-25T10:16:29.000Z</updated>
-    
-    
-    <summary type="html">所以可能</summary>
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
     
   </entry>
   
