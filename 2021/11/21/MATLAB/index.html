@@ -225,7 +225,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-11-21 13:14:54 / 修改时间：14:39:17" itemprop="dateCreated datePublished" datetime="2021-11-21T13:14:54+08:00">2021-11-21</time>
+              <time title="创建时间：2021-11-21 13:14:54 / 修改时间：18:23:52" itemprop="dateCreated datePublished" datetime="2021-11-21T13:14:54+08:00">2021-11-21</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -247,7 +247,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>92</span>
+              <span>527</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -267,13 +267,70 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="关于MATLAB的学习笔记"><a href="#关于MATLAB的学习笔记" class="headerlink" title="关于MATLAB的学习笔记"></a>关于MATLAB的学习笔记</h2><p>clear 清理数据</p>
+        <h2 id="关于MATLAB的学习笔记"><a href="#关于MATLAB的学习笔记" class="headerlink" title="关于MATLAB的学习笔记"></a>关于MATLAB的学习笔记</h2><p>来源，<strong>中南大学</strong>    <em>《科学计算与MATLAB语言》</em></p>
+<blockquote>
+<p>clear 清理数据</p>
 <p>not clean （这不是hexo哦）</p>
 <p>clc 清屏</p>
-<p>format 不能接double 为什么？</p>
+<p>real 求复数实部</p>
+<p>imag 求复数虚部</p>
+</blockquote>
+<p>format 不能接double作为格式符 为什么？</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; format double</span><br><span class="line">错误使用 format</span><br><span class="line">未知的命令选项。</span><br></pre></td></tr></table></figure>
 <p>format 命令只影响数据输出格式，而不影响计算和存储。</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; format long</span><br><span class="line">&gt;&gt; <span class="number">7</span>/<span class="number">8</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">   <span class="number">0.875000000000000</span></span><br><span class="line">   </span><br><span class="line">&gt;&gt; format long</span><br><span class="line">&gt;&gt; <span class="number">50</span>/<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">  <span class="number">16.666666666666668</span></span><br><span class="line">  </span><br><span class="line">&gt;&gt; format</span><br><span class="line">&gt;&gt; <span class="number">50</span>/<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">   <span class="number">16.6667</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; format</span><br><span class="line">&gt;&gt; <span class="number">7</span>/<span class="number">8</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">    <span class="number">0.8750</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; format long</span><br><span class="line">&gt;&gt; <span class="number">7</span>/<span class="number">8</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">   <span class="number">0.875000000000000</span></span><br><span class="line">   </span><br><span class="line">&gt;&gt; format long</span><br><span class="line">&gt;&gt; <span class="number">50</span>/<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">  <span class="number">16.666666666666668</span></span><br><span class="line">  </span><br><span class="line">&gt;&gt; format <span class="comment">%输出默认short模式</span></span><br><span class="line">&gt;&gt; <span class="number">50</span>/<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">   <span class="number">16.6667</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; format</span><br><span class="line">&gt;&gt; <span class="number">7</span>/<span class="number">8</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">    <span class="number">0.8750</span></span><br></pre></td></tr></table></figure>
+<p>函数调用格式</p>
+<p>​        函数名(函数自变量的值) </p>
+<ul>
+<li>函数自变量定义为矩阵变量（包含标量）</li>
+<li>运算时  将函数逐项作用于矩阵上 最后得到同型矩阵 what is 同型矩阵？</li>
+</ul>
+<blockquote>
+<p>exp 函数 是求e的x次方</p>
+</blockquote>
+<p>三角函数 以角度为单位要函数名后加上d，与弧度以示区别</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; clear</span><br><span class="line">&gt;&gt; <span class="built_in">sin</span>(<span class="built_in">pi</span>/<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; <span class="built_in">sind</span>(<span class="number">90</span>) <span class="comment">%d 是degree角度的缩写</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">1</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; </span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>abs 求 //abs mean absolute number</p>
+<ul>
+<li><p>实数的绝对值</p>
+</li>
+<li><p>复数的模</p>
+</li>
+<li><p>字符串的ASCII码</p>
+</li>
+</ul>
+</blockquote>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; <span class="built_in">abs</span>(<span class="number">-4</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">4</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; <span class="built_in">abs</span> (<span class="number">3</span>+<span class="number">4</span><span class="built_in">i</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">5</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; <span class="built_in">abs</span>(<span class="string">&#x27;a&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">    <span class="number">97</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>ps:回车在任何一个位置都可以</p>
+<blockquote>
+<p>取整函数 fix…floor…ceil…round</p>
+<ul>
+<li>round 四舍五入取整</li>
+<li>ceil[天花板] 向上取整 取大于等于这个数的第一个整数</li>
+<li>floor[地板] 向下取整</li>
+<li>fix[固定] 固定取靠近0的整数 即舍去小数</li>
+</ul>
+</blockquote>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; <span class="built_in">round</span>(<span class="number">4.7</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">5</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; <span class="built_in">ceil</span>(<span class="number">4.7</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">5</span></span><br><span class="line">     </span><br><span class="line">&gt;&gt; <span class="built_in">floor</span>(<span class="number">4.7</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">4</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; <span class="built_in">fix</span>(<span class="number">4.7</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">4</span></span><br><span class="line">     </span><br><span class="line">&gt;&gt; <span class="built_in">fix</span>(<span class="number">-3.7</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"></span><br><span class="line">     <span class="number">3</span></span><br></pre></td></tr></table></figure>
+<p>其他函数</p>
+<blockquote>
+<p>rem(a,b)  a/b取余数 相当于c语言a%b</p>
+</blockquote>
+<p>实例1：分别求三位正整数个十百位数字</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; clear</span><br><span class="line">&gt;&gt; m=<span class="number">345</span>;</span><br><span class="line">&gt;&gt; m1=<span class="built_in">rem</span>(m,<span class="number">10</span>)</span><br><span class="line"></span><br><span class="line">m1 =</span><br><span class="line"></span><br><span class="line">     <span class="number">5</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; m2=<span class="built_in">rem</span>(<span class="built_in">fix</span>(m/<span class="number">10</span>),<span class="number">10</span>) <span class="comment">%这里先取整 结果为34</span></span><br><span class="line"></span><br><span class="line">m2 =</span><br><span class="line"></span><br><span class="line">     <span class="number">4</span></span><br><span class="line"></span><br><span class="line">&gt;&gt; m3=<span class="built_in">fix</span>(m/<span class="number">100</span>)</span><br><span class="line"></span><br><span class="line">m3 =</span><br><span class="line"></span><br><span class="line">     <span class="number">3</span></span><br></pre></td></tr></table></figure>
+<p>实例2：求[1，100]所有素数</p>
+<blockquote>
+<p>isprime(n) 判断是否素数 是为1否则0</p>
+</blockquote>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; x=<span class="number">1</span>:<span class="number">100</span>;</span><br><span class="line">&gt;&gt;  k=<span class="built_in">isprime</span>(x); <span class="comment">%ps：有多出来的空格在这里也没关系</span></span><br><span class="line">&gt;&gt; k1=<span class="built_in">find</span>(k); <span class="comment">%find非零元素的序号/位置（序号跟内容相同，顺序存储）</span></span><br><span class="line">&gt;&gt;  p=x(k1)</span><br><span class="line"></span><br><span class="line">p =</span><br><span class="line"></span><br><span class="line">  <span class="number">1</span> 至 <span class="number">22</span> 列</span><br><span class="line"></span><br><span class="line">     <span class="number">2</span>     <span class="number">3</span>     <span class="number">5</span>     <span class="number">7</span>    <span class="number">11</span>    <span class="number">13</span>    <span class="number">17</span>    <span class="number">19</span>    <span class="number">23</span>    <span class="number">29</span>    <span class="number">31</span>    <span class="number">37</span>    <span class="number">41</span>    <span class="number">43</span>    <span class="number">47</span>    <span class="number">53</span>    <span class="number">59</span>    <span class="number">61</span>    <span class="number">67</span>    <span class="number">71</span>    <span class="number">73</span>    <span class="number">79</span></span><br><span class="line"></span><br><span class="line">  <span class="number">23</span> 至 <span class="number">25</span> 列</span><br><span class="line"></span><br><span class="line">    <span class="number">83</span>    <span class="number">89</span>    <span class="number">97</span></span><br></pre></td></tr></table></figure>
+<p>ps:</p>
+<p>单行注释</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">%x=1  </span></span><br><span class="line"><span class="comment">%这是注释，无法运行  </span></span><br><span class="line">x=<span class="number">2</span>  </span><br><span class="line"><span class="comment">%结果为2</span></span><br></pre></td></tr></table></figure>
+<p>多行注释</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">%&#123;  </span><br><span class="line">1.这就是传说中的多行注释  </span><br><span class="line">2.成功！  </span><br><span class="line">%&#125;  </span><br></pre></td></tr></table></figure>
+<p>​     经常需要调试程序的话，输入%还是麻烦，最方便的还是快捷键！</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">    Ctrl+R  注释掉这一行</span><br><span class="line"></span><br><span class="line">​    Ctrl+T  撤销注释此行</span><br></pre></td></tr></table></figure>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
     </div>
 
@@ -462,7 +519,7 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">226k</span>
+    <span title="站点总字数">227k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
@@ -475,7 +532,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共191.6k字 | </span>
+  <span class="post-count">博客全站共192.2k字 | </span>
 </div>
 
 
