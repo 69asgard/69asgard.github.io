@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2021-11-23T15:21:31.000Z</updated>
+  <updated>2021-11-29T13:56:26.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>考试来临</title>
+    <link href="https://69asgard.github.io/2021/11/29/%E8%80%83%E8%AF%95%E6%9D%A5%E4%B8%B4/"/>
+    <id>https://69asgard.github.io/2021/11/29/%E8%80%83%E8%AF%95%E6%9D%A5%E4%B8%B4/</id>
+    <published>2021-11-29T13:56:26.000Z</published>
+    <updated>2021-11-29T13:56:26.000Z</updated>
+    
+    
+    <summary type="html">卷起一座桥梁</summary>
+    
+    
+    
+    <category term="dairy" scheme="https://69asgard.github.io/categories/dairy/"/>
+    
+    
+    <category term="dairy" scheme="https://69asgard.github.io/tags/dairy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA期末考试复习</title>
+    <link href="https://69asgard.github.io/2021/11/24/JAVA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%A4%8D%E4%B9%A0/"/>
+    <id>https://69asgard.github.io/2021/11/24/JAVA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%A4%8D%E4%B9%A0/</id>
+    <published>2021-11-24T08:07:03.000Z</published>
+    <updated>2021-11-24T08:07:03.000Z</updated>
+    
+    
+    <summary type="html">几家欢喜几家愁——1.1.2</summary>
+    
+    
+    
+    <category term="JAVA" scheme="https://69asgard.github.io/categories/JAVA/"/>
+    
+    <category term="Note" scheme="https://69asgard.github.io/categories/JAVA/Note/"/>
+    
+    
+    <category term="JAVA" scheme="https://69asgard.github.io/tags/JAVA/"/>
+    
+  </entry>
   
   <entry>
     <title>text</title>
@@ -365,48 +405,6 @@
     
     
     <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown快速入门小技巧</title>
-    <link href="https://69asgard.github.io/2021/10/29/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    <id>https://69asgard.github.io/2021/10/29/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</id>
-    <published>2021-10-28T16:00:00.000Z</published>
-    <updated>2021-10-28T16:00:00.000Z</updated>
-    
-    
-    <summary type="html">友链</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://69asgard.github.io/categories/Hexo/"/>
-    
-    <category term="Markdown" scheme="https://69asgard.github.io/categories/Hexo/Markdown/"/>
-    
-    
-    <category term="Hexo" scheme="https://69asgard.github.io/tags/Hexo/"/>
-    
-    <category term="Markdown" scheme="https://69asgard.github.io/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>道德经</title>
-    <link href="https://69asgard.github.io/2021/10/28/%E9%81%93%E5%BE%B7%E7%BB%8F/"/>
-    <id>https://69asgard.github.io/2021/10/28/%E9%81%93%E5%BE%B7%E7%BB%8F/</id>
-    <published>2021-10-27T22:50:02.000Z</published>
-    <updated>2021-10-27T22:50:02.000Z</updated>
-    
-    
-    <summary type="html">老子</summary>
-    
-    
-    
-    <category term="Book" scheme="https://69asgard.github.io/categories/Book/"/>
-    
-    
-    <category term="Book" scheme="https://69asgard.github.io/tags/Book/"/>
     
   </entry>
   
