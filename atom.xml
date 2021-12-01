@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2021-11-30T14:29:34.000Z</updated>
+  <updated>2021-12-01T00:02:04.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>病菌</title>
+    <link href="https://69asgard.github.io/2021/12/01/%E7%97%85%E8%8F%8C/"/>
+    <id>https://69asgard.github.io/2021/12/01/%E7%97%85%E8%8F%8C/</id>
+    <published>2021-12-01T00:02:04.000Z</published>
+    <updated>2021-12-01T00:02:04.000Z</updated>
+    
+    
+    <summary type="html">悲哀吧</summary>
+    
+    
+    
+    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>北人与南人</title>
@@ -386,25 +405,6 @@
     <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
     <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>异同</title>
-    <link href="https://69asgard.github.io/2021/11/01/%E5%BC%82%E5%90%8C/"/>
-    <id>https://69asgard.github.io/2021/11/01/%E5%BC%82%E5%90%8C/</id>
-    <published>2021-11-01T05:08:20.000Z</published>
-    <updated>2021-11-01T05:08:20.000Z</updated>
-    
-    
-    <summary type="html">得道而忘形</summary>
-    
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
     
   </entry>
   
