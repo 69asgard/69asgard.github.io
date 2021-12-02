@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2021-12-01T00:02:04.000Z</updated>
+  <updated>2021-12-02T05:03:54.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>黑夜</title>
+    <link href="https://69asgard.github.io/2021/12/02/%E9%BB%91%E5%A4%9C/"/>
+    <id>https://69asgard.github.io/2021/12/02/%E9%BB%91%E5%A4%9C/</id>
+    <published>2021-12-02T05:03:54.000Z</published>
+    <updated>2021-12-02T05:03:54.000Z</updated>
+    
+    
+    <summary type="html">爱你和我那么像 缺口都一样</summary>
+    
+    
+    
+    <category term="dairy" scheme="https://69asgard.github.io/categories/dairy/"/>
+    
+    
+    <category term="dairy" scheme="https://69asgard.github.io/tags/dairy/"/>
+    
+  </entry>
   
   <entry>
     <title>病菌</title>
@@ -375,27 +394,6 @@
     
     
     <summary type="html">⇙⇚⇘⇄↠↔↳⇋↠⇈</summary>
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Green公式</title>
-    <link href="https://69asgard.github.io/2021/11/01/Green%E5%85%AC%E5%BC%8F/"/>
-    <id>https://69asgard.github.io/2021/11/01/Green%E5%85%AC%E5%BC%8F/</id>
-    <published>2021-11-01T05:13:02.000Z</published>
-    <updated>2021-11-01T05:13:02.000Z</updated>
-    
-    
-    <summary type="html">描述了平面上沿闭曲线L对坐标的曲线积分与曲线L所围成闭区域D上的二重积分之间的密切关系。</summary>
     
     
     
