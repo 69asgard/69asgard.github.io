@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2021-12-02T05:03:54.000Z</updated>
+  <updated>2021-12-22T07:04:51.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cat</title>
+    <link href="https://69asgard.github.io/2021/12/22/cat/"/>
+    <id>https://69asgard.github.io/2021/12/22/cat/</id>
+    <published>2021-12-22T07:04:51.000Z</published>
+    <updated>2021-12-22T07:04:51.000Z</updated>
+    
+    
+    <summary type="html">归纳的意义</summary>
+    
+    
+    
+    <category term="阅读" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="小说" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+    <category term="阅读" scheme="https://69asgard.github.io/tags/%E9%98%85%E8%AF%BB/"/>
+    
+    <category term="小说" scheme="https://69asgard.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>黑夜</title>
@@ -382,27 +405,6 @@
     
     
     <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>符号</title>
-    <link href="https://69asgard.github.io/2021/11/01/%E7%AC%A6%E5%8F%B7%E5%A4%A7%E5%85%A8/"/>
-    <id>https://69asgard.github.io/2021/11/01/%E7%AC%A6%E5%8F%B7%E5%A4%A7%E5%85%A8/</id>
-    <published>2021-11-01T05:15:57.000Z</published>
-    <updated>2021-11-01T05:15:57.000Z</updated>
-    
-    
-    <summary type="html">⇙⇚⇘⇄↠↔↳⇋↠⇈</summary>
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
     
   </entry>
   
