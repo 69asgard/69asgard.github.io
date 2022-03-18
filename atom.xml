@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2022-03-01T11:10:10.000Z</updated>
+  <updated>2022-03-18T15:42:46.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,146 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MATLAB-example</title>
+    <link href="https://69asgard.github.io/2022/03/18/MATLABexample/"/>
+    <id>https://69asgard.github.io/2022/03/18/MATLABexample/</id>
+    <published>2022-03-18T15:42:46.000Z</published>
+    <updated>2022-03-18T15:42:46.000Z</updated>
+    
+    
+    <summary type="html">1314</summary>
+    
+    
+    
+    
+    <category term="MATLAB" scheme="https://69asgard.github.io/tags/MATLAB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>text2333</title>
+    <link href="https://69asgard.github.io/2022/03/11/text/"/>
+    <id>https://69asgard.github.io/2022/03/11/text/</id>
+    <published>2022-03-11T10:48:14.000Z</published>
+    <updated>2022-03-11T10:48:14.000Z</updated>
+    
+    
+    <summary type="html">hope</summary>
+    
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Conjugate variables</title>
+    <link href="https://69asgard.github.io/2022/03/09/%E5%85%B1%E8%BD%AD/"/>
+    <id>https://69asgard.github.io/2022/03/09/%E5%85%B1%E8%BD%AD/</id>
+    <published>2022-03-09T09:39:16.000Z</published>
+    <updated>2022-03-09T09:39:16.000Z</updated>
+    
+    
+    <summary type="html">共轭</summary>
+    
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Buffoon&#39;s needle problem</title>
+    <link href="https://69asgard.github.io/2022/03/09/%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88/"/>
+    <id>https://69asgard.github.io/2022/03/09/%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88/</id>
+    <published>2022-03-09T09:33:23.000Z</published>
+    <updated>2022-03-09T09:33:23.000Z</updated>
+    
+    
+    <summary type="html">蒲丰投针</summary>
+    
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>One Hundred Thousand Whys/《十万个为什么》</title>
+    <link href="https://69asgard.github.io/2022/03/09/%E3%80%8A%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88%E3%80%8B/"/>
+    <id>https://69asgard.github.io/2022/03/09/%E3%80%8A%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88%E3%80%8B/</id>
+    <published>2022-03-09T09:20:25.000Z</published>
+    <updated>2022-03-09T09:20:25.000Z</updated>
+    
+    
+    <summary type="html">为什么没有十万个呢？</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Discussion about Fraction Denominator Not Zero</title>
+    <link href="https://69asgard.github.io/2022/03/08/%E5%88%86%E5%BC%8F%E5%88%86%E6%AF%8D%E4%B8%8D%E4%B8%BA%E9%9B%B6%E7%9A%84%E8%AE%A8%E8%AE%BA/"/>
+    <id>https://69asgard.github.io/2022/03/08/%E5%88%86%E5%BC%8F%E5%88%86%E6%AF%8D%E4%B8%8D%E4%B8%BA%E9%9B%B6%E7%9A%84%E8%AE%A8%E8%AE%BA/</id>
+    <published>2022-03-08T15:08:43.000Z</published>
+    <updated>2022-03-08T15:08:43.000Z</updated>
+    
+    
+    <summary type="html">分式分母不为零的讨论</summary>
+    
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习与模仿</title>
+    <link href="https://69asgard.github.io/2022/03/08/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%A8%A1%E4%BB%BF/"/>
+    <id>https://69asgard.github.io/2022/03/08/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%A8%A1%E4%BB%BF/</id>
+    <published>2022-03-08T09:58:00.000Z</published>
+    <updated>2022-03-08T09:58:00.000Z</updated>
+    
+    
+    <summary type="html">人类可是复读机呢</summary>
+    
+    
+    
+    
+    <category term="Tool" scheme="https://69asgard.github.io/tags/Tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ellipse area formula derivation/椭圆面积公式推导</title>
+    <link href="https://69asgard.github.io/2022/03/05/%E6%A4%AD%E5%9C%86%E9%9D%A2%E7%A7%AF%E5%85%AC%E5%BC%8F%E6%8E%A8%E5%AF%BC/"/>
+    <id>https://69asgard.github.io/2022/03/05/%E6%A4%AD%E5%9C%86%E9%9D%A2%E7%A7%AF%E5%85%AC%E5%BC%8F%E6%8E%A8%E5%AF%BC/</id>
+    <published>2022-03-05T02:46:24.000Z</published>
+    <updated>2022-03-05T02:46:24.000Z</updated>
+    
+    
+    <summary type="html">plusieurs façons/许多种方式</summary>
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
   
   <entry>
     <title>语法问题</title>
@@ -188,10 +328,10 @@
     
     
     
-    <category term="dairy" scheme="https://69asgard.github.io/categories/dairy/"/>
+    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
     
     
-    <category term="dairy" scheme="https://69asgard.github.io/tags/dairy/"/>
+    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
     
   </entry>
   
@@ -242,166 +382,6 @@
     
     
     <summary type="html">卷起一座桥梁</summary>
-    
-    
-    
-    <category term="dairy" scheme="https://69asgard.github.io/categories/dairy/"/>
-    
-    
-    <category term="dairy" scheme="https://69asgard.github.io/tags/dairy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JAVA期末考试复习</title>
-    <link href="https://69asgard.github.io/2021/11/24/JAVA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%A4%8D%E4%B9%A0/"/>
-    <id>https://69asgard.github.io/2021/11/24/JAVA%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%A4%8D%E4%B9%A0/</id>
-    <published>2021-11-24T08:07:03.000Z</published>
-    <updated>2021-11-24T08:07:03.000Z</updated>
-    
-    
-    <summary type="html">几家欢喜几家愁——1.1.2</summary>
-    
-    
-    
-    <category term="JAVA" scheme="https://69asgard.github.io/categories/JAVA/"/>
-    
-    <category term="Note" scheme="https://69asgard.github.io/categories/JAVA/Note/"/>
-    
-    
-    <category term="JAVA" scheme="https://69asgard.github.io/tags/JAVA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>text</title>
-    <link href="https://69asgard.github.io/2021/11/23/text/"/>
-    <id>https://69asgard.github.io/2021/11/23/text/</id>
-    <published>2021-11-23T15:21:31.000Z</published>
-    <updated>2021-11-23T15:21:31.000Z</updated>
-    
-    
-    <summary type="html">pdf</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MATLAB</title>
-    <link href="https://69asgard.github.io/2021/11/21/MATLAB/"/>
-    <id>https://69asgard.github.io/2021/11/21/MATLAB/</id>
-    <published>2021-11-21T05:14:54.000Z</published>
-    <updated>2021-11-21T05:14:54.000Z</updated>
-    
-    
-    <summary type="html">箫敬穆</summary>
-    
-    
-    
-    <category term="MATLAB" scheme="https://69asgard.github.io/categories/MATLAB/"/>
-    
-    <category term="Note" scheme="https://69asgard.github.io/categories/MATLAB/Note/"/>
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-    <category term="MATLAB" scheme="https://69asgard.github.io/tags/MATLAB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>日记</title>
-    <link href="https://69asgard.github.io/2021/11/20/%E6%97%A5%E8%AE%B0/"/>
-    <id>https://69asgard.github.io/2021/11/20/%E6%97%A5%E8%AE%B0/</id>
-    <published>2021-11-20T01:33:39.000Z</published>
-    <updated>2021-11-20T01:33:39.000Z</updated>
-    
-    
-    <summary type="html">你可能失去一切，但不是同时。</summary>
-    
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>上建模课，第三次</title>
-    <link href="https://69asgard.github.io/2021/11/19/%E4%B8%8A%E5%BB%BA%E6%A8%A1%E8%AF%BE%EF%BC%8C%E7%AC%AC%E4%B8%89%E6%AC%A1/"/>
-    <id>https://69asgard.github.io/2021/11/19/%E4%B8%8A%E5%BB%BA%E6%A8%A1%E8%AF%BE%EF%BC%8C%E7%AC%AC%E4%B8%89%E6%AC%A1/</id>
-    <published>2021-11-19T11:45:17.000Z</published>
-    <updated>2021-11-19T11:45:17.000Z</updated>
-    
-    
-    <summary type="html">大路朝天，睡在一边。</summary>
-    
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大物</title>
-    <link href="https://69asgard.github.io/2021/11/17/%E5%A4%A7%E7%89%A9/"/>
-    <id>https://69asgard.github.io/2021/11/17/%E5%A4%A7%E7%89%A9/</id>
-    <published>2021-11-17T15:37:27.000Z</published>
-    <updated>2021-11-17T15:37:27.000Z</updated>
-    
-    
-    <summary type="html">抬头时，散落的星空</summary>
-    
-    
-    
-    <category term="Physics" scheme="https://69asgard.github.io/categories/Physics/"/>
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-    <category term="Physics" scheme="https://69asgard.github.io/tags/Physics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>献给阿尔吉侬的花束</title>
-    <link href="https://69asgard.github.io/2021/11/16/%E7%8C%AE%E7%BB%99%E9%98%BF%E5%B0%94%E5%90%89%E4%BE%AC%E7%9A%84%E8%8A%B1%E6%9D%9F/"/>
-    <id>https://69asgard.github.io/2021/11/16/%E7%8C%AE%E7%BB%99%E9%98%BF%E5%B0%94%E5%90%89%E4%BE%AC%E7%9A%84%E8%8A%B1%E6%9D%9F/</id>
-    <published>2021-11-16T01:18:58.000Z</published>
-    <updated>2021-11-16T01:18:58.000Z</updated>
-    
-    
-    <summary type="html">Root</summary>
-    
-    
-    
-    <category term="阅读" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="小说" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/%E5%B0%8F%E8%AF%B4/"/>
-    
-    
-    <category term="阅读" scheme="https://69asgard.github.io/tags/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="小说" scheme="https://69asgard.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>27与3</title>
-    <link href="https://69asgard.github.io/2021/11/10/27%E4%B8%8E3/"/>
-    <id>https://69asgard.github.io/2021/11/10/27%E4%B8%8E3/</id>
-    <published>2021-11-10T07:05:56.000Z</published>
-    <updated>2021-11-10T07:05:56.000Z</updated>
-    
-    
-    <summary type="html">颐养</summary>
     
     
     
