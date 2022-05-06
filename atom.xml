@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2022-03-18T15:42:46.000Z</updated>
+  <updated>2022-05-06T12:50:16.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,112 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LaTeX入门尝试</title>
+    <link href="https://69asgard.github.io/2022/05/06/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/"/>
+    <id>https://69asgard.github.io/2022/05/06/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/</id>
+    <published>2022-05-06T12:50:16.000Z</published>
+    <updated>2022-05-06T12:50:16.000Z</updated>
+    
+    
+    <summary type="html">试一试咯</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="https://69asgard.github.io/2022/04/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <id>https://69asgard.github.io/2022/04/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
+    <published>2022-04-07T13:49:26.000Z</published>
+    <updated>2022-04-07T13:49:26.000Z</updated>
+    
+    
+    <summary type="html">23333</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MATLAB练习记录册</title>
+    <link href="https://69asgard.github.io/2022/04/02/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/"/>
+    <id>https://69asgard.github.io/2022/04/02/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/</id>
+    <published>2022-04-01T23:49:53.000Z</published>
+    <updated>2022-04-01T23:49:53.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;script type=&quot;text&amp;#x2F;javascript&quot; src=&quot;https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text&amp;#x2F;javascri</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MATLAB试错录</title>
+    <link href="https://69asgard.github.io/2022/04/02/MATLAB%E8%AF%95%E9%94%99%E5%BD%95/"/>
+    <id>https://69asgard.github.io/2022/04/02/MATLAB%E8%AF%95%E9%94%99%E5%BD%95/</id>
+    <published>2022-04-01T23:49:02.000Z</published>
+    <updated>2022-04-01T23:49:02.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;script type=&quot;text&amp;#x2F;javascript&quot; src=&quot;https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text&amp;#x2F;javascri</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>5611185</title>
+    <link href="https://69asgard.github.io/2022/03/30/5611185/"/>
+    <id>https://69asgard.github.io/2022/03/30/5611185/</id>
+    <published>2022-03-30T14:29:42.000Z</published>
+    <updated>2022-03-30T14:29:42.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;script type=&quot;text&amp;#x2F;javascript&quot; src=&quot;https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text&amp;#x2F;javascri</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>text3_20</title>
+    <link href="https://69asgard.github.io/2022/03/20/text3-20/"/>
+    <id>https://69asgard.github.io/2022/03/20/text3-20/</id>
+    <published>2022-03-20T01:00:44.000Z</published>
+    <updated>2022-03-20T01:00:44.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>MATLAB-example</title>
@@ -271,124 +377,6 @@
     
     
     <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>语文是成才的第一要素</title>
-    <link href="https://69asgard.github.io/2021/12/22/%E8%AF%AD%E6%96%87%E6%98%AF%E6%88%90%E6%89%8D%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A6%81%E7%B4%A0/"/>
-    <id>https://69asgard.github.io/2021/12/22/%E8%AF%AD%E6%96%87%E6%98%AF%E6%88%90%E6%89%8D%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A6%81%E7%B4%A0/</id>
-    <published>2021-12-22T10:30:05.000Z</published>
-    <updated>2021-12-22T10:30:05.000Z</updated>
-    
-    
-    <summary type="html">烛火与守夜人</summary>
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>cat</title>
-    <link href="https://69asgard.github.io/2021/12/22/cat/"/>
-    <id>https://69asgard.github.io/2021/12/22/cat/</id>
-    <published>2021-12-22T07:04:51.000Z</published>
-    <updated>2021-12-22T07:04:51.000Z</updated>
-    
-    
-    <summary type="html">归纳的意义</summary>
-    
-    
-    
-    <category term="阅读" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="小说" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/%E5%B0%8F%E8%AF%B4/"/>
-    
-    
-    <category term="阅读" scheme="https://69asgard.github.io/tags/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="小说" scheme="https://69asgard.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>黑夜</title>
-    <link href="https://69asgard.github.io/2021/12/02/%E9%BB%91%E5%A4%9C/"/>
-    <id>https://69asgard.github.io/2021/12/02/%E9%BB%91%E5%A4%9C/</id>
-    <published>2021-12-02T05:03:54.000Z</published>
-    <updated>2021-12-02T05:03:54.000Z</updated>
-    
-    
-    <summary type="html">爱你和我那么像 缺口都一样</summary>
-    
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>病菌</title>
-    <link href="https://69asgard.github.io/2021/12/01/%E7%97%85%E8%8F%8C/"/>
-    <id>https://69asgard.github.io/2021/12/01/%E7%97%85%E8%8F%8C/</id>
-    <published>2021-12-01T00:02:04.000Z</published>
-    <updated>2021-12-01T00:02:04.000Z</updated>
-    
-    
-    <summary type="html">悲哀吧</summary>
-    
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>北人与南人</title>
-    <link href="https://69asgard.github.io/2021/11/30/%E5%8C%97%E4%BA%BA%E4%B8%8E%E5%8D%97%E4%BA%BA/"/>
-    <id>https://69asgard.github.io/2021/11/30/%E5%8C%97%E4%BA%BA%E4%B8%8E%E5%8D%97%E4%BA%BA/</id>
-    <published>2021-11-30T14:29:34.000Z</published>
-    <updated>2021-11-30T14:29:34.000Z</updated>
-    
-    
-    <summary type="html">度</summary>
-    
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/categories/Note/"/>
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>考试来临</title>
-    <link href="https://69asgard.github.io/2021/11/29/%E8%80%83%E8%AF%95%E6%9D%A5%E4%B8%B4/"/>
-    <id>https://69asgard.github.io/2021/11/29/%E8%80%83%E8%AF%95%E6%9D%A5%E4%B8%B4/</id>
-    <published>2021-11-29T13:56:26.000Z</published>
-    <updated>2021-11-29T13:56:26.000Z</updated>
-    
-    
-    <summary type="html">卷起一座桥梁</summary>
-    
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
     
   </entry>
   
