@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2022-05-10T11:11:36.000Z</updated>
+  <updated>2022-05-15T00:04:19.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《失落的童年》</title>
+    <link href="https://69asgard.github.io/2022/05/15/%E3%80%8A%E5%A4%B1%E8%90%BD%E7%9A%84%E7%AB%A5%E5%B9%B4%E3%80%8B/"/>
+    <id>https://69asgard.github.io/2022/05/15/%E3%80%8A%E5%A4%B1%E8%90%BD%E7%9A%84%E7%AB%A5%E5%B9%B4%E3%80%8B/</id>
+    <published>2022-05-15T00:04:19.000Z</published>
+    <updated>2022-05-15T00:04:19.000Z</updated>
+    
+    
+    <summary type="html">其实也不然</summary>
+    
+    
+    
+    
+    <category term="diary" scheme="https://69asgard.github.io/tags/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MATLAB代码参考</title>
+    <link href="https://69asgard.github.io/2022/05/14/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/"/>
+    <id>https://69asgard.github.io/2022/05/14/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/</id>
+    <published>2022-05-14T04:27:30.000Z</published>
+    <updated>2022-05-14T04:27:30.000Z</updated>
+    
+    
+    <summary type="html">由于需要Matlab代码的同学太多，以致于资源群日常满员。同时，因为部分同学表示github使用不方便，因此将代码直接放在专栏投稿，以便大家查阅。转载请注明出处。</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
   
   <entry>
     <title>蝴蝶蝴蝶</title>
@@ -328,48 +362,6 @@
     
     
     <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>丹柯</title>
-    <link href="https://69asgard.github.io/2022/02/19/%E4%B8%B9%E6%9F%AF/"/>
-    <id>https://69asgard.github.io/2022/02/19/%E4%B8%B9%E6%9F%AF/</id>
-    <published>2022-02-19T10:30:44.000Z</published>
-    <updated>2022-02-19T10:30:44.000Z</updated>
-    
-    
-    <summary type="html">那颗心裂散开来，成了许多火星，熄灭了……</summary>
-    
-    
-    
-    <category term="阅读" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="小说" scheme="https://69asgard.github.io/categories/%E9%98%85%E8%AF%BB/%E5%B0%8F%E8%AF%B4/"/>
-    
-    
-    <category term="阅读" scheme="https://69asgard.github.io/tags/%E9%98%85%E8%AF%BB/"/>
-    
-    <category term="小说" scheme="https://69asgard.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WIFI</title>
-    <link href="https://69asgard.github.io/2022/01/18/WIFI/"/>
-    <id>https://69asgard.github.io/2022/01/18/WIFI/</id>
-    <published>2022-01-18T05:38:46.000Z</published>
-    <updated>2022-01-18T05:38:46.000Z</updated>
-    
-    
-    <summary type="html">网络安全</summary>
-    
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/categories/Note/"/>
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
   </entry>
   

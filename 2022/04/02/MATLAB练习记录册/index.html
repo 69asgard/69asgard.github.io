@@ -33,6 +33,7 @@
 <meta property="og:image" content="https://69asgard.github.io/images/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/untitled.png">
 <meta property="og:image" content="https://69asgard.github.io/images/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/untitled-16523675950998.png">
 <meta property="og:image" content="https://69asgard.github.io/images/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/untitled-165236787339211.png">
+<meta property="og:image" content="https://69asgard.github.io/images/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/v2-4c64030050b734e21044e91f6a9d9e4a_xs.jpg">
 <meta property="article:published_time" content="2022-04-01T23:49:53.000Z">
 <meta property="article:author" content="Alan Root">
 <meta property="article:tag" content="Note">
@@ -234,7 +235,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-05-12 23:43:14" itemprop="dateModified" datetime="2022-05-12T23:43:14+08:00">2022-05-12</time>
+                <time title="修改时间：2022-05-15 08:07:35" itemprop="dateModified" datetime="2022-05-15T08:07:35+08:00">2022-05-15</time>
               </span>
 
           <br>
@@ -243,14 +244,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>3.2k</span>
+              <span>4.2k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
+              <span>4 分钟</span>
             </span>
             <div class="post-description">不过是讨生活</div>
 
@@ -548,14 +549,107 @@
 <p><img src="/../images/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/untitled-16523675950998.png"></p>
 <p>polar可用于描绘极坐标图像。</p>
 <p>最简单而经常使用的命令格式：<strong>POLAR(THETA, RHO)</strong> </p>
-<p>当中，THETA是用弧度制表示的角度，RHO是相应的半径。**<br>**</p>
+<p>当中，THETA是用弧度制表示的角度，RHO是相应的半径。</p>
 <p><strong>例：</strong></p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">-2</span>*<span class="built_in">pi</span>:<span class="number">.001</span>:<span class="number">2</span>*<span class="built_in">pi</span>; <span class="comment">%设定角度</span></span><br><span class="line">b=(<span class="number">1</span>-<span class="built_in">sin</span>(a)); <span class="comment">%设定相应角度的半径</span></span><br><span class="line">polar(a, b,<span class="string">&#x27;r&#x27;</span>) <span class="comment">%画图</span></span><br></pre></td></tr></table></figure>
 
 <p>得到</p>
 <p><strong>这也是传说中笛卡尔最后一封情书中蕴含的秘密</strong></p>
-<p><strong>借这个曲线献给爱七❤</strong></p>
+<p><strong>借这个曲线献给爱的这个·世界和你</strong></p>
 <p><img src="/../images/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/untitled-165236787339211.png"></p>
+<h5 id="1-7"><a href="#1-7" class="headerlink" title="1.7"></a>1.7</h5><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; syms x;</span><br><span class="line">&gt;&gt; A=int(<span class="built_in">sin</span>(x)+<span class="number">1</span>,x);</span><br><span class="line">&gt;&gt; A=int(<span class="built_in">sin</span>(x)+<span class="number">1</span>,x)</span><br><span class="line"> </span><br><span class="line">A =</span><br><span class="line"> </span><br><span class="line">x - <span class="built_in">cos</span>(x)</span><br></pre></td></tr></table></figure>
+
+<p>此处注意，如果加了分号的话，就不直接显示输出了呢。</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; help int</span><br><span class="line">--- sym/int 的帮助 ---</span><br><span class="line"></span><br><span class="line"> int    Integrate</span><br><span class="line">    int(S) is the indefinite integral of S with respect to its symbolic</span><br><span class="line">      variable as defined by SYMVAR. S is a SYM (matrix or scalar).</span><br><span class="line">      If S is a constant, the integral is with respect to <span class="string">&#x27;x&#x27;</span>.</span><br><span class="line"> </span><br><span class="line">    int(S,v) is the indefinite integral of S with respect to v. v is a</span><br><span class="line">      scalar SYM.</span><br><span class="line"> </span><br><span class="line">    int(S,a,b) is the definite integral of S with respect to its</span><br><span class="line">      symbolic variable from a to b. a and b are each double or</span><br><span class="line">      symbolic scalars. The integration interval can also be specified</span><br><span class="line">      using a row or a column vector with two elements, <span class="built_in">i</span>.e., valid</span><br><span class="line">      calls are also int(S,[a,b]) or int(S,[a b]) and int(S,[a;b]).</span><br><span class="line"> </span><br><span class="line">    int(S,v,a,b) is the definite integral of S with respect to v</span><br><span class="line">      from a to b. The integration interval can also be specified</span><br><span class="line">      using a row or a column vector with two elements, <span class="built_in">i</span>.e., valid</span><br><span class="line">      calls are also int(S,v,[a,b]) or int(S,v,[a b]) and</span><br><span class="line">      int(S,v,[a;b]).</span><br><span class="line"> </span><br><span class="line">    int(...,<span class="string">&#x27;IgnoreAnalyticConstraints&#x27;</span>,VAL) controls the level of</span><br><span class="line">      mathematical rigor to use on the analytical constraints of the</span><br><span class="line">      solution  (branch cuts, division by zero, etc). The options <span class="keyword">for</span></span><br><span class="line">      VAL are TRUE or FALSE. Specify TRUE to relax the level of</span><br><span class="line">      mathematical rigor in finding integrals. The default is FALSE.</span><br><span class="line"> </span><br><span class="line">    int(...,<span class="string">&#x27;IgnoreSpecialCases&#x27;</span>,VAL) controls how detailed answers</span><br><span class="line">      are with respect to special parameter values/ The options <span class="keyword">for</span></span><br><span class="line">      VAL are TRUE or FALSE. Specify TRUE to ignore special cases of</span><br><span class="line">      parameter values. The default is FALSE.</span><br><span class="line"> </span><br><span class="line">    int(...,<span class="string">&#x27;PrincipalValue&#x27;</span>,VAL) is used to request a Cauchy principal</span><br><span class="line">      value of a definite integral. (The option is ignored <span class="keyword">for</span> indefinite</span><br><span class="line">      integration.) The possible values <span class="keyword">for</span> VAL are TRUE and FALSE,</span><br><span class="line">      the default is FALSE.</span><br><span class="line"></span><br><span class="line">    名为 int 的其他函数</span><br></pre></td></tr></table></figure>
+
+
+<p>参考翻译</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>帮助诠释<br>— sym&#x2F;int 的帮助 —</p>
+</blockquote>
+</blockquote>
+<p> 整合<br>    int(S) 是 S 关于其符号的不定积分<br>      由 SYMVAR 定义的变量。 S 是一个 SYM（矩阵或标量）。<br>      如果 S 是常数，则积分是关于“x”的。</p>
+<pre><code>int(S,v) 是 S 关于 v 的不定积分。v 是
+  标量 SYM。
+ 
+int(S,a,b) 是 S 关于它的定积分
+  从 a 到 b 的符号变量。 a 和 b 都是双精度或
+  符号标量。也可以指定积分间隔
+  使用具有两个元素的行或列向量，即有效
+  调用也是 int(S,[a,b]) 或 int(S,[a b]) 和 int(S,[a;b])。
+ 
+int(S,v,a,b) 是 S 关于 v 的定积分
+  从a到b。也可以指定积分间隔
+  使用具有两个元素的行或列向量，即有效
+  调用也是 int(S,v,[a,b]) 或 int(S,v,[a b]) 和
+  整数（S，v，[a;b]）。
+ 
+int(...,&#39;IgnoreAnalyticConstraints&#39;,VAL) 控制的级别
+  用于分析约束的数学严谨性
+  解决方案（分支切割，除以零等）。的选项
+  VAL 为真或假。指定 TRUE 以放宽
+  求积分的数学严谨性。默认值为假。
+ 
+int(...,&#39;IgnoreSpecialCases&#39;,VAL) 控制答案的详细程度
+  是关于特殊参数值/选项的
+  VAL 为真或假。指定 TRUE 以忽略特殊情况
+  参数值。默认值为假。
+ 
+int(...,&#39;PrincipalValue&#39;,VAL) 用于请求 Cauchy 主体
+  定积分的值。 （无限期忽略该选项
+  积分。） VAL 的可能值为 TRUE 和 FALSE，
+  默认为假。
+
+int 的其他函数命名
+</code></pre>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/469283621"><em>MATLAB</em>——求积分方程</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ammonia-39"><img src="/../images/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/v2-4c64030050b734e21044e91f6a9d9e4a_xs.jpg" alt="BioDoge"></a></p>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ammonia-39">BioDoge</a></p>
+<p>首先，调用格式</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">int(s) <span class="comment">%对被积函数或符号表达式s的缺省变量求不定积分</span></span><br><span class="line"></span><br><span class="line">int(s,v) <span class="comment">%对被积函数或符号表达式s的v变量求不定积分</span></span><br><span class="line"></span><br><span class="line">int(s,a,b) <span class="comment">%对被积函数或符号表达式s的缺省变量在区间[a,b]内的定积分</span></span><br><span class="line"></span><br><span class="line">int(s,v,a,b) <span class="comment">%对被积函数或符号表达式s的v变量在区间[a,b]内的定积分</span></span><br></pre></td></tr></table></figure>
+
+<p>现在我们来练一个简单的</p>
+<p>求${\int \frac{-2x}{(1+x^2)^2} dx}$ 的不定积分</p>
+<p>命令行输入</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">syms x; <span class="comment">%定义符号变量</span></span><br><span class="line">int(<span class="number">-2</span>*x/(<span class="number">1</span>+x^<span class="number">2</span>)^<span class="number">2</span>) <span class="comment">%进行不定积分</span></span><br></pre></td></tr></table></figure>
+
+<p>运行得到</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; Untitled2</span><br><span class="line"> </span><br><span class="line"><span class="built_in">ans</span> =</span><br><span class="line"> </span><br><span class="line"><span class="number">1</span>/(x^<span class="number">2</span> + <span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+
+<p>So easy!</p>
+<p>那我们现在换一个稍微难一点的</p>
+<p>求 $\iint xe^{-xy} dxdy$ 的二重积分</p>
+<p>命令行输入</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">syms x y; <span class="comment">%定义符号变量</span></span><br><span class="line">F=int(int(x*<span class="built_in">exp</span>(-x*y),x),y)</span><br></pre></td></tr></table></figure>
+
+<p>运行得到</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; Untitled2</span><br><span class="line"> </span><br><span class="line">F =</span><br><span class="line"> </span><br><span class="line"><span class="built_in">exp</span>(-x*y)/y</span><br></pre></td></tr></table></figure>
+
+<p>Still, so easy！</p>
+<hr>
+<p>好嘞，那么我们现在换一个数值积分求一求玩玩咯</p>
+<p>调用格式如下</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">z=trap(x,y) <span class="comment">%梯形法计算数值积分(不很精确)，x给出积分的区间和步长，y为被积函数</span></span><br><span class="line"></span><br><span class="line">q=quad(fun,a,b) <span class="comment">%辛普森发计算函数在[a,b]区间内的定积分(比梯形法有更好的精确度)</span></span><br><span class="line"></span><br><span class="line">q=quad8(fun,a,b) <span class="comment">%牛顿-科次法计算函数在[a,b]区间内的定积分(积分效率更高)</span></span><br></pre></td></tr></table></figure>
+
+<p>实战一下，计算$q&#x3D;\int_{0}^{2} \frac{1}{x^3-2x-5} dx$ 的积分</p>
+<p>命令行输入</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">F=inline(<span class="string">&#x27;1./(x.^3-2*x-5)&#x27;</span>)</span><br><span class="line">q=quad(F,<span class="number">0</span>,<span class="number">2</span>)</span><br></pre></td></tr></table></figure>
+
+<p>运行得到</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; Untitled2</span><br><span class="line"></span><br><span class="line">F =</span><br><span class="line"></span><br><span class="line">     内联函数:</span><br><span class="line">     F(x) = <span class="number">1.</span>/(x.^<span class="number">3</span><span class="number">-2</span>*x<span class="number">-5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">q =</span><br><span class="line"></span><br><span class="line">   <span class="number">-0.4605</span></span><br></pre></td></tr></table></figure>
+
+<p>再来试一个梯形法</p>
+<p>计算x在0~Π范围内，间隔为Π&#x2F;100的sin(x)的数值积分，即：$z&#x3D;\int_{0}^{\Pi } sin(x)dx$ </p>
+<p>命令行输入</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x=<span class="number">0</span>:<span class="built_in">pi</span>/<span class="number">100</span>:<span class="built_in">pi</span>;</span><br><span class="line">y=<span class="built_in">sin</span>(x); <span class="comment">%生成函数关系的数据向量</span></span><br><span class="line">z=trapz(x,y)</span><br></pre></td></tr></table></figure>
+
+<p>运行得到</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; Untitled2</span><br><span class="line"></span><br><span class="line">z =</span><br><span class="line"></span><br><span class="line">    <span class="number">1.9998</span></span><br></pre></td></tr></table></figure>
+
+<hr>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
     </div>
 
@@ -639,7 +733,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0"><span class="nav-number">1.</span> <span class="nav-text">日常练习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="nav-number">2.</span> <span class="nav-text">期末复习</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">1.1</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#1-%E5%8F%98%E9%87%8F%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99"><span class="nav-number">2.0.0.1.1.</span> <span class="nav-text">1. 变量的命名规则</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2-%E7%89%B9%E6%AE%8A%E5%8F%98%E9%87%8F"><span class="nav-number">2.0.0.1.2.</span> <span class="nav-text">2. 特殊变量</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-2"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">1.2</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-3"><span class="nav-number">2.0.0.3.</span> <span class="nav-text">1.3</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-4"><span class="nav-number">2.0.0.4.</span> <span class="nav-text">1.4</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-5"><span class="nav-number">2.0.0.5.</span> <span class="nav-text">1.5</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-6"><span class="nav-number">2.0.0.6.</span> <span class="nav-text">1.6</span></a></li></ol></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A5%E5%B8%B8%E7%BB%83%E4%B9%A0"><span class="nav-number">1.</span> <span class="nav-text">日常练习</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0"><span class="nav-number">2.</span> <span class="nav-text">期末复习</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-1"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">1.1</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#1-%E5%8F%98%E9%87%8F%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99"><span class="nav-number">2.0.0.1.1.</span> <span class="nav-text">1. 变量的命名规则</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2-%E7%89%B9%E6%AE%8A%E5%8F%98%E9%87%8F"><span class="nav-number">2.0.0.1.2.</span> <span class="nav-text">2. 特殊变量</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-2"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">1.2</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-3"><span class="nav-number">2.0.0.3.</span> <span class="nav-text">1.3</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-4"><span class="nav-number">2.0.0.4.</span> <span class="nav-text">1.4</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-5"><span class="nav-number">2.0.0.5.</span> <span class="nav-text">1.5</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-6"><span class="nav-number">2.0.0.6.</span> <span class="nav-text">1.6</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#1-7"><span class="nav-number">2.0.0.7.</span> <span class="nav-text">1.7</span></a></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -655,7 +749,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">64</span>
+          <span class="site-state-item-count">66</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -743,14 +837,14 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">4:12</span>
+    <span title="站点阅读时长">4:22</span>
 </div>
 
 
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共226.5k字 | </span>
+  <span class="post-count">博客全站共233.1k字 | </span>
 </div>
 
 
