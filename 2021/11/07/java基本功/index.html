@@ -1,29 +1,22 @@
+
+
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#7B68EE">
-<meta name="generator" content="Hexo 5.4.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#7B68EE">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/lib/pace/pace-theme-flat-top.min.css">
-  <script src="/lib/pace/pace.min.js"></script>
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"69asgard.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"hide","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#7B68EE","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
-  </script>
-
-  <meta name="description" content="日上三竿">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Alan Root">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="日上三竿">
 <meta property="og:type" content="article">
 <meta property="og:title" content="java基本功">
 <meta property="og:url" content="https://69asgard.github.io/2021/11/07/java%E5%9F%BA%E6%9C%AC%E5%8A%9F/index.html">
@@ -40,541 +33,660 @@
 <meta property="article:published_time" content="2021-11-07T08:46:30.000Z">
 <meta property="article:author" content="Alan Root">
 <meta property="article:tag" content="JAVA">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@744eed071b2215d44537c40e731e9171204e23d8/2021/11/07/32e5d0bc4e39f98465f58a6e57bacf51.png">
+  
+  
+  
+  <title>java基本功 - 太渊-Asgard</title>
 
-<link rel="canonical" href="https://69asgard.github.io/2021/11/07/java%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : true,
-    lang   : 'zh-CN'
-  };
-</script>
 
-  <title>java基本功 | 太渊-Asgard</title>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
 
 
 
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
 
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-<link rel="alternate" href="/atom.xml" title="太渊-Asgard" type="application/atom+xml">
+  
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="太渊-Asgard" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
+<body>
+  
 
-  <div class="site-meta">
+  <header>
+    
 
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">太渊-Asgard</h1>
-      <span class="logo-line-after"><i></i></span>
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
     </a>
-      <p class="site-subtitle" itemprop="description">天地与我并生，万物与我为一</p>
-  </div>
 
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-        <i class="fa fa-search fa-fw fa-lg"></i>
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
     </div>
   </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
-
-  </li>
-        <li class="menu-item menu-item-resources">
-
-    <a href="/resources/" rel="section"><i class="fa fa-download fa-fw"></i>资源</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
-
-  </li>
-        <li class="menu-item menu-item-book">
-
-    <a href="/book/" rel="section"><i class="fa fa-book fa-fw"></i>书籍</a>
-
-  </li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
-        </a>
-      </li>
-  </ul>
 </nav>
 
+  
 
-
-  <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
-           placeholder="搜索..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div id="search-result">
-  <div id="no-result">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
-
-</div>
-    </header>
-
-    
-  <div class="reading-progress-bar"></div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
           
-
-          <div class="content post posts-expand">
-            
-
-    
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://69asgard.github.io/2021/11/07/java%E5%9F%BA%E6%9C%AC%E5%8A%9F/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Alan Root">
-      <meta itemprop="description" content="TIME-[酒一壶卜一卦]">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="太渊-Asgard">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          java基本功
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-11-07 16:46:30" itemprop="dateCreated datePublished" datetime="2021-11-07T16:46:30+08:00">2021-11-07</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-06-02 21:02:51" itemprop="dateModified" datetime="2022-06-02T21:02:51+08:00">2022-06-02</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/JAVA/" itemprop="url" rel="index"><span itemprop="name">JAVA</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>502</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-            <div class="post-description">日上三竿</div>
-
+            <span id="subtitle" data-typed-text="java基本功"></span>
+          
         </div>
-      </header>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2021-11-07 16:46" pubdate>
+          2021年11月7日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          519 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          5 分钟
+        
+      </span>
+    
 
     
     
-    
-    <div class="post-body" itemprop="articleBody">
+  </div>
+
+
+        
+      </div>
 
       
-        <h1 id="public-static-void-main-String-args-是什么意思"><a href="#public-static-void-main-String-args-是什么意思" class="headerlink" title="public static void main(String[] args) 是什么意思?"></a>public static void main(String[] args) 是什么意思?</h1><p>也可以写作：public static void main(String args[] )</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">java基本功</h1>
+            
+            <div class="markdown-body">
+              
+              <h1 id="public-static-void-main-String-args-是什么意思"><a href="#public-static-void-main-String-args-是什么意思" class="headerlink" title="public static void main(String[] args) 是什么意思?"></a>public static void main(String[] args) 是什么意思?</h1><p>也可以写作：public static void main(String args[] )</p>
 <p>public static void main(String[] args)，是java程序的入口地址，java虚拟机运行程序的时候首先找的就是main方法。</p>
-<h2 id="一、这里要对main函数讲解一下，参数String"><a href="#一、这里要对main函数讲解一下，参数String" class="headerlink" title="一、这里要对main函数讲解一下，参数String[]"></a>一、这里要对main函数讲解一下，参数String[]</h2><p>args是一个字符串数组，接收来自程序执行时传进来的参数。如果是在控制台，可以通过编译执行将参数传进来，命令行如下:<br><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@744eed071b2215d44537c40e731e9171204e23d8/2021/11/07/32e5d0bc4e39f98465f58a6e57bacf51.png" alt=""></p>
-<h2 id="二、这样传进main函数的就是一个字符串数组，-args-0-a-args-1-b-args-2-c-如果不传参数进来，args为空。"><a href="#二、这样传进main函数的就是一个字符串数组，-args-0-a-args-1-b-args-2-c-如果不传参数进来，args为空。" class="headerlink" title="二、这样传进main函数的就是一个字符串数组， args[0] =a; args[1]=b;args[2]=c,  如果不传参数进来，args为空。"></a>二、这样传进main函数的就是一个字符串数组， args[0] =a; args[1]=b;args[2]=c,  如果不传参数进来，args为空。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@0244e5e2117e939e5287f647b56072bad19819e6/2021/11/07/a0e7009c0031909c9b4b57c49ae2c699.png" alt=""></p>
-<h2 id="三、在Programmer-arguments中输入要传进来的参数以空格的方式隔开a-b-c。"><a href="#三、在Programmer-arguments中输入要传进来的参数以空格的方式隔开a-b-c。" class="headerlink" title="三、在Programmer arguments中输入要传进来的参数以空格的方式隔开a b c。"></a>三、在Programmer arguments中输入要传进来的参数以空格的方式隔开a b c。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@7139f6b0a31b7ae8bc859e5ac8d26de811ad54bb/2021/11/07/4e15aa9d3bb9e19119fc510eff154ecc.png" alt=""></p>
-<h2 id="四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。"><a href="#四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。" class="headerlink" title="四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。"></a>四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@fd060eb6fd928119922dbea546891d9a41bdf2a9/2021/11/07/80c2f603828e438f8a2ed94b086b5bf1.png" alt=""></p>
-<h2 id="五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。"><a href="#五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。" class="headerlink" title="五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。"></a>五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@835afa18ecc747f57187b8e573a7e1f2b54270f9/2021/11/07/09f39793f40a27266260b67775e87145.png" alt=""></p>
-<h2 id="六、“static”表示方法是静态的，不依赖类的对象的。"><a href="#六、“static”表示方法是静态的，不依赖类的对象的。" class="headerlink" title="　六、“static”表示方法是静态的，不依赖类的对象的。"></a>　六、“static”表示方法是静态的，不依赖类的对象的。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@f26781a88f114653183ffe3ccad6f08577787328/2021/11/07/a6f6df5edc893dc11e0eb9380eaa1ec6.png" alt=""></p>
-<h2 id="七、“void-main-”方法是不需要返回值的。"><a href="#七、“void-main-”方法是不需要返回值的。" class="headerlink" title="七、“void:main()”方法是不需要返回值的。"></a>七、“void:main()”方法是不需要返回值的。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@9937921470b6c10ee51eb466299d33391c7b02f9/2021/11/07/0678af07d8ec150d22370f7e5520fb89.png" alt=""></p>
+<h2 id="一、这里要对main函数讲解一下，参数String"><a href="#一、这里要对main函数讲解一下，参数String" class="headerlink" title="一、这里要对main函数讲解一下，参数String[]"></a>一、这里要对main函数讲解一下，参数String[]</h2><p>args是一个字符串数组，接收来自程序执行时传进来的参数。如果是在控制台，可以通过编译执行将参数传进来，命令行如下:<br><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@744eed071b2215d44537c40e731e9171204e23d8/2021/11/07/32e5d0bc4e39f98465f58a6e57bacf51.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="二、这样传进main函数的就是一个字符串数组，-args-0-x3D-a-args-1-x3D-b-args-2-x3D-c-如果不传参数进来，args为空。"><a href="#二、这样传进main函数的就是一个字符串数组，-args-0-x3D-a-args-1-x3D-b-args-2-x3D-c-如果不传参数进来，args为空。" class="headerlink" title="二、这样传进main函数的就是一个字符串数组， args[0] &#x3D;a; args[1]&#x3D;b;args[2]&#x3D;c,  如果不传参数进来，args为空。"></a>二、这样传进main函数的就是一个字符串数组， args[0] &#x3D;a; args[1]&#x3D;b;args[2]&#x3D;c,  如果不传参数进来，args为空。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@0244e5e2117e939e5287f647b56072bad19819e6/2021/11/07/a0e7009c0031909c9b4b57c49ae2c699.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="三、在Programmer-arguments中输入要传进来的参数以空格的方式隔开a-b-c。"><a href="#三、在Programmer-arguments中输入要传进来的参数以空格的方式隔开a-b-c。" class="headerlink" title="三、在Programmer arguments中输入要传进来的参数以空格的方式隔开a b c。"></a>三、在Programmer arguments中输入要传进来的参数以空格的方式隔开a b c。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@7139f6b0a31b7ae8bc859e5ac8d26de811ad54bb/2021/11/07/4e15aa9d3bb9e19119fc510eff154ecc.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。"><a href="#四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。" class="headerlink" title="四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。"></a>四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@fd060eb6fd928119922dbea546891d9a41bdf2a9/2021/11/07/80c2f603828e438f8a2ed94b086b5bf1.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。"><a href="#五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。" class="headerlink" title="五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。"></a>五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@835afa18ecc747f57187b8e573a7e1f2b54270f9/2021/11/07/09f39793f40a27266260b67775e87145.png" srcset="/img/loading.gif" lazyload><br>##　六、“static”表示方法是静态的，不依赖类的对象的。<br><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@f26781a88f114653183ffe3ccad6f08577787328/2021/11/07/a6f6df5edc893dc11e0eb9380eaa1ec6.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="七、“void-main-”方法是不需要返回值的。"><a href="#七、“void-main-”方法是不需要返回值的。" class="headerlink" title="七、“void:main()”方法是不需要返回值的。"></a>七、“void:main()”方法是不需要返回值的。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@9937921470b6c10ee51eb466299d33391c7b02f9/2021/11/07/0678af07d8ec150d22370f7e5520fb89.png" srcset="/img/loading.gif" lazyload></p>
 <p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/guankelei/p/11327360.html">原文链接</a></p>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
-    </div>
+              
+            </div>
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
 
+<span class="category-chains">
+  
+  
     
-    
-    
-
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/JAVA/" rel="tag"># JAVA</a>
-          </div>
-
+      <span class="category-chain">
         
+  <a href="/categories/JAVA/" class="category-chain-item">JAVA</a>
+  
+  
 
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2021/11/04/%E9%9D%9E%E4%BA%BA%E6%80%A7%E7%9A%84/" rel="prev" title="非人性的">
-      <i class="fa fa-chevron-left"></i> 非人性的
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/11/10/%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/" rel="next" title="综合练习">
-      综合练习 <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
+      </span>
     
-  </article>
+  
+</span>
+
+    </div>
   
   
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/JAVA/">#JAVA</a>
+      
+    </div>
+  
+</div>
+
+
+              
   
 
-
-
-          </div>
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>java基本功</div>
+      <div>https://69asgard.github.io/2021/11/07/java基本功/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Alan Root</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2021年11月7日</div>
+        </div>
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
           
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2021/11/10/%E7%BB%BC%E5%90%88%E7%BB%83%E4%B9%A0/" title="综合练习">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">综合练习</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/11/04/%E9%9D%9E%E4%BA%BA%E6%80%A7%E7%9A%84/" title="非人性的">
+                        <span class="hidden-mobile">非人性的</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
       }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
     }
   });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
 </script>
 
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
 
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#public-static-void-main-String-args-%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D"><span class="nav-number">1.</span> <span class="nav-text">public static void main(String[] args) 是什么意思?</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E8%BF%99%E9%87%8C%E8%A6%81%E5%AF%B9main%E5%87%BD%E6%95%B0%E8%AE%B2%E8%A7%A3%E4%B8%80%E4%B8%8B%EF%BC%8C%E5%8F%82%E6%95%B0String"><span class="nav-number">1.1.</span> <span class="nav-text">一、这里要对main函数讲解一下，参数String[]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E8%BF%99%E6%A0%B7%E4%BC%A0%E8%BF%9Bmain%E5%87%BD%E6%95%B0%E7%9A%84%E5%B0%B1%E6%98%AF%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%95%B0%E7%BB%84%EF%BC%8C-args-0-a-args-1-b-args-2-c-%E5%A6%82%E6%9E%9C%E4%B8%8D%E4%BC%A0%E5%8F%82%E6%95%B0%E8%BF%9B%E6%9D%A5%EF%BC%8Cargs%E4%B8%BA%E7%A9%BA%E3%80%82"><span class="nav-number">1.2.</span> <span class="nav-text">二、这样传进main函数的就是一个字符串数组， args[0] &#x3D;a; args[1]&#x3D;b;args[2]&#x3D;c,  如果不传参数进来，args为空。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%9C%A8Programmer-arguments%E4%B8%AD%E8%BE%93%E5%85%A5%E8%A6%81%E4%BC%A0%E8%BF%9B%E6%9D%A5%E7%9A%84%E5%8F%82%E6%95%B0%E4%BB%A5%E7%A9%BA%E6%A0%BC%E7%9A%84%E6%96%B9%E5%BC%8F%E9%9A%94%E5%BC%80a-b-c%E3%80%82"><span class="nav-number">1.3.</span> <span class="nav-text">三、在Programmer arguments中输入要传进来的参数以空格的方式隔开a b c。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81vm%E5%9C%A8%E8%AF%95%E5%9B%BE%E8%BF%90%E8%A1%8C%E4%B8%80%E4%B8%AA%E7%B1%BB%E4%B9%8B%E5%89%8D%EF%BC%8C%E5%85%88%E6%A3%80%E6%9F%A5%E8%AF%A5%E7%B1%BB%E6%98%AF%E5%90%A6%E5%8C%85%E5%90%AB%E4%B8%80%E4%B8%AA%E7%89%B9%E6%AE%8A%E6%96%B9%E6%B3%95%E3%80%82%E8%BF%99%E4%B8%AA%E6%96%B9%E6%B3%95%E5%BF%85%E9%A1%BB%E6%98%AF%E5%85%AC%E6%9C%89%E7%9A%84%EF%BC%8C%E4%BB%A5%E4%BE%BF%E5%9C%A8%E4%BB%BB%E4%BD%95%E4%BD%8D%E7%BD%AE%E9%83%BD%E8%83%BD%E8%AE%BF%E9%97%AE%E5%BE%97%E5%88%B0%E3%80%82"><span class="nav-number">1.4.</span> <span class="nav-text">四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E2%80%9Cpublic%E2%80%9D%E8%A1%A8%E7%A4%BA%E7%A8%8B%E5%BA%8F%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90%EF%BC%8C%E8%A1%A8%E7%A4%BA%E7%9A%84%E6%98%AF%E4%BB%BB%E4%BD%95%E7%9A%84%E5%9C%BA%E5%90%88%E5%8F%AF%E4%BB%A5%E8%A2%AB%E5%BC%95%E7%94%A8%E3%80%82"><span class="nav-number">1.5.</span> <span class="nav-text">五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E2%80%9Cstatic%E2%80%9D%E8%A1%A8%E7%A4%BA%E6%96%B9%E6%B3%95%E6%98%AF%E9%9D%99%E6%80%81%E7%9A%84%EF%BC%8C%E4%B8%8D%E4%BE%9D%E8%B5%96%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E7%9A%84%E3%80%82"><span class="nav-number">1.6.</span> <span class="nav-text">　六、“static”表示方法是静态的，不依赖类的对象的。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83%E3%80%81%E2%80%9Cvoid-main-%E2%80%9D%E6%96%B9%E6%B3%95%E6%98%AF%E4%B8%8D%E9%9C%80%E8%A6%81%E8%BF%94%E5%9B%9E%E5%80%BC%E7%9A%84%E3%80%82"><span class="nav-number">1.7.</span> <span class="nav-text">七、“void:main()”方法是不需要返回值的。</span></a></li></ol></li></ol></div>
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Alan Root"
-      src="/images/avatar.gif">
-  <p class="site-author-name" itemprop="name">Alan Root</p>
-  <div class="site-description" itemprop="description">TIME-[酒一壶卜一卦]</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">69</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-        <span class="site-state-item-count">15</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">14</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="https://github.com/69asgard" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;69asgard" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="mailto:2750093016@qq.com" title="E-Mail → mailto:2750093016@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="http://asgard.ys168.com/" title="YS168 → http:&#x2F;&#x2F;asgard.ys168.com&#x2F;" rel="noopener" target="_blank"><i class=" fa-fw"></i>YS168</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://blog.csdn.net/weixin_51932439?spm=1000.2115.3001.5343" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;weixin_51932439?spm&#x3D;1000.2115.3001.5343" rel="noopener" target="_blank"><i class=" fa-fw"></i>CSDN</a>
-      </span>
-  </div>
-
-
-  <div class="links-of-blogroll motion-element">
-    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
-      Links
-    </div>
-    <ul class="links-of-blogroll-list">
-        <li class="links-of-blogroll-item">
-          <a href="https://kindle-deep.github.io/" title="https:&#x2F;&#x2F;kindle-deep.github.io&#x2F;" rel="noopener" target="_blank">Kindle deepのBlog</a>
-        </li>
-        <li class="links-of-blogroll-item">
-          <a href="https://notes.iissnan.com/" title="https:&#x2F;&#x2F;notes.iissnan.com&#x2F;" rel="noopener" target="_blank">IIssNan's Notes</a>
-        </li>
-        <li class="links-of-blogroll-item">
-          <a href="https://www.emmm.asia/" title="https:&#x2F;&#x2F;www.emmm.asia&#x2F;" rel="noopener" target="_blank">Adkinsm BLOG</a>
-        </li>
-        <li class="links-of-blogroll-item">
-          <a href="https://www.emoao.com/" title="https:&#x2F;&#x2F;www.emoao.com&#x2F;" rel="noopener" target="_blank">梦繁星</a>
-        </li>
-    </ul>
-  </div>
-
-      </div>
-        <div class="back-to-top motion-element">
-          <i class="fa fa-arrow-up"></i>
-          <span>0%</span>
-        </div>
-
-
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 2021 – 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Alan Root</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">4:38</span>
-</div>
-
-
-
-<div class="theme-info">
-  <div class="powered-by"></div>
-  <span class="post-count">博客全站共241.4k字 | </span>
-</div>
-
-
-
-<div class="powered-by">
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <i class="fa fa-user-md"></i>
-    <span id="busuanzi_container_site_uv">
-        本站访客数:<span id="busuanzi_value_site_uv"></span>
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span id="busuanzi_container_site_pv">
-        本站访问量<span id="busuanzi_value_site_pv"></span>
-    </span>
-</div>
-
-<!-- 网站运行时间的设置 -->
-<span id="timeDate">载入天数...</span>
-<span id="times">载入时分秒...</span>  
-❤༺欢迎来到Asgard༻.
-<script>
-    var now = new Date();
-    function createtime() {
-        var grt= new Date("10/21/2021 13:14:15");//此处修改你的建站时间或者网站上线时间
-        now.setTime(now.getTime()+250);
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "  |  本站已安全运行 "+dnum+" 天 ";
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+  <script>
+  (function() {
+    var enableLang = CONFIG.code_language.enable && CONFIG.code_language.default;
+    var enableCopy = CONFIG.copy_btn;
+    if (!enableLang && !enableCopy) {
+      return;
     }
-setInterval("createtime()",250);
+
+    function getBgClass(ele) {
+      return Fluid.utils.getBackgroundLightness(ele) >= 0 ? 'code-widget-light' : 'code-widget-dark';
+    }
+
+    var copyTmpl = '';
+    copyTmpl += '<div class="code-widget">';
+    copyTmpl += 'LANG';
+    copyTmpl += '</div>';
+    jQuery('.markdown-body pre').each(function() {
+      var $pre = jQuery(this);
+      if ($pre.find('code.mermaid').length > 0) {
+        return;
+      }
+      if ($pre.find('span.line').length > 0) {
+        return;
+      }
+
+      var lang = '';
+
+      if (enableLang) {
+        lang = CONFIG.code_language.default;
+        if ($pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2 && $pre.children().hasClass('hljs')) {
+          lang = $pre[0].children[0].classList[1];
+        } else if ($pre[0].getAttribute('data-language')) {
+          lang = $pre[0].getAttribute('data-language');
+        } else if ($pre.parent().hasClass('sourceCode') && $pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2) {
+          lang = $pre[0].children[0].classList[1];
+          $pre.parent().addClass('code-wrapper');
+        } else if ($pre.parent().hasClass('markdown-body') && $pre[0].classList.length === 0) {
+          $pre.wrap('<div class="code-wrapper"></div>');
+        }
+        lang = lang.toUpperCase().replace('NONE', CONFIG.code_language.default);
+      }
+      $pre.append(copyTmpl.replace('LANG', lang).replace('code-widget">',
+        getBgClass($pre[0]) + (enableCopy ? ' code-widget copy-btn" data-clipboard-snippet><i class="iconfont icon-copy"></i>' : ' code-widget">')));
+
+      if (enableCopy) {
+        Fluid.utils.createScript('https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js', function() {
+          var clipboard = new window.ClipboardJS('.copy-btn', {
+            target: function(trigger) {
+              var nodes = trigger.parentNode.childNodes;
+              for (var i = 0; i < nodes.length; i++) {
+                if (nodes[i].tagName === 'CODE') {
+                  return nodes[i];
+                }
+              }
+            }
+          });
+          clipboard.on('success', function(e) {
+            e.clearSelection();
+            e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-copy', 'icon-success');
+            setTimeout(function() {
+              e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-success', 'icon-copy');
+            }, 2000);
+          });
+        });
+      }
+    });
+  })();
 </script>
-        
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
 
 
   
-
-
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
 
 
   
-<script src="/js/local-search.js"></script>
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
 
 
 
 
 
-
-
-
-
-
-
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
 
 
   
 
-  
-
-  
-
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>
