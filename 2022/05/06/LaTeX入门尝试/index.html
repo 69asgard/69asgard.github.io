@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="Alan Root">
   <meta name="keywords" content="">
@@ -23,17 +25,19 @@
 <meta property="og:site_name" content="太渊-Asgard">
 <meta property="og:description" content="试一试咯">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://69asgard.github.io/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/EA46AC389FD235BC76B584F87377F100.jpg">
-<meta property="og:image" content="https://69asgard.github.io/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/2E214AC9FF0F6FD5637DAE5471DFB7FB.jpg">
-<meta property="og:image" content="https://69asgard.github.io/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/6EC89CFC16D22EFD274B6D2F860C6CF6.jpg">
-<meta property="og:image" content="https://69asgard.github.io/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/image-20220510182733512.png">
+<meta property="og:image" content="https://69asgard.github.io/2022/05/06/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/EA46AC389FD235BC76B584F87377F100.jpg">
+<meta property="og:image" content="https://69asgard.github.io/2022/05/06/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/2E214AC9FF0F6FD5637DAE5471DFB7FB.jpg">
+<meta property="og:image" content="https://69asgard.github.io/2022/05/06/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/6EC89CFC16D22EFD274B6D2F860C6CF6.jpg">
+<meta property="og:image" content="https://69asgard.github.io/2022/05/06/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/image-20220510182733512.png">
 <meta property="article:published_time" content="2022-05-06T12:50:16.000Z">
 <meta property="article:author" content="Alan Root">
 <meta property="article:tag" content="Note">
 <meta property="article:tag" content="Physics">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://69asgard.github.io/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/EA46AC389FD235BC76B584F87377F100.jpg">
+<meta name="twitter:image" content="https://69asgard.github.io/2022/05/06/images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/EA46AC389FD235BC76B584F87377F100.jpg">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>LaTeX入门尝试 - 太渊-Asgard</title>
@@ -70,11 +74,15 @@
 
 
 
+  
+<link rel="stylesheet" href="/css/mac.css">
+
+
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -99,7 +107,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
+      <strong>太渊-Asgard</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -241,6 +249,14 @@
 
     
     
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
+    
   </div>
 
 
@@ -274,17 +290,25 @@
             <!-- SEO header -->
             <h1 style="display: none">LaTeX入门尝试</h1>
             
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：几秒前
+                  
+                
+              </p>
+            
             <div class="markdown-body">
               
-              <p>试一试，<br>安装花了好长时间，将近八个小时，，，</p>
-<p><img src="/../images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/EA46AC389FD235BC76B584F87377F100.jpg" srcset="/img/loading.gif" lazyload></p>
-<p><img src="/../images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/2E214AC9FF0F6FD5637DAE5471DFB7FB.jpg" srcset="/img/loading.gif" lazyload></p>
-<p><img src="/../images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/6EC89CFC16D22EFD274B6D2F860C6CF6.jpg" srcset="/img/loading.gif" lazyload></p>
+              <p>试一试，<br>
+安装花了好长时间，将近八个小时，，，</p>
+<p><img src="../images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/EA46AC389FD235BC76B584F87377F100.jpg" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="../images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/2E214AC9FF0F6FD5637DAE5471DFB7FB.jpg" srcset="/img/loading.gif" lazyload alt=""></p>
+<p><img src="../images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/6EC89CFC16D22EFD274B6D2F860C6CF6.jpg" srcset="/img/loading.gif" lazyload alt=""></p>
 <p><em>一篇latex的论文模板</em></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br></pre></td><td class="code"><pre><code class="hljs latex">\documentclass[hyperref]&#123;ctexart&#125;<br>\usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]&#123;geometry&#125; %页边距<br>\usepackage&#123;helvet&#125;<br>\usepackage&#123;hyperref&#125; %doi引用<br>\hypersetup<br>&#123;<br>colorlinks=true,<br>linkcolor=blue,<br>filecolor=blue,<br>filecolor=blue,<br>urlcolor=blue,<br>citecolor=cyan,<br>&#125;<br>\usepackage&#123;amsmath, amsfonts, amssymb&#125; % 数学公式、符号<br>\usepackage[english]&#123;babel&#125;<br>\usepackage&#123;graphicx&#125;   % 图片<br>\usepackage&#123;url&#125;        % 超链接<br>\usepackage&#123;bm&#125;         % 加粗方程字体<br>\usepackage&#123;multirow&#125;<br>\usepackage&#123;booktabs&#125;<br>\usepackage&#123;algorithm&#125;<br>\usepackage&#123;algorithmic&#125;<br>\renewcommand&#123;\algorithmicrequire&#125;&#123; \textbf&#123;Input:&#125;&#125;       <br>\renewcommand&#123;\algorithmicensure&#125;&#123; \textbf&#123;Initialize:&#125;&#125; <br>\renewcommand&#123;\algorithmicreturn&#125;&#123; \textbf&#123;Output:&#125;&#125;     <br>%算法格式<br>\usepackage&#123;fancyhdr&#125; %设置页眉、页脚<br>\pagestyle&#123;fancy&#125;<br>\lhead&#123;&#125;<br>\chead&#123;&#125;<br>\lfoot&#123;&#125;<br>\cfoot&#123;&#125;<br>\rfoot&#123;&#125;<br>\usepackage&#123;hyperref&#125; %bookmarks<br>\hypersetup&#123;colorlinks, bookmarks, unicode&#125; %unicode<br>\usepackage&#123;multicol&#125;<br>\title&#123;\textbf&#123;High power experimental studies of hybrid photonic band gap accelerator structures&#125;&#125;<br>\author&#123;\sffamily JieXi Zhang,$^*$Brian J. Munroe, Haoran Xu, Michael A. Shapiro, and Richard J. Temkin&#125;<br>\date&#123;(Received 3 February 2016; published 31 August 2016)&#125;<br><br>\begin&#123;document&#125;<br><br>	\maketitle<br>	\noindent&#123;\bf Abstract: &#125;This paper reports the first high power tests of hybrid photonic band gap (PBG) accelerator structures.<br>	Three hybrid PBG (HPBG) structures were designed, built and tested at 17.14 GHz. Each structure had a<br>	triangular lattice array with 60 inner sapphire rods and 24 outer copper rods sandwiched between copper<br>	disks. The dielectric PBG band gap map allows the unique feature of overmoded operation in a TM02mode,<br>	with suppression of both lower order modes, such as the TM11mode, as well as higher order modes. The<br>	use of sapphire rods, which have negligible dielectric loss, required inclusion of the dielectric birefringence<br>	in the design. The three structures were designed to sequentially reduce the peak surface electric field.<br>	Simulations showed relatively high surface fields at the triple point as well as in any gaps between<br>	components in the clamped assembly. The third structure used sapphire rods with small pin extensions at<br>	each end and obtained the highest gradient of 19 MV=m, corresponding to a surface electric field of<br>	78 MV=m, with a breakdown probability of 5 × 10−1per pulse per meter for a 100-ns input power pulse.<br>	Operation at a gradient above 20 MV=m led to runaway breakdowns with extensive light emission and<br>	eventual damage. For all three structures, multipactor light emission was observed at gradients well below<br>	the breakdown threshold. This research indicated that multipactor triggered at the triple point limited the<br>	operational gradient of the hybrid structure.\\<br>	%\DOI&#123;10.1103/PhysRevAccelBeams.19.081304&#125;<br>	\noindent&#123;\bf DOI: 10.1103/PhysRevAccelBeams.19.081304<br>	\begin&#123;multicols&#125;&#123;2&#125;<br>		\section&#123;INTRODUCTION&#125;<br>		High gradient accelerator cavities are designed ideally to<br>		support only the accelerating mode and suppress the<br>		higher-order modes (HOMs). The excitation of HOMs<br>		may lead to longitudinal and transverse emittance dilution<br>		or the beam breakup, and eventually beam losses in a<br>		cavity. One novel method to damp HOMs is to use a<br>		photonic band gap (PBG) cavity. Photonic band gap (PBG)<br>		accelerator structures have the attractive feature that they<br>		are designed to support a single electromagnetic mode, thus<br>		reducing or eliminating unwanted modes generated by<br>		wakefields in an accelerator [1]. The two-dimensional (2D)<br>		periodic photonic crystal array can be constructed by<br>		arranging elements of metallic or dielectric materials in<br>		the transverse direction. By removing a few central<br>		elements of the periodic structure, a “defect” can be formed<br>		to confine electromagnetic fields [1–3]. During the past<br>		decades, experimental and theoretical studies on PBG<br>		structures have been conducted involving room temper-<br>		ature metallic materials and superconducting materials, as<br>		well as dielectric materials [4–14].\par<br>		Previous research has demonstrated the confinement of<br>		the accelerating mode. A six-cell traveling wave (TW)<br>		metallic PBG (MPBG) structure was built and successfully<br>		applied to accelerate electrons at a gradient of 35 MV=m<br>		with a TM01mode [4]. Follow-on experimental research<br>		was carried out to investigate the wakefield damping<br>		properties of the metallic PBG structure [15]. In order to<br>		achieve higher gradient, new standing wave PBG structures<br>		were designed to put into high power testing. Metallic PBG<br>		structures were high power tested to investigate breakdown<br>		phenomena at SLAC at X-Band, 11.424 GHz, and at MITat<br>		Ku-Band, 17.14 GHz [11,12,16,17]. The gradients and<br>		breakdown probabilities achieved by the metallic PBG<br>		structures were found to be comparable with those of<br>		conventional disk-loaded waveguide (DLWG) cavities<br>		[16,17]. Wakefield damping has been studied in simulation<br>		for metallic PBG structures including both room temper-<br>		ature cavities and superconducting cavities [13,18]. A<br>		superconducting PBG cavity for damping high order modes<br>		in a superconducting structure has recently been success-<br>		fully tested [19].\par<br>		Conventional cavities use the TM01mode as the oper-<br>		ation mode for acceleration, which makes damping the<br>		most dangerous HOM, the TM11dipole mode a big<br>		challenge. Due to the cutoff frequency in the band gap<br>		map, the metallic PBG structure used the TM01mode as the<br>		accelerating mode [20]. The same as the conventional cavities, the dangerous TM11dipole mode could be weakly<br>		confined in a metallic PBG structure in which only a finite<br>		number of rows of rods are included. A dielectric PBG<br>		lattice, such as the lattice of sapphire rods described in this<br>		paper, has a band gap map without a cutoff frequency [3].<br>		This makes a dielectric PBG cavity fundamentally different<br>		from a metallic PBG cavity. Furthermore, the dielectric<br>		PBG cavity does not have to operate in the TM01mode.<br>		Operation in a higher order mode allows the potential use of<br>		larger irises and larger structure sizes, which may be very<br>		important as the accelerator frequency increases. We have<br>		developed a specific geometrical design in which the TM02<br>		mode is confined as the accelerating mode [21,22]. The<br>		unwanted TM11dipole mode is located at lower frequency,<br>		below the band gap, and is not confined. Although a lattice<br>		made up entirely of dielectric rods could be constructed,<br>		adding metallic rods in the outside row, where the field<br>		strength is low, can enhance the structure Q [9,22]. This<br>		PBG structure that employs both metallic and dielectric<br>		material is called a hybrid photonic band gap (HPBG)<br>		structure. Dielectric materials have the potential to increase<br>		the structure Q since dielectric loss can be very small. In<br>		addition, lack of experimental data about breakdown<br>		phenomena on dielectric materials at Ku-Band motivated<br>		this high power testing of the HPBG cavity.\par<br>		This paper reports the design and the first high power<br>		tests of HPBG structures. Three structures, the HPBG-d3,<br>		the HPBG-d025, and the HPBG-Pin structure, each with a<br>		different dielectric rod design, have been high power tested.<br>		The latter two structures were designed to sequentially<br>		reduce the surface electric field. The dielectric band gap<br>		map will be presented in Sec. II, as well as the cavity modes<br>		confined by the HPBG structure. Designs of the HPBG-d3<br>		and HPBG-Pin structure will be described in detail in<br>		Sec. III. Section IV covers the cold test results, including<br>		the demonstration of the overmoded operation. Section V<br>		discusses the results of the high power testing of the HPBG<br>		structures. Discussion and conclusion are presented in<br>		Sec. VI.<br>		<br>		\subsection&#123;title&#125;<br>		This is introduction.This is introduction.This is introduction.This is introduction.This is introduction.This is introduction.<br>		\subsubsection&#123;title&#125;<br>		This is introduction.This is introduction.This is introduction.This is introduction.This is introduction.This is introduction.<br>		\section&#123;title&#125;<br>		\noindent Equations: <br>		\begin&#123;equation&#125;<br>			E=mc^2<br>		\end&#123;equation&#125;<br>		\begin&#123;equation&#125;<br>			H\psi=E\psi<br>		\end&#123;equation&#125;\\<br>		$\partial\partial=0$, and<br>		$$\iint_S \vec&#123;F&#125;\cdot \vec&#123;n&#125;d\sigma=\iiint \nabla\times\vec&#123;F&#125;dV$$<br>		\section&#123;Conclusion&#125;<br>		This is conclusion. This is conclusion. This is conclusion. This is conclusion. This is conclusion. This is conclusion. This is conclusion. This is conclusion. This is conclusion.This is conclusion.<br>		\section*&#123;Acknowledgments&#125;<br>		These are acknowledgments. These are acknowledgments. These are acknowledgments. These are acknowledgments. These are acknowledgments. These are acknowledgments.<br>		\begin&#123;thebibliography&#125;&#123;100&#125;%此处数字为最多可添加的参考文献数量<br>			\bibitem&#123;article1&#125;This is reference.%title author journal data pages<br>			\bibitem&#123;book1&#125;This is reference.%title author publish date<br>		\end&#123;thebibliography&#125;<br>	\end&#123;multicols&#125;<br>\end&#123;document&#125;<br></code></pre></td></tr></table></figure>
-
 <p>效果展示</p>
-<p><img src="/../images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/image-20220510182733512.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="../images/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/image-20220510182733512.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <p>第一次尝试，效果还可以，不过DOI不知道怎么完成。</p>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
               
@@ -468,6 +492,30 @@
     </div>
   
   
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
   
   
 </div>
@@ -510,6 +558,21 @@
   </script>
 
 
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -653,6 +716,8 @@
   <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 

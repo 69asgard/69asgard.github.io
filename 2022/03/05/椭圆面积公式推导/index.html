@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="Alan Root">
   <meta name="keywords" content="">
@@ -23,23 +25,25 @@
 <meta property="og:site_name" content="太渊-Asgard">
 <meta property="og:description" content="plusieurs façons&#x2F;许多种方式">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://www.zhihu.com/equation?tex=x%5E2+y%5E2=a%5E2">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=x%5E2%2By%5E2%3Da%5E2">
 <meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D">
 <meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D">
-<meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Bq%7D%7Bn%7D=%5Cfrac%7Bb%7D%7Ba%7D">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Bq%7D%7Bn%7D%3D%5Cfrac%7Bb%7D%7Ba%7D">
 <meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Baq%7D%7Bb%7D">
-<meta property="og:image" content="https://www.zhihu.com/equation?tex=p%5E2+(%5Cfrac%7Baq%7D%7Bb%7D)%5E2=a%5E2">
-<meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Bp%5E2%7D%7Ba%5E2%7D+%5Cfrac%7Bq%5E2%7D%7Bb%5E2%7D=1">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=p%5E2%2B%28%5Cfrac%7Baq%7D%7Bb%7D%29%5E2%3Da%5E2">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Bp%5E2%7D%7Ba%5E2%7D%2B%5Cfrac%7Bq%5E2%7D%7Bb%5E2%7D%3D1">
 <meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D">
 <meta property="og:image" content="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D">
-<meta property="og:image" content="https://www.zhihu.com/equation?tex=%CF%80a%5E2%5Ctimes%5Cfrac%7Bb%7D%7Ba%7D=%CF%80ab">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=%CF%80a%5E2%5Ctimes%5Cfrac%7Bb%7D%7Ba%7D%3D%CF%80ab">
 <meta property="article:published_time" content="2022-03-05T02:46:24.000Z">
 <meta property="article:author" content="Alan Root">
 <meta property="article:tag" content="Note">
 <meta property="article:tag" content="Math">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.zhihu.com/equation?tex=x%5E2+y%5E2=a%5E2">
+<meta name="twitter:image" content="https://www.zhihu.com/equation?tex=x%5E2%2By%5E2%3Da%5E2">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>Ellipse area formula derivation/椭圆面积公式推导 - 太渊-Asgard</title>
@@ -76,11 +80,15 @@
 
 
 
+  
+<link rel="stylesheet" href="/css/mac.css">
+
+
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -105,7 +113,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
+      <strong>太渊-Asgard</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -229,7 +237,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          382 字
+          352 字
         
       </span>
     
@@ -240,12 +248,20 @@
         
         
         
-          4 分钟
+          3 分钟
         
       </span>
     
 
     
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
     
   </div>
 
@@ -280,11 +296,19 @@
             <!-- SEO header -->
             <h1 style="display: none">Ellipse area formula derivation/椭圆面积公式推导</h1>
             
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：几秒前
+                  
+                
+              </p>
+            
             <div class="markdown-body">
               
-              <p>首先声明，我应该不是第一个想到此方法的，但是这都是受我的高中数学老师的启发。他当时讲了一个题目，说圆$x^2+y^2&#x3D;4$上任意一点向x轴做的垂线段的中点动起来形成的图形就是一个椭圆，即$\frac{x^2}{4}+y^2 &#x3D; 1$.我就想了，那么每一条对应线段长度都是圆的一半，累加起来，面积不就是圆的一半了吗？下面，我们用一般式来证明。</p>
-<p>假设有一个圆 <img src="https://www.zhihu.com/equation?tex=x%5E2+y%5E2=a%5E2" srcset="/img/loading.gif" lazyload alt="[公式]"> ,圆心为点（0，0），半径为r。其上任意一点（m,n）向x轴垂线段的 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> 处记为椭点（p,q）（下半部分比总长为 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ）(a&gt;b)，当此点动起来时，椭点随之而动，形成一个新图形。且知p&#x3D;m, <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bq%7D%7Bn%7D=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ,所以有m&#x3D;p,n&#x3D; <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Baq%7D%7Bb%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ,又因为点（m,n）在圆上，有 <img src="https://www.zhihu.com/equation?tex=p%5E2+(%5Cfrac%7Baq%7D%7Bb%7D)%5E2=a%5E2" srcset="/img/loading.gif" lazyload alt="[公式]"> ,化简得 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bp%5E2%7D%7Ba%5E2%7D+%5Cfrac%7Bq%5E2%7D%7Bb%5E2%7D=1" srcset="/img/loading.gif" lazyload alt="[公式]"> （a&gt;b）,可知新图形为一椭圆。由于每条线段长度都为圆上线段的 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ，所以面积也为圆面积的 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ，即S&#x3D; <img src="https://www.zhihu.com/equation?tex=%CF%80a%5E2%5Ctimes%5Cfrac%7Bb%7D%7Ba%7D=%CF%80ab" srcset="/img/loading.gif" lazyload alt="[公式]"> 。证毕。</p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105570884?utm_source=qq&utm_medium=social&utm_oi=803744770311745536">原文出处</a></p>
+              <p>首先声明，我应该不是第一个想到此方法的，但是这都是受我的高中数学老师的启发。他当时讲了一个题目，说圆$x^2+y^2=4$上任意一点向x轴做的垂线段的中点动起来形成的图形就是一个椭圆，即$\frac{x^2}{4}+y^2 = 1$.我就想了，那么每一条对应线段长度都是圆的一半，累加起来，面积不就是圆的一半了吗？下面，我们用一般式来证明。</p>
+<p>假设有一个圆 <img src="https://www.zhihu.com/equation?tex=x%5E2%2By%5E2%3Da%5E2" srcset="/img/loading.gif" lazyload alt="[公式]"> ,圆心为点（0，0），半径为r。其上任意一点（m,n）向x轴垂线段的 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> 处记为椭点（p,q）（下半部分比总长为 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ）(a&gt;b)，当此点动起来时，椭点随之而动，形成一个新图形。且知p=m, <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bq%7D%7Bn%7D%3D%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ,所以有m=p,n= <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Baq%7D%7Bb%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ,又因为点（m,n）在圆上，有 <img src="https://www.zhihu.com/equation?tex=p%5E2%2B%28%5Cfrac%7Baq%7D%7Bb%7D%29%5E2%3Da%5E2" srcset="/img/loading.gif" lazyload alt="[公式]"> ,化简得 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bp%5E2%7D%7Ba%5E2%7D%2B%5Cfrac%7Bq%5E2%7D%7Bb%5E2%7D%3D1" srcset="/img/loading.gif" lazyload alt="[公式]"> （a&gt;b）,可知新图形为一椭圆。由于每条线段长度都为圆上线段的 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ，所以面积也为圆面积的 <img src="https://www.zhihu.com/equation?tex=%5Cfrac%7Bb%7D%7Ba%7D" srcset="/img/loading.gif" lazyload alt="[公式]"> ，即S= <img src="https://www.zhihu.com/equation?tex=%CF%80a%5E2%5Ctimes%5Cfrac%7Bb%7D%7Ba%7D%3D%CF%80ab" srcset="/img/loading.gif" lazyload alt="[公式]"> 。证毕。</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105570884?utm_source=qq&amp;utm_medium=social&amp;utm_oi=803744770311745536">原文出处</a></p>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
               
             </div>
@@ -488,6 +512,30 @@
     </div>
   
   
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
   
   
 </div>
@@ -530,6 +578,21 @@
   </script>
 
 
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -673,6 +736,8 @@
   <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 

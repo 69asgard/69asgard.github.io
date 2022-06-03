@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="Alan Root">
   <meta name="keywords" content="">
@@ -36,6 +38,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@744eed071b2215d44537c40e731e9171204e23d8/2021/11/07/32e5d0bc4e39f98465f58a6e57bacf51.png">
   
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
   
   <title>java基本功 - 太渊-Asgard</title>
@@ -72,11 +76,15 @@
 
 
 
+  
+<link rel="stylesheet" href="/css/mac.css">
+
+
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -101,7 +109,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
+      <strong>太渊-Asgard</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -225,7 +233,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          519 字
+          504 字
         
       </span>
     
@@ -242,6 +250,14 @@
     
 
     
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
     
   </div>
 
@@ -276,16 +292,34 @@
             <!-- SEO header -->
             <h1 style="display: none">java基本功</h1>
             
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：几秒前
+                  
+                
+              </p>
+            
             <div class="markdown-body">
               
-              <h1 id="public-static-void-main-String-args-是什么意思"><a href="#public-static-void-main-String-args-是什么意思" class="headerlink" title="public static void main(String[] args) 是什么意思?"></a>public static void main(String[] args) 是什么意思?</h1><p>也可以写作：public static void main(String args[] )</p>
+              <h1>public static void main(String[] args) 是什么意思?</h1>
+<p>也可以写作：public static void main(String args[] )</p>
 <p>public static void main(String[] args)，是java程序的入口地址，java虚拟机运行程序的时候首先找的就是main方法。</p>
-<h2 id="一、这里要对main函数讲解一下，参数String"><a href="#一、这里要对main函数讲解一下，参数String" class="headerlink" title="一、这里要对main函数讲解一下，参数String[]"></a>一、这里要对main函数讲解一下，参数String[]</h2><p>args是一个字符串数组，接收来自程序执行时传进来的参数。如果是在控制台，可以通过编译执行将参数传进来，命令行如下:<br><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@744eed071b2215d44537c40e731e9171204e23d8/2021/11/07/32e5d0bc4e39f98465f58a6e57bacf51.png" srcset="/img/loading.gif" lazyload></p>
-<h2 id="二、这样传进main函数的就是一个字符串数组，-args-0-x3D-a-args-1-x3D-b-args-2-x3D-c-如果不传参数进来，args为空。"><a href="#二、这样传进main函数的就是一个字符串数组，-args-0-x3D-a-args-1-x3D-b-args-2-x3D-c-如果不传参数进来，args为空。" class="headerlink" title="二、这样传进main函数的就是一个字符串数组， args[0] &#x3D;a; args[1]&#x3D;b;args[2]&#x3D;c,  如果不传参数进来，args为空。"></a>二、这样传进main函数的就是一个字符串数组， args[0] &#x3D;a; args[1]&#x3D;b;args[2]&#x3D;c,  如果不传参数进来，args为空。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@0244e5e2117e939e5287f647b56072bad19819e6/2021/11/07/a0e7009c0031909c9b4b57c49ae2c699.png" srcset="/img/loading.gif" lazyload></p>
-<h2 id="三、在Programmer-arguments中输入要传进来的参数以空格的方式隔开a-b-c。"><a href="#三、在Programmer-arguments中输入要传进来的参数以空格的方式隔开a-b-c。" class="headerlink" title="三、在Programmer arguments中输入要传进来的参数以空格的方式隔开a b c。"></a>三、在Programmer arguments中输入要传进来的参数以空格的方式隔开a b c。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@7139f6b0a31b7ae8bc859e5ac8d26de811ad54bb/2021/11/07/4e15aa9d3bb9e19119fc510eff154ecc.png" srcset="/img/loading.gif" lazyload></p>
-<h2 id="四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。"><a href="#四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。" class="headerlink" title="四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。"></a>四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@fd060eb6fd928119922dbea546891d9a41bdf2a9/2021/11/07/80c2f603828e438f8a2ed94b086b5bf1.png" srcset="/img/loading.gif" lazyload></p>
-<h2 id="五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。"><a href="#五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。" class="headerlink" title="五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。"></a>五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@835afa18ecc747f57187b8e573a7e1f2b54270f9/2021/11/07/09f39793f40a27266260b67775e87145.png" srcset="/img/loading.gif" lazyload><br>##　六、“static”表示方法是静态的，不依赖类的对象的。<br><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@f26781a88f114653183ffe3ccad6f08577787328/2021/11/07/a6f6df5edc893dc11e0eb9380eaa1ec6.png" srcset="/img/loading.gif" lazyload></p>
-<h2 id="七、“void-main-”方法是不需要返回值的。"><a href="#七、“void-main-”方法是不需要返回值的。" class="headerlink" title="七、“void:main()”方法是不需要返回值的。"></a>七、“void:main()”方法是不需要返回值的。</h2><p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@9937921470b6c10ee51eb466299d33391c7b02f9/2021/11/07/0678af07d8ec150d22370f7e5520fb89.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="一、这里要对main函数讲解一下，参数String">一、这里要对main函数讲解一下，参数String[]</h2>
+<p>args是一个字符串数组，接收来自程序执行时传进来的参数。如果是在控制台，可以通过编译执行将参数传进来，命令行如下:<br>
+<img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@744eed071b2215d44537c40e731e9171204e23d8/2021/11/07/32e5d0bc4e39f98465f58a6e57bacf51.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h2 id="二、这样传进main函数的就是一个字符串数组，-args-0-a-args-1-b-args-2-c-如果不传参数进来，args为空。">二、这样传进main函数的就是一个字符串数组， args[0] =a; args[1]=b;args[2]=c,  如果不传参数进来，args为空。</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@0244e5e2117e939e5287f647b56072bad19819e6/2021/11/07/a0e7009c0031909c9b4b57c49ae2c699.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h2 id="三、在Programmer-arguments中输入要传进来的参数以空格的方式隔开a-b-c。">三、在Programmer arguments中输入要传进来的参数以空格的方式隔开a b c。</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@7139f6b0a31b7ae8bc859e5ac8d26de811ad54bb/2021/11/07/4e15aa9d3bb9e19119fc510eff154ecc.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h2 id="四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。">四、vm在试图运行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@fd060eb6fd928119922dbea546891d9a41bdf2a9/2021/11/07/80c2f603828e438f8a2ed94b086b5bf1.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h2 id="五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。">五、“public”表示程序的访问权限，表示的是任何的场合可以被引用。</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@835afa18ecc747f57187b8e573a7e1f2b54270f9/2021/11/07/09f39793f40a27266260b67775e87145.png" srcset="/img/loading.gif" lazyload alt=""><br>
+##　六、“static”表示方法是静态的，不依赖类的对象的。<br>
+<img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@f26781a88f114653183ffe3ccad6f08577787328/2021/11/07/a6f6df5edc893dc11e0eb9380eaa1ec6.png" srcset="/img/loading.gif" lazyload alt=""></p>
+<h2 id="七、“void-main-”方法是不需要返回值的。">七、“void:main()”方法是不需要返回值的。</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@9937921470b6c10ee51eb466299d33391c7b02f9/2021/11/07/0678af07d8ec150d22370f7e5520fb89.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/guankelei/p/11327360.html">原文链接</a></p>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
               
@@ -488,6 +522,30 @@
     </div>
   
   
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
   
   
 </div>
@@ -530,6 +588,21 @@
   </script>
 
 
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -673,6 +746,8 @@
   <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 
