@@ -226,7 +226,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.6k 字
+          2.7k 字
         
       </span>
     
@@ -237,7 +237,7 @@
         
         
         
-          22 分钟
+          23 分钟
         
       </span>
     
@@ -295,8 +295,7 @@
             
             <div class="markdown-body">
               
-              <h2 id="关于MATLAB的学习笔记">关于MATLAB的学习笔记</h2>
-<p>来源，<strong>中南大学</strong>    <em>《科学计算与MATLAB语言》</em></p>
+              <h2 id="关于MATLAB的学习笔记"><a href="#关于MATLAB的学习笔记" class="headerlink" title="关于MATLAB的学习笔记"></a>关于MATLAB的学习笔记</h2><p>来源，<strong>中南大学</strong>    <em>《科学计算与MATLAB语言》</em></p>
 <blockquote>
 <p>clear 清理数据</p>
 </blockquote>
@@ -314,10 +313,16 @@
 </blockquote>
 <p>format 不能接double作为格式符 为什么？</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; format double<br>错误使用 format<br>未知的命令选项。<br></code></pre></td></tr></table></figure>
+
 <p>format 命令只影响数据输出格式，而不影响计算和存储。</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; format long<br>&gt;&gt; <span class="hljs-number">7</span>/<span class="hljs-number">8</span><br><br><span class="hljs-built_in">ans</span> =<br><br>   <span class="hljs-number">0.875000000000000</span><br>   <br>&gt;&gt; format long<br>&gt;&gt; <span class="hljs-number">50</span>/<span class="hljs-number">3</span><br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">16.666666666666668</span><br>  <br>&gt;&gt; format <span class="hljs-comment">%输出默认short模式</span><br>&gt;&gt; <span class="hljs-number">50</span>/<span class="hljs-number">3</span><br><br><span class="hljs-built_in">ans</span> =<br><br>   <span class="hljs-number">16.6667</span><br><br>&gt;&gt; format<br>&gt;&gt; <span class="hljs-number">7</span>/<span class="hljs-number">8</span><br><br><span class="hljs-built_in">ans</span> =<br><br>    <span class="hljs-number">0.8750</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+
 <p>函数调用格式</p>
-<p>​		函数名(函数自变量的值)</p>
+<p>​		函数名(函数自变量的值) </p>
 <ul>
 <li>函数自变量定义为矩阵变量（包含标量）</li>
 <li>运算时  将函数逐项作用于矩阵上 最后得到同型矩阵 what is 同型矩阵？</li>
@@ -327,21 +332,20 @@
 </blockquote>
 <p>三角函数 以角度为单位要函数名后加上d，与弧度以示区别</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; clear<br>&gt;&gt; <span class="hljs-built_in">sin</span>(<span class="hljs-built_in">pi</span>/<span class="hljs-number">2</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">1</span><br><br>&gt;&gt; <span class="hljs-built_in">sind</span>(<span class="hljs-number">90</span>) <span class="hljs-comment">%d 是degree角度的缩写</span><br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">1</span><br><br>&gt;&gt; <br></code></pre></td></tr></table></figure>
+
 <blockquote>
-<p>abs 求 //abs mean absolute number</p>
+<p>abs 求 &#x2F;&#x2F;abs mean absolute number</p>
 <ul>
-<li>
-<p>实数的绝对值</p>
+<li><p>实数的绝对值</p>
 </li>
-<li>
-<p>复数的模</p>
+<li><p>复数的模</p>
 </li>
-<li>
-<p>字符串的ASCII码</p>
+<li><p>字符串的ASCII码</p>
 </li>
 </ul>
 </blockquote>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; <span class="hljs-built_in">abs</span>(<span class="hljs-number">-4</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">4</span><br><br>&gt;&gt; <span class="hljs-built_in">abs</span> (<span class="hljs-number">3</span>+<span class="hljs-number">4</span><span class="hljs-built_in">i</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">5</span><br><br>&gt;&gt; <span class="hljs-built_in">abs</span>(<span class="hljs-string">&#x27;a&#x27;</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>    <span class="hljs-number">97</span><br><br></code></pre></td></tr></table></figure>
+
 <p>ps:回车在任何一个位置都可以</p>
 <blockquote>
 <p>取整函数 fix…floor…ceil…round</p>
@@ -353,41 +357,48 @@
 </ul>
 </blockquote>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; <span class="hljs-built_in">round</span>(<span class="hljs-number">4.7</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">5</span><br><br>&gt;&gt; <span class="hljs-built_in">ceil</span>(<span class="hljs-number">4.7</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">5</span><br>     <br>&gt;&gt; <span class="hljs-built_in">floor</span>(<span class="hljs-number">4.7</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">4</span><br><br>&gt;&gt; <span class="hljs-built_in">fix</span>(<span class="hljs-number">4.7</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">4</span><br>     <br>&gt;&gt; <span class="hljs-built_in">fix</span>(<span class="hljs-number">-3.7</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">3</span><br></code></pre></td></tr></table></figure>
+
 <p>其他函数</p>
 <blockquote>
-<p>rem(a,b)  a/b取余数 相当于c语言a%b</p>
+<p>rem(a,b)  a&#x2F;b取余数 相当于c语言a%b</p>
 </blockquote>
 <p>实例1：分别求三位正整数个十百位数字</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; clear<br>&gt;&gt; m=<span class="hljs-number">345</span>;<br>&gt;&gt; m1=<span class="hljs-built_in">rem</span>(m,<span class="hljs-number">10</span>)<br><br>m1 =<br><br>     <span class="hljs-number">5</span><br><br>&gt;&gt; m2=<span class="hljs-built_in">rem</span>(<span class="hljs-built_in">fix</span>(m/<span class="hljs-number">10</span>),<span class="hljs-number">10</span>) <span class="hljs-comment">%这里先取整 结果为34</span><br><br>m2 =<br><br>     <span class="hljs-number">4</span><br><br>&gt;&gt; m3=<span class="hljs-built_in">fix</span>(m/<span class="hljs-number">100</span>)<br><br>m3 =<br><br>     <span class="hljs-number">3</span><br></code></pre></td></tr></table></figure>
+
+
+
 <p>实例2：求[1，100]所有素数</p>
 <blockquote>
 <p>isprime(n) 判断是否素数 是为1否则0</p>
 </blockquote>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; x=<span class="hljs-number">1</span>:<span class="hljs-number">100</span>;<br>&gt;&gt;  k=<span class="hljs-built_in">isprime</span>(x); <span class="hljs-comment">%ps：有多出来的空格在这里也没关系</span><br>&gt;&gt; k1=<span class="hljs-built_in">find</span>(k); <span class="hljs-comment">%find非零元素的序号/位置（序号跟内容相同，顺序存储）</span><br>&gt;&gt;  p=x(k1)<br><br>p =<br><br>  <span class="hljs-number">1</span> 至 <span class="hljs-number">22</span> 列<br><br>     <span class="hljs-number">2</span>     <span class="hljs-number">3</span>     <span class="hljs-number">5</span>     <span class="hljs-number">7</span>    <span class="hljs-number">11</span>    <span class="hljs-number">13</span>    <span class="hljs-number">17</span>    <span class="hljs-number">19</span>    <span class="hljs-number">23</span>    <span class="hljs-number">29</span>    <span class="hljs-number">31</span>    <span class="hljs-number">37</span>    <span class="hljs-number">41</span>    <span class="hljs-number">43</span>    <span class="hljs-number">47</span>    <span class="hljs-number">53</span>    <span class="hljs-number">59</span>    <span class="hljs-number">61</span>    <span class="hljs-number">67</span>    <span class="hljs-number">71</span>    <span class="hljs-number">73</span>    <span class="hljs-number">79</span><br><br>  <span class="hljs-number">23</span> 至 <span class="hljs-number">25</span> 列<br><br>    <span class="hljs-number">83</span>    <span class="hljs-number">89</span>    <span class="hljs-number">97</span><br></code></pre></td></tr></table></figure>
+
 <p>ps:</p>
 <p>单行注释</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">%x=1  </span><br><span class="hljs-comment">%这是注释，无法运行  </span><br>x=<span class="hljs-number">2</span>  <br><span class="hljs-comment">%结果为2</span><br></code></pre></td></tr></table></figure>
+
 <p>多行注释</p>
 <figure class="highlight erlang-repl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs erlang-repl"><span class="hljs-comment">%&#123;  </span><br><span class="hljs-number">1</span>.这就是传说中的多行注释  <br><span class="hljs-number">2</span>.成功！  <br><span class="hljs-comment">%&#125;  </span><br></code></pre></td></tr></table></figure>
+
 <p>​     经常需要调试程序的话，输入%还是麻烦，最方便的还是快捷键！</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-code">    Ctrl+R  注释掉这一行</span><br><span class="hljs-code"></span><br>​    Ctrl+T  撤销注释此行<br></code></pre></td></tr></table></figure>
-<h3 id="变量与赋值语句">变量与赋值语句</h3>
-<p>变量：存储单元的抽象</p>
+
+<h3 id="变量与赋值语句"><a href="#变量与赋值语句" class="headerlink" title="变量与赋值语句"></a>变量与赋值语句</h3><p>变量：存储单元的抽象</p>
 <blockquote>
 <p>变量名，字母开头，区分大小写，之后字母，数字，下划线，最高63个字符</p>
 </blockquote>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; <span class="hljs-number">12</span>MY=<span class="hljs-number">10</span><br> <span class="hljs-number">12</span>MY=<span class="hljs-number">10</span><br>   ↑<br>错误: 不应为 MATLAB 表达式。<br> <br>&gt;&gt; _MY=<span class="hljs-number">10</span><br> _MY=<span class="hljs-number">10</span><br> ↑<br>错误: 输入字符不是 MATLAB 语句或表达式中的有效字符。<br></code></pre></td></tr></table></figure>
+
 <blockquote>
-<p>标准函数名/命令 必须小写</p>
+<p>标准函数名&#x2F;命令 必须小写</p>
 </blockquote>
-<p>计算表达式的值，并将结果赋值给变量z。其中，x=√7 -2i,y=e∧л/2</p>
-<p>渲染后$x=\sqrt{7} -2i$,$y=e^{\frac{π}{2} } $<br>
-$$<br>
-\frac{x+cos47°}{1+\left | x-y \right | }<br>
-$$</p>
+<p>计算表达式的值，并将结果赋值给变量z。其中，x&#x3D;√7 -2i,y&#x3D;e∧л&#x2F;2</p>
+<p>渲染后$x&#x3D;\sqrt{7} -2i$,$y&#x3D;e^{\frac{π}{2} } $<br>$$<br>\frac{x+cos47°}{1+\left | x-y \right | }<br>$$</p>
 <figure class="highlight handlebars"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs handlebars"><span class="xml">\[\frac</span><span class="hljs-template-variable">&#123;&#123;&#123;\<span class="hljs-name">text</span>&#123;<span class="hljs-number">5</span> + &#125;&#125;\<span class="hljs-name">cos</span> &#123;\text&#123;<span class="hljs-number">4</span>&#125;&#125;&#123;&#123;\<span class="hljs-name">text</span>&#123;<span class="hljs-number">7</span>&#125;&#125;^^\<span class="hljs-name">circ</span> &#125;&#125;&#125;</span><span class="xml"></span><br><span class="xml"></span><span class="hljs-template-variable">&#123;&#123;&#123;\<span class="hljs-name">text</span>&#123;<span class="hljs-number">1</span> + &#125;&#125;\<span class="hljs-name">left</span>| &#123;&#123;\text&#123;x - y&#125;&#125;&#125;</span><span class="xml"> \right|&#125;&#125;\]</span><br></code></pre></td></tr></table></figure>
+
 <p>这个报错</p>
 <figure class="highlight coq"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs coq">\frac&#123;x+cos47°&#125;&#123;<span class="hljs-number">1</span>+\<span class="hljs-built_in">left</span> | <span class="hljs-type">x</span>-y \<span class="hljs-built_in">right</span> | <span class="hljs-type">&#125;</span><br></code></pre></td></tr></table></figure>
+
 <p>还不如手打</p>
 <blockquote>
 <p>sqrt 开根号</p>
@@ -396,26 +407,31 @@ $$</p>
 <p>exp 自然指数</p>
 </blockquote>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; x=<span class="hljs-built_in">sqrt</span>(<span class="hljs-number">7</span>)<span class="hljs-number">-2</span><span class="hljs-built_in">i</span>;<br>&gt;&gt; y=<span class="hljs-built_in">exp</span>(<span class="hljs-built_in">pi</span>/<span class="hljs-number">2</span>);<br>&gt;&gt; z=(<span class="hljs-number">5</span>+<span class="hljs-built_in">cosd</span>(<span class="hljs-number">47</span>))/(<span class="hljs-number">1</span>+<span class="hljs-built_in">abs</span>(x-y))<br><br>z =<br><br>    <span class="hljs-number">1.4395</span><br><br></code></pre></td></tr></table></figure>
-<h4 id="预定义变量">预定义变量</h4>
-<p>系统定义的变量</p>
+
+
+
+<h4 id="预定义变量"><a href="#预定义变量" class="headerlink" title="预定义变量"></a>预定义变量</h4><p>系统定义的变量</p>
 <ul>
 <li>ans 默认赋值变量</li>
 <li>pi 圆周率</li>
-<li>i/j 虚数单位</li>
+<li>i&#x2F;j 虚数单位</li>
 <li>NaN 非数</li>
 </ul>
-<h4 id="变量管理">变量管理</h4>
-<p>内存变量文件</p>
+<h4 id="变量管理"><a href="#变量管理" class="headerlink" title="变量管理"></a>变量管理</h4><p>内存变量文件</p>
 <blockquote>
 <p>保存工作区变量 扩展名为.mat 标准二进制格式文件</p>
 </blockquote>
 <ul>
 <li>save 创建内存变量文件</li>
-<li>load 装入…</li>
+<li>load 装入……</li>
 </ul>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; save mydate x y z<br>&gt;&gt; load mydate<br></code></pre></td></tr></table></figure>
-<h2 id="其他的笔记">其他的笔记</h2>
-<blockquote>
+
+
+
+
+
+<h2 id="其他的笔记"><a href="#其他的笔记" class="headerlink" title="其他的笔记"></a>其他的笔记</h2><blockquote>
 <p>谈不上学吧，用到了查一查各种需求的解决方案，慢慢积累就行了</p>
 </blockquote>
 <p>亲爱的老徐，，，</p>
@@ -423,11 +439,17 @@ $$</p>
 <p>zeros(n)表示生成n阶的零矩阵</p>
 <p>e.g.</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-built_in">zeros</span>(<span class="hljs-number">3</span>)<br></code></pre></td></tr></table></figure>
+
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; Untitled2<br><br><span class="hljs-built_in">ans</span> =<br><br>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span><br>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span><br>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span><br></code></pre></td></tr></table></figure>
+
 <p>这里有一点</p>
 <p>未定义</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs MATLAB">A=<span class="hljs-built_in">zeros</span>(<span class="hljs-number">3</span>)<br></code></pre></td></tr></table></figure>
+
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs matlab">&gt;&gt; Untitled2<br><br>A =<br><br>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span><br>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span><br>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span>     <span class="hljs-number">0</span><br></code></pre></td></tr></table></figure>
+
+
+
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
               
             </div>
