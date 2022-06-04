@@ -12,8 +12,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="Alan Root">
   <meta name="keywords" content="">
@@ -234,7 +232,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3.8k 字
+          5.1k 字
         
       </span>
     
@@ -245,7 +243,7 @@
         
         
         
-          32 分钟
+          43 分钟
         
       </span>
     
@@ -303,7 +301,26 @@
             
             <div class="markdown-body">
               
-              <h1 id="期末考试"><a href="#期末考试" class="headerlink" title="期末考试"></a>期末考试</h1><h3 id="三、简答题二"><a href="#三、简答题二" class="headerlink" title="三、简答题二"></a>三、简答题二</h3><p>（每小题5分.共20分）  </p>
+              <h1 id="期末考试"><a href="#期末考试" class="headerlink" title="期末考试"></a>期末考试</h1><h3 id="一、填空题"><a href="#一、填空题" class="headerlink" title="一、填空题"></a>一、填空题</h3><p>（每空1分，共10分） </p>
+<p>\1. 数据系统的三级模式结构是指数据库的（外模式）、（模式）和内模式。<br>\2. 函数 FLOOR（558.3049）返回值是（558）。<br>\3. 删除表命令是（deop table）或（delete from）。<br>\4. 关系模型中包括三类完整性约束，是指（实体完整性）（参照完整性） 和（ 用户自定义完整性）。<br>\5. 计算字段的累加和的函数是（sum），统计项目数的函数是（count）。</p>
+<h3 id="二、简答题一"><a href="#二、简答题一" class="headerlink" title="二、简答题一"></a>二、简答题一</h3><p>（每小题5分，共15分） </p>
+<p>\1. 定义表salary,包含员工编号empno（数字型，标识列，主键），员工名称empname （字符型），基本工资basic （数字型，两位小数），奖金bonus （数字型，两位小数）， 合计total （数字型，两位小数）。<br>\2. 创建员工表emp,包含员工编号empnof数字型，标识列，主键），员工姓名 empname（字符型），年龄empage（数字型），性别gender（字符型，默认值为’男’）， 出生日期birth （日期型）。<br>\3. 创建新员工表newemp,将员工表emp中的数据插入到newemp中 </p>
+<p>1,</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs sql">crete <span class="hljs-keyword">table</span> salary<br>(empno <span class="hljs-type">int</span> <span class="hljs-keyword">identity</span>(<span class="hljs-number">1</span>,<span class="hljs-number">1</span>) <span class="hljs-keyword">primary</span> key,<br>empname <span class="hljs-type">varchar</span>(<span class="hljs-number">20</span>),<br>basic <span class="hljs-type">decimal</span>(<span class="hljs-number">18</span>,<span class="hljs-number">2</span>),<br>bonus <span class="hljs-type">decimal</span>(<span class="hljs-number">18</span>,<span class="hljs-number">2</span>),<br>total <span class="hljs-type">decimal</span>(<span class="hljs-number">18</span>,<span class="hljs-number">2</span>))<br></code></pre></td></tr></table></figure>
+
+<p>2,</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-keyword">create</span> <span class="hljs-keyword">table</span> emp<br>(empno <span class="hljs-type">int</span> <span class="hljs-keyword">identity</span> <span class="hljs-keyword">primary</span> key,<br>empname <span class="hljs-type">varchar</span>(<span class="hljs-number">20</span>),<br>empage <span class="hljs-type">int</span>,<br><span class="hljs-comment">/*gender varchar(20) check(gender in (&#x27;男&#x27;,&#x27;女&#x27;)) default (&#x27;男&#x27;)*/</span><br>gender <span class="hljs-type">varchar</span>(<span class="hljs-number">20</span>) <span class="hljs-keyword">default</span>(<span class="hljs-string">&#x27;男&#x27;</span>),<br>birth <span class="hljs-type">date</span><span class="hljs-comment">/*datetime*/</span><br>)<br></code></pre></td></tr></table></figure>
+<p>3,<br>解法一（不推荐）</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-keyword">create</span> <span class="hljs-keyword">table</span> newemp<br>(empno <span class="hljs-type">int</span> <span class="hljs-keyword">identity</span> <span class="hljs-keyword">primary</span> key,<br>empname <span class="hljs-type">varchar</span>(<span class="hljs-number">20</span>),<br>empage <span class="hljs-type">int</span>,<br><span class="hljs-comment">/*gender varchar(20) check(gender in (&#x27;男&#x27;,&#x27;女&#x27;)) default (&#x27;男&#x27;)*/</span><br>gender <span class="hljs-type">varchar</span>(<span class="hljs-number">20</span>) <span class="hljs-keyword">default</span>(<span class="hljs-string">&#x27;男&#x27;</span>),<br>birth <span class="hljs-type">date</span><span class="hljs-comment">/*datetime*/</span><br>)<br><span class="hljs-keyword">insert</span> <span class="hljs-keyword">into</span> newemp <span class="hljs-keyword">select</span> <span class="hljs-operator">*</span><span class="hljs-keyword">from</span> emp;<br></code></pre></td></tr></table></figure>
+<p>解法二（推荐）</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-keyword">select</span> <span class="hljs-operator">*</span> <span class="hljs-keyword">into</span> newemp <span class="hljs-keyword">from</span> emp;<br><span class="hljs-keyword">select</span> <span class="hljs-operator">*</span><span class="hljs-keyword">from</span> newemp<br></code></pre></td></tr></table></figure>
+
+<p>另外补充一下删除操作</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-keyword">delete</span> <span class="hljs-keyword">from</span> newemp;<span class="hljs-comment">/*删除表中所有数据*/</span><br><span class="hljs-keyword">drop</span> <span class="hljs-keyword">table</span> newemp;<span class="hljs-comment">/*删除表*/</span><br></code></pre></td></tr></table></figure>
+
+
+
+<h3 id="三、简答题二"><a href="#三、简答题二" class="headerlink" title="三、简答题二"></a>三、简答题二</h3><p>（每小题5分.共20分）  </p>
 <pre><code class="hljs">1.   创建员工表，包含员工编号、姓名、年龄、性别、身份证号，其中员工编号是主键，在身份证号上创建唯  一索引，姓名上创建普通索引。
 2.   创建一个视图，只显示员工表中工资小于2200的员工，且带检查约束。
 3.   创建一个视图，显示员工姓名和性别。
@@ -318,7 +335,7 @@
 <p>3,</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-keyword">create</span> <span class="hljs-keyword">view</span> emp_v2(empname,empgender)<br><span class="hljs-keyword">as</span> <span class="hljs-keyword">select</span> name,gender <span class="hljs-keyword">from</span> emp<br><span class="hljs-keyword">with</span> <span class="hljs-keyword">check</span> option;<br></code></pre></td></tr></table></figure>
 
-<p>4,</p>
+<p>4,待验证</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs sql"><span class="hljs-keyword">create</span> <span class="hljs-keyword">trigger</span> ddl_week_trig <span class="hljs-keyword">on</span> database<br><span class="hljs-keyword">for</span> ddl_table_events<br><span class="hljs-keyword">as</span><br><span class="hljs-keyword">declare</span> <span class="hljs-variable">@weekday</span> <span class="hljs-type">int</span><br><span class="hljs-keyword">select</span> <span class="hljs-variable">@weekday</span><span class="hljs-operator">=</span>datepart(weekday,getdate())<br>if <span class="hljs-variable">@weekday</span> <span class="hljs-keyword">in</span> (<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>) <br>	<span class="hljs-keyword">begin</span> <br>	raiserror(<span class="hljs-string">&#x27;错误时间段，禁止操作&#x27;</span>,<span class="hljs-number">16</span>,<span class="hljs-number">1</span>)<br>	<span class="hljs-keyword">rollback</span><br><span class="hljs-keyword">end</span>;<br></code></pre></td></tr></table></figure>
 
 
