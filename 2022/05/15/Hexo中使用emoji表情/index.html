@@ -243,7 +243,7 @@
         
         
         
-          102 分钟
+          103 分钟
         
       </span>
     
@@ -307,27 +307,25 @@
 <p><a target="_blank" rel="noopener" href="https://blog.xaoxu.cn/archives/hexo-use-emoji">Hexo中使用emoji表情</a></p>
 <p><img src="https://cdn.jsdelivr.net/gh/XuxuGood/simple-blog-cdn@main/images/site-img/avatar.png" srcset="/img/loading.gif" lazyload alt="银河小徐"></p>
 <p><a target="_blank" rel="noopener" href="https://blog.xaoxu.cn/s/about">银河小徐</a></p>
-<p>2021-08-26/0 评论/10 点赞/29 阅读/11,918 字/推送成功！</p>
-<p>08/26</p>
+<p>2021-08-26&#x2F;0 评论&#x2F;10 点赞&#x2F;29 阅读&#x2F;11,918 字&#x2F;推送成功！</p>
+<p>08&#x2F;26</p>
 <p>温馨提示：</p>
 <p>本文最后更新于 2022-03-07，若内容或图片失效，请留言反馈。部分素材来自网络，若不小心影响到您的利益，请联系我们删除。</p>
 <p>Hexo 开启欢乐的 emoji 之旅 💛</p>
 <p>Hexo 默认的 markdown 渲染引擎不支持将 Github emoji 渲染到静态的 html 页面中，我们换一个支持 emoji 的引擎，再增加一个 emoji 插件即可.</p>
-<h2 id="安装">安装</h2>
-<p>命令行如下：</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>命令行如下：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm un hexo-renderer-marked --save<br>npm i hexo-renderer-markdown-it --save<br>npm install markdown-it-emoji --save<br></code></pre></td></tr></table></figure>
+
 <p>Tips：据说 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-renderer-markdown-it">hexo-renderer-markdown-it</a> 的速度要比 Hexo 原装插件要快，而且功能更多</p>
-<h2 id="配置">配置</h2>
-<p>完成插件安装后还需要修改 Hexo 站点配置文件 <code>_config.yml</code>（不是主题配置哦）</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>完成插件安装后还需要修改 Hexo 站点配置文件 <code>_config.yml</code>（不是主题配置哦）</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment">## markdown 渲染引擎配置，默认是hexo-renderer-marked，这个插件渲染速度更快，且有新特性</span><br><span class="hljs-attr">markdown:</span><br>  <span class="hljs-attr">render:</span><br>    <span class="hljs-attr">html:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">xhtmlOut:</span> <span class="hljs-literal">false</span><br>    <span class="hljs-attr">breaks:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">linkify:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">typographer:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">quotes:</span> <span class="hljs-string">&#x27;“”‘’&#x27;</span><br>  <span class="hljs-attr">plugins:</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-footnote</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-sup</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-sub</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-abbr</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">markdown-it-emoji</span><br>  <span class="hljs-attr">anchors:</span><br>    <span class="hljs-attr">level:</span> <span class="hljs-number">2</span><br>    <span class="hljs-attr">collisionSuffix:</span> <span class="hljs-string">&#x27;v&#x27;</span><br>    <span class="hljs-attr">permalink:</span> <span class="hljs-literal">false</span><br>    <span class="hljs-attr">permalinkClass:</span> <span class="hljs-string">header-anchor</span><br>    <span class="hljs-attr">permalinkSymbol:</span> <span class="hljs-string">¶</span><br></code></pre></td></tr></table></figure>
+
 <p>这里需要注意 <code>render:</code> 下的 <code>html:</code> 配置项，它的作用是控制 <code>Markdown</code> 渲染引擎是否转义文档中出现的 <code>html</code> 标签，默认为 <code>false</code> ，这里要设置为 <code>true</code>，否则回导致 <code>&lt;!--more--&gt;</code> 渲染失败。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">html: <span class="hljs-literal">true</span> <span class="hljs-comment"># 不转义 HTML 内容，即允许 HTML</span><br><span class="hljs-comment">## OR</span><br>html: <span class="hljs-literal">false</span> <span class="hljs-comment"># 转义 HTML，&lt; &gt; 尖括号会被转义成 &lt; &gt;等</span><br></code></pre></td></tr></table></figure>
+
 <p><code>plugins:</code> 中的最后一项 <code>- markdown-it-emoji</code> 是手动添加的，官方 Github Wiki 中给出的配置不包含这一项，其他配置参照的 Github Wiki 中的默认配置，hexo-renderer-markdown-it 提供的其他新特性还没有一一尝试，暂时只想用它的 emoji 功能。✌</p>
-<h2 id="使用方法">使用方法</h2>
-<p>输入对应的emoji编码就行了<br>
-例如：输入笑脸对应的 emoji 编码 <code>:smile:</code> 就可以得到 😄</p>
-<h2 id="emoji编码合集">emoji编码合集</h2>
-<p>People</p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>输入对应的emoji编码就行了<br>例如：输入笑脸对应的 emoji 编码 <code>:smile:</code> 就可以得到 😄</p>
+<h2 id="emoji编码合集"><a href="#emoji编码合集" class="headerlink" title="emoji编码合集"></a>emoji编码合集</h2><p>People</p>
 <table>
 <thead>
 <tr>
@@ -336,8 +334,7 @@
 <th>😆<code>:laughing:</code></th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>😊<code>:blush:</code></td>
 <td>😃<code>:smiley:</code></td>
 <td>☺️<code>:relaxed:</code></td>
@@ -637,8 +634,7 @@
 <td></td>
 <td></td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>Nature</p>
 <table>
 <thead>
@@ -648,8 +644,7 @@
 <th>☁️<code>:cloud:</code></th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>❄️<code>:snowflake:</code></td>
 <td>⛄️<code>:snowman:</code></td>
 <td>⚡️<code>:zap:</code></td>
@@ -834,8 +829,7 @@
 <td>⛅️<code>:partly_sunny:</code></td>
 <td></td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>Objects</p>
 <table>
 <thead>
@@ -845,8 +839,7 @@
 <th>🎎<code>:dolls:</code></th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>🎒<code>:school_satchel:</code></td>
 <td>🎓<code>:mortar_board:</code></td>
 <td>🎏<code>:flags:</code></td>
@@ -1276,8 +1269,7 @@
 <td></td>
 <td></td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>Places</p>
 <table>
 <thead>
@@ -1287,8 +1279,7 @@
 <th>🏫<code>:school:</code></th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>🏢<code>:office:</code></td>
 <td>🏣<code>:post_office:</code></td>
 <td>🏥<code>:hospital:</code></td>
@@ -1443,8 +1434,7 @@
 <td>🚩<code>:triangular_flag_on_post:</code></td>
 <td></td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>Symbols</p>
 <table>
 <thead>
@@ -1454,8 +1444,7 @@
 <th>3️⃣<code>:three:</code></th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>4️⃣<code>:four:</code></td>
 <td>5️⃣<code>:five:</code></td>
 <td>6️⃣<code>:six:</code></td>
@@ -1755,12 +1744,11 @@
 <td>🔸<code>:small_orange_diamond:</code></td>
 <td></td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p><a target="_blank" rel="noopener" href="https://blog.xaoxu.cn/tags/emoji">Emoji</a><a target="_blank" rel="noopener" href="https://blog.xaoxu.cn/tags/hexo">Hexo</a></p>
-<p>版权归属： 银河小徐</p>
-<p>本文链接： <a target="_blank" rel="noopener" href="https://blog.xaoxu.cn/archives/hexo-use-emoji">https://blog.xaoxu.cn/archives/hexo-use-emoji</a></p>
-<p>许可协议： 本文使用《<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)</a>》协议授权</p>
+<p> 版权归属： 银河小徐</p>
+<p> 本文链接： <a target="_blank" rel="noopener" href="https://blog.xaoxu.cn/archives/hexo-use-emoji">https://blog.xaoxu.cn/archives/hexo-use-emoji</a></p>
+<p> 许可协议： 本文使用《<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)</a>》协议授权</p>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
               
             </div>
