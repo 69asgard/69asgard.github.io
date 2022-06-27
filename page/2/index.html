@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="Alan Root">
   <meta name="keywords" content="">
@@ -66,7 +68,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -133,18 +135,6 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/">
-                <i class="iconfont icon-category-fill"></i>
-                分类
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
                 标签
@@ -160,6 +150,18 @@
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
                 关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
               </a>
             </li>
           
@@ -192,7 +194,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="天地与我并生，万物与我为一"></span>
+            <span id="subtitle" data-typed-text="天地与我并生，万物与我为一  "></span>
           
         </div>
 
@@ -230,13 +232,53 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/04/02/MATLAB%E8%AF%95%E9%94%99%E5%BD%95/" target="_self">
-          MATLAB试错录
+        <a href="/2022/04/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" target="_blank">
+          数据结构
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/04/02/MATLAB%E8%AF%95%E9%94%99%E5%BD%95/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/04/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" target="_blank">
+        <div>
+          
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-07 21:49" pubdate>
+              2022-04-07
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Note/">#Note</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/02/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/" target="_blank">
+          MATLAB练习记录册
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/04/02/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/" target="_blank">
         <div>
           不过是讨生活
         </div>
@@ -270,13 +312,53 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/03/30/5611185/" target="_self">
+        <a href="/2022/04/02/MATLAB%E8%AF%95%E9%94%99%E5%BD%95/" target="_blank">
+          MATLAB试错录
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/04/02/MATLAB%E8%AF%95%E9%94%99%E5%BD%95/" target="_blank">
+        <div>
+          不过是讨生活
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-02 07:49" pubdate>
+              2022-04-02
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Note/">#Note</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/03/30/5611185/" target="_blank">
           5611185
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/30/5611185/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/30/5611185/" target="_blank">
         <div>
           
         </div>
@@ -303,13 +385,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/03/20/IP%E5%9C%B0%E5%9B%BE/" target="_self">
+        <a href="/2022/03/20/IP%E5%9C%B0%E5%9B%BE/" target="_blank">
           IP地图
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/20/IP%E5%9C%B0%E5%9B%BE/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/20/IP%E5%9C%B0%E5%9B%BE/" target="_blank">
         <div>
           地图定位非常不准确呢，甚至还不如IP属地。。。
         </div>
@@ -343,13 +425,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/03/18/MATLABexample/" target="_self">
+        <a href="/2022/03/18/MATLABexample/" target="_blank">
           MATLAB-example
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/18/MATLABexample/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/18/MATLABexample/" target="_blank">
         <div>
           
         </div>
@@ -383,13 +465,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/03/11/text/" target="_self">
+        <a href="/2022/03/11/text/" target="_blank">
           公式渲染测试
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/11/text/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/11/text/" target="_blank">
         <div>
           text2333
         </div>
@@ -423,13 +505,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/03/09/%E5%85%B1%E8%BD%AD/" target="_self">
+        <a href="/2022/03/09/%E5%85%B1%E8%BD%AD/" target="_blank">
           Conjugate variables
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/09/%E5%85%B1%E8%BD%AD/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/09/%E5%85%B1%E8%BD%AD/" target="_blank">
         <div>
           共轭
         </div>
@@ -463,13 +545,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/03/09/%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88/" target="_self">
+        <a href="/2022/03/09/%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88/" target="_blank">
           Buffoon&#39;s needle problem
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/09/%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/09/%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88/" target="_blank">
         <div>
           蒲丰投针
         </div>
@@ -503,13 +585,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/03/09/%E3%80%8A%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88%E3%80%8B/" target="_self">
+        <a href="/2022/03/09/%E3%80%8A%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88%E3%80%8B/" target="_blank">
           One Hundred Thousand Whys/《十万个为什么》
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/09/%E3%80%8A%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88%E3%80%8B/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/09/%E3%80%8A%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88%E3%80%8B/" target="_blank">
         <div>
           为什么没有十万个呢？
         </div>
@@ -530,86 +612,6 @@
             <i class="iconfont icon-tags"></i>
             
               <a href="/tags/Note/">#Note</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2022/03/08/%E5%88%86%E5%BC%8F%E5%88%86%E6%AF%8D%E4%B8%8D%E4%B8%BA%E9%9B%B6%E7%9A%84%E8%AE%A8%E8%AE%BA/" target="_self">
-          Discussion about Fraction Denominator Not Zero
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/08/%E5%88%86%E5%BC%8F%E5%88%86%E6%AF%8D%E4%B8%8D%E4%B8%BA%E9%9B%B6%E7%9A%84%E8%AE%A8%E8%AE%BA/" target="_self">
-        <div>
-          分式分母不为零的讨论
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2022-03-08 23:08" pubdate>
-              2022-03-08
-            </time>
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Math/">#Math</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2022/03/08/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%A8%A1%E4%BB%BF/" target="_self">
-          learning and imitation/学习与模仿
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/03/08/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%A8%A1%E4%BB%BF/" target="_self">
-        <div>
-          人类可是复读机呢
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2022-03-08 17:58" pubdate>
-              2022-03-08
-            </time>
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Tool/">#Tool</a>
             
           </div>
         
@@ -699,6 +701,34 @@
 </div>
 
   
+  
+    <!-- 备案信息 ICP for China -->
+    <div class="beian">
+  <span>
+    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+      京ICP证123456号
+    </a>
+  </span>
+  
+    
+      <span>
+        <a
+          href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12345678"
+          rel="nofollow noopener"
+          class="beian-police"
+          target="_blank"
+        >
+          
+            <span style="visibility: hidden; width: 0">|</span>
+            <img src="/img/police_beian.png" srcset="/img/loading.gif" lazyload alt="police-icon"/>
+          
+          <span>京公网安备12345678号</span>
+        </a>
+      </span>
+    
+  
+</div>
+
   
   
 </div>

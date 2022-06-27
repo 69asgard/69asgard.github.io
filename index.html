@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#2f4154">
   <meta name="author" content="Alan Root">
   <meta name="keywords" content="">
@@ -66,7 +68,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -133,18 +135,6 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/">
-                <i class="iconfont icon-category-fill"></i>
-                分类
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
               <a class="nav-link" href="/tags/">
                 <i class="iconfont icon-tags-fill"></i>
                 标签
@@ -160,6 +150,18 @@
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
                 关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
               </a>
             </li>
           
@@ -192,7 +194,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="天地与我并生，万物与我为一"></span>
+            <span id="subtitle" data-typed-text="天地与我并生，万物与我为一  "></span>
           
         </div>
 
@@ -230,13 +232,114 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/05/15/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/" target="_self">
+        <a href="/2022/06/27/Hexo-Fluid-%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/" target="_blank">
+          Hexo Fluid 用户手册
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/06/27/Hexo-Fluid-%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/" target="_blank">
+        <div>
+          新的主题
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-06-27 13:58" pubdate>
+              2022-06-27
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Hexo/">#Hexo</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/06/27/Maurice/" target="_blank">
+          Maurice
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/06/27/Maurice/" target="_blank">
+        <div>
+          Maurice
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-06-27 12:44" pubdate>
+              2022-06-27
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/film/" class="category-chain-item">film</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/film/">#film</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/15/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/" target="_blank">
           Hexo中使用emoji表情
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/15/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/15/Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8emoji%E8%A1%A8%E6%83%85/" target="_blank">
         <div>
           转载测试
         </div>
@@ -270,13 +373,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/05/15/%E8%A5%BF%E8%A3%85%EF%BC%8C%E8%8A%B1%E6%9D%9F%E5%92%8C%E5%A9%9A%E7%A4%BC/" target="_self">
+        <a href="/2022/05/15/%E8%A5%BF%E8%A3%85%EF%BC%8C%E8%8A%B1%E6%9D%9F%E5%92%8C%E5%A9%9A%E7%A4%BC/" target="_blank">
           西装，花束和婚礼
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/15/%E8%A5%BF%E8%A3%85%EF%BC%8C%E8%8A%B1%E6%9D%9F%E5%92%8C%E5%A9%9A%E7%A4%BC/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/15/%E8%A5%BF%E8%A3%85%EF%BC%8C%E8%8A%B1%E6%9D%9F%E5%92%8C%E5%A9%9A%E7%A4%BC/" target="_blank">
         <div>
           Commitment and companionship.
         </div>
@@ -310,13 +413,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/05/15/%E3%80%8A%E5%A4%B1%E8%90%BD%E7%9A%84%E7%AB%A5%E5%B9%B4%E3%80%8B/" target="_self">
+        <a href="/2022/05/15/%E3%80%8A%E5%A4%B1%E8%90%BD%E7%9A%84%E7%AB%A5%E5%B9%B4%E3%80%8B/" target="_blank">
           《失落的童年》
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/15/%E3%80%8A%E5%A4%B1%E8%90%BD%E7%9A%84%E7%AB%A5%E5%B9%B4%E3%80%8B/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/15/%E3%80%8A%E5%A4%B1%E8%90%BD%E7%9A%84%E7%AB%A5%E5%B9%B4%E3%80%8B/" target="_blank">
         <div>
           其实也不然
         </div>
@@ -350,13 +453,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/05/14/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/" target="_self">
+        <a href="/2022/05/14/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/" target="_blank">
           MATLAB代码参考
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/14/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/14/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/" target="_blank">
         <div>
           由于需要Matlab代码的同学太多，以致于资源群日常满员。同时，因为部分同学表示github使用不方便，因此将代码直接放在专栏投稿，以便大家查阅。转载请注明出处。
         </div>
@@ -390,13 +493,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/05/10/%E8%9D%B4%E8%9D%B6%E8%9D%B4%E8%9D%B6/" target="_self">
+        <a href="/2022/05/10/%E8%9D%B4%E8%9D%B6%E8%9D%B4%E8%9D%B6/" target="_blank">
           蝴蝶蝴蝶
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/10/%E8%9D%B4%E8%9D%B6%E8%9D%B4%E8%9D%B6/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/10/%E8%9D%B4%E8%9D%B6%E8%9D%B4%E8%9D%B6/" target="_blank">
         <div>
           蝴蝶蝴蝶，带着我的心事，跳转梦境
         </div>
@@ -430,13 +533,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/05/10/2022-05-10/" target="_self">
+        <a href="/2022/05/10/2022-05-10/" target="_blank">
           2022/05/10
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/10/2022-05-10/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/10/2022-05-10/" target="_blank">
         <div>
           花香玫瑰
         </div>
@@ -470,13 +573,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/05/07/SQL-Server%E5%A4%8D%E4%B9%A0/" target="_self">
+        <a href="/2022/05/07/SQL-Server%E5%A4%8D%E4%B9%A0/" target="_blank">
           SQL Server复习
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/07/SQL-Server%E5%A4%8D%E4%B9%A0/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/07/SQL-Server%E5%A4%8D%E4%B9%A0/" target="_blank">
         <div>
           试一试咯
         </div>
@@ -510,13 +613,13 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/05/06/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/" target="_self">
+        <a href="/2022/05/06/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/" target="_blank">
           LaTeX入门尝试
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/06/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/05/06/LaTeX%E5%85%A5%E9%97%A8%E5%B0%9D%E8%AF%95/" target="_blank">
         <div>
           试一试咯
         </div>
@@ -539,86 +642,6 @@
               <a href="/tags/Note/">#Note</a>
             
               <a href="/tags/Physics/">#Physics</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2022/04/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" target="_self">
-          数据结构
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/04/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" target="_self">
-        <div>
-          
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2022-04-07 21:49" pubdate>
-              2022-04-07
-            </time>
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Note/">#Note</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2022/04/02/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/" target="_self">
-          MATLAB练习记录册
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/04/02/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/" target="_self">
-        <div>
-          不过是讨生活
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2022-04-02 07:49" pubdate>
-              2022-04-02
-            </time>
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Note/">#Note</a>
             
           </div>
         
@@ -708,6 +731,34 @@
 </div>
 
   
+  
+    <!-- 备案信息 ICP for China -->
+    <div class="beian">
+  <span>
+    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+      京ICP证123456号
+    </a>
+  </span>
+  
+    
+      <span>
+        <a
+          href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12345678"
+          rel="nofollow noopener"
+          class="beian-police"
+          target="_blank"
+        >
+          
+            <span style="visibility: hidden; width: 0">|</span>
+            <img src="/img/police_beian.png" srcset="/img/loading.gif" lazyload alt="police-icon"/>
+          
+          <span>京公网安备12345678号</span>
+        </a>
+      </span>
+    
+  
+</div>
+
   
   
 </div>

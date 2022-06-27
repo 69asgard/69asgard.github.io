@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2022-05-15T08:15:27.000Z</updated>
+  <updated>2022-06-27T05:58:44.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo Fluid 用户手册</title>
+    <link href="https://69asgard.github.io/2022/06/27/Hexo-Fluid-%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/"/>
+    <id>https://69asgard.github.io/2022/06/27/Hexo-Fluid-%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C/</id>
+    <published>2022-06-27T05:58:44.000Z</published>
+    <updated>2022-06-27T05:58:44.000Z</updated>
+    
+    
+    <summary type="html">新的主题</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://69asgard.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maurice</title>
+    <link href="https://69asgard.github.io/2022/06/27/Maurice/"/>
+    <id>https://69asgard.github.io/2022/06/27/Maurice/</id>
+    <published>2022-06-27T04:44:58.000Z</published>
+    <updated>2022-06-27T04:44:58.000Z</updated>
+    
+    
+    <summary type="html">Maurice</summary>
+    
+    
+    
+    <category term="film" scheme="https://69asgard.github.io/categories/film/"/>
+    
+    
+    <category term="film" scheme="https://69asgard.github.io/tags/film/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo中使用emoji表情</title>
@@ -322,40 +358,6 @@
     
     
     <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Discussion about Fraction Denominator Not Zero</title>
-    <link href="https://69asgard.github.io/2022/03/08/%E5%88%86%E5%BC%8F%E5%88%86%E6%AF%8D%E4%B8%8D%E4%B8%BA%E9%9B%B6%E7%9A%84%E8%AE%A8%E8%AE%BA/"/>
-    <id>https://69asgard.github.io/2022/03/08/%E5%88%86%E5%BC%8F%E5%88%86%E6%AF%8D%E4%B8%8D%E4%B8%BA%E9%9B%B6%E7%9A%84%E8%AE%A8%E8%AE%BA/</id>
-    <published>2022-03-08T15:08:43.000Z</published>
-    <updated>2022-03-08T15:08:43.000Z</updated>
-    
-    
-    <summary type="html">分式分母不为零的讨论</summary>
-    
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>learning and imitation/学习与模仿</title>
-    <link href="https://69asgard.github.io/2022/03/08/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%A8%A1%E4%BB%BF/"/>
-    <id>https://69asgard.github.io/2022/03/08/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E6%A8%A1%E4%BB%BF/</id>
-    <published>2022-03-08T09:58:00.000Z</published>
-    <updated>2022-03-08T09:58:00.000Z</updated>
-    
-    
-    <summary type="html">人类可是复读机呢</summary>
-    
-    
-    
-    
-    <category term="Tool" scheme="https://69asgard.github.io/tags/Tool/"/>
     
   </entry>
   
