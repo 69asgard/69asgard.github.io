@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2022-07-03T23:23:38.000Z</updated>
+  <updated>2022-07-06T06:44:39.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>等幂和</title>
+    <link href="https://69asgard.github.io/2022/07/06/%E7%AD%89%E5%B9%82%E5%92%8C/"/>
+    <id>https://69asgard.github.io/2022/07/06/%E7%AD%89%E5%B9%82%E5%92%8C/</id>
+    <published>2022-07-06T06:44:39.000Z</published>
+    <updated>2022-07-06T06:44:39.000Z</updated>
+    
+    
+    <summary type="html">The General Expressions for Sum of Equal Powers</summary>
+    
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
   
   <entry>
     <title>Kali壁纸路径</title>
@@ -312,8 +329,8 @@
   
   <entry>
     <title>公式渲染测试</title>
-    <link href="https://69asgard.github.io/2022/03/11/text/"/>
-    <id>https://69asgard.github.io/2022/03/11/text/</id>
+    <link href="https://69asgard.github.io/2022/03/11/%E5%85%AC%E5%BC%8F%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/"/>
+    <id>https://69asgard.github.io/2022/03/11/%E5%85%AC%E5%BC%8F%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</id>
     <published>2022-03-11T10:48:14.000Z</published>
     <updated>2022-03-11T10:48:14.000Z</updated>
     
@@ -336,23 +353,6 @@
     
     
     <summary type="html">共轭</summary>
-    
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Buffoon&#39;s needle problem</title>
-    <link href="https://69asgard.github.io/2022/03/09/%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88/"/>
-    <id>https://69asgard.github.io/2022/03/09/%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88/</id>
-    <published>2022-03-09T09:33:23.000Z</published>
-    <updated>2022-03-09T09:33:23.000Z</updated>
-    
-    
-    <summary type="html">蒲丰投针</summary>
     
     
     
