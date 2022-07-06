@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2022-06-27T05:58:44.000Z</updated>
+  <updated>2022-07-03T23:23:38.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kali壁纸路径</title>
+    <link href="https://69asgard.github.io/2022/07/04/Kali%E5%A3%81%E7%BA%B8%E8%B7%AF%E5%BE%84/"/>
+    <id>https://69asgard.github.io/2022/07/04/Kali%E5%A3%81%E7%BA%B8%E8%B7%AF%E5%BE%84/</id>
+    <published>2022-07-03T23:23:38.000Z</published>
+    <updated>2022-07-03T23:23:38.000Z</updated>
+    
+    
+    <summary type="html">emmmm</summary>
+    
+    
+    
+    
+    <category term="Linux" scheme="https://69asgard.github.io/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo Fluid 用户手册</title>
@@ -341,23 +358,6 @@
     
     
     <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>One Hundred Thousand Whys/《十万个为什么》</title>
-    <link href="https://69asgard.github.io/2022/03/09/%E3%80%8A%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88%E3%80%8B/"/>
-    <id>https://69asgard.github.io/2022/03/09/%E3%80%8A%E5%8D%81%E4%B8%87%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88%E3%80%8B/</id>
-    <published>2022-03-09T09:20:25.000Z</published>
-    <updated>2022-03-09T09:20:25.000Z</updated>
-    
-    
-    <summary type="html">为什么没有十万个呢？</summary>
-    
-    
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
   </entry>
   
