@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2022-07-06T06:44:39.000Z</updated>
+  <updated>2022-07-12T04:16:25.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,74 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>严金海采访实录 修改版v2.0</title>
+    <link href="https://69asgard.github.io/2022/07/12/%E4%B8%A5%E9%87%91%E6%B5%B7%E9%87%87%E8%AE%BF%E5%AE%9E%E5%BD%95%E4%BF%AE%E6%94%B9%E7%89%88v2-0/"/>
+    <id>https://69asgard.github.io/2022/07/12/%E4%B8%A5%E9%87%91%E6%B5%B7%E9%87%87%E8%AE%BF%E5%AE%9E%E5%BD%95%E4%BF%AE%E6%94%B9%E7%89%88v2-0/</id>
+    <published>2022-07-12T04:16:25.000Z</published>
+    <updated>2022-07-12T04:16:25.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;​            严金海采访实录&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/../images/%E4%B8%A5%E9%87%91%E6%B5%B7%E9%87%87%E8%AE%BF%E5%AE%9E%E5%BD%95%E4%BF%AE%E6%94%B9%E7%89%</summary>
+      
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>陈纪修老师采访修改稿</title>
+    <link href="https://69asgard.github.io/2022/07/11/%E9%99%88%E7%BA%AA%E4%BF%AE%E8%80%81%E5%B8%88%E9%87%87%E8%AE%BF%E4%BF%AE%E6%94%B9%E7%A8%BF/"/>
+    <id>https://69asgard.github.io/2022/07/11/%E9%99%88%E7%BA%AA%E4%BF%AE%E8%80%81%E5%B8%88%E9%87%87%E8%AE%BF%E4%BF%AE%E6%94%B9%E7%A8%BF/</id>
+    <published>2022-07-11T10:34:47.000Z</published>
+    <updated>2022-07-11T10:34:47.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;陈纪修老师采访稿整理&quot;&gt;&lt;a href=&quot;#陈纪修老师采访稿整理&quot; class=&quot;headerlink&quot; title=&quot;陈纪修老师采访稿整理&quot;&gt;&lt;/a&gt;陈纪修老师采访稿整理&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/../images/%E9%99%88%E7%BA%A</summary>
+      
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/categories/Math/"/>
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>哥德尔不完备定理</title>
+    <link href="https://69asgard.github.io/2022/07/10/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86/"/>
+    <id>https://69asgard.github.io/2022/07/10/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86/</id>
+    <published>2022-07-10T13:32:08.000Z</published>
+    <updated>2022-07-10T13:32:08.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;公理-Axioms&quot;&gt;&lt;a href=&quot;#公理-Axioms&quot; class=&quot;headerlink&quot; title=&quot;公理 Axioms&quot;&gt;&lt;/a&gt;公理 Axioms&lt;/h1&gt;&lt;p&gt;一直以来数学家们试图构建一套完整自洽的公理系统。&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;抽象化的</summary>
+      
+    
+    
+    
+    
+    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
+    
+  </entry>
   
   <entry>
     <title>等幂和</title>
@@ -307,57 +375,6 @@
     
     
     <category term="Tool" scheme="https://69asgard.github.io/tags/Tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MATLAB-example</title>
-    <link href="https://69asgard.github.io/2022/03/18/MATLABexample/"/>
-    <id>https://69asgard.github.io/2022/03/18/MATLABexample/</id>
-    <published>2022-03-18T15:42:46.000Z</published>
-    <updated>2022-03-18T15:42:46.000Z</updated>
-    
-    
-    <summary type="html">1314</summary>
-    
-    
-    
-    
-    <category term="MATLAB" scheme="https://69asgard.github.io/tags/MATLAB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>公式渲染测试</title>
-    <link href="https://69asgard.github.io/2022/03/11/%E5%85%AC%E5%BC%8F%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/"/>
-    <id>https://69asgard.github.io/2022/03/11/%E5%85%AC%E5%BC%8F%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/</id>
-    <published>2022-03-11T10:48:14.000Z</published>
-    <updated>2022-03-11T10:48:14.000Z</updated>
-    
-    
-    <summary type="html">text2333</summary>
-    
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Conjugate variables</title>
-    <link href="https://69asgard.github.io/2022/03/09/%E5%85%B1%E8%BD%AD/"/>
-    <id>https://69asgard.github.io/2022/03/09/%E5%85%B1%E8%BD%AD/</id>
-    <published>2022-03-09T09:39:16.000Z</published>
-    <updated>2022-03-09T09:39:16.000Z</updated>
-    
-    
-    <summary type="html">共轭</summary>
-    
-    
-    
-    
-    <category term="Math" scheme="https://69asgard.github.io/tags/Math/"/>
     
   </entry>
   
