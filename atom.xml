@@ -6,7 +6,7 @@
   <link href="https://69asgard.github.io/atom.xml" rel="self"/>
   
   <link href="https://69asgard.github.io/"/>
-  <updated>2022-07-12T04:16:25.000Z</updated>
+  <updated>2022-07-23T13:46:20.000Z</updated>
   <id>https://69asgard.github.io/</id>
   
   <author>
@@ -15,6 +15,91 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>庄生</title>
+    <link href="https://69asgard.github.io/2022/07/23/%E5%BA%84%E7%94%9F/"/>
+    <id>https://69asgard.github.io/2022/07/23/%E5%BA%84%E7%94%9F/</id>
+    <published>2022-07-23T13:46:20.000Z</published>
+    <updated>2022-07-23T13:46:20.000Z</updated>
+    
+    
+    <summary type="html">蝴蝶</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数分练习笔记</title>
+    <link href="https://69asgard.github.io/2022/07/23/%E6%95%B0%E5%88%86%E7%BB%83%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://69asgard.github.io/2022/07/23/%E6%95%B0%E5%88%86%E7%BB%83%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-07-23T07:32:39.000Z</published>
+    <updated>2022-07-23T07:32:39.000Z</updated>
+    
+    
+    <summary type="html">啦啦啦，我是卖报的小行家</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>笔记使用手册</title>
+    <link href="https://69asgard.github.io/2022/07/23/%E7%AC%94%E8%AE%B0%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
+    <id>https://69asgard.github.io/2022/07/23/%E7%AC%94%E8%AE%B0%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/</id>
+    <published>2022-07-23T07:06:06.000Z</published>
+    <updated>2022-07-23T07:06:06.000Z</updated>
+    
+    
+    <summary type="html">...</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>公式编辑疯魔吧</title>
+    <link href="https://69asgard.github.io/2022/07/22/%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91%E7%96%AF%E9%AD%94%E5%90%A7/"/>
+    <id>https://69asgard.github.io/2022/07/22/%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91%E7%96%AF%E9%AD%94%E5%90%A7/</id>
+    <published>2022-07-22T14:54:29.000Z</published>
+    <updated>2022-07-22T14:54:29.000Z</updated>
+    
+    
+    <summary type="html">不过是一场风</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数学建模</title>
+    <link href="https://69asgard.github.io/2022/07/19/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    <id>https://69asgard.github.io/2022/07/19/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/</id>
+    <published>2022-07-19T06:56:58.000Z</published>
+    <updated>2022-07-19T06:56:58.000Z</updated>
+    
+    
+    <summary type="html">不过是讨生活</summary>
+    
+    
+    
+    
+    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
+    
+  </entry>
   
   <entry>
     <title>严金海采访实录 修改版v2.0</title>
@@ -289,92 +374,6 @@
     <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
     
     <category term="Physics" scheme="https://69asgard.github.io/tags/Physics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构</title>
-    <link href="https://69asgard.github.io/2022/04/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    <id>https://69asgard.github.io/2022/04/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
-    <published>2022-04-07T13:49:26.000Z</published>
-    <updated>2022-04-07T13:49:26.000Z</updated>
-    
-    
-    <summary type="html">23333</summary>
-    
-    
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MATLAB练习记录册</title>
-    <link href="https://69asgard.github.io/2022/04/02/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/"/>
-    <id>https://69asgard.github.io/2022/04/02/MATLAB%E7%BB%83%E4%B9%A0%E8%AE%B0%E5%BD%95%E5%86%8C/</id>
-    <published>2022-04-01T23:49:53.000Z</published>
-    <updated>2022-04-01T23:49:53.000Z</updated>
-    
-    
-    <summary type="html">不过是讨生活</summary>
-    
-    
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MATLAB试错录</title>
-    <link href="https://69asgard.github.io/2022/04/02/MATLAB%E8%AF%95%E9%94%99%E5%BD%95/"/>
-    <id>https://69asgard.github.io/2022/04/02/MATLAB%E8%AF%95%E9%94%99%E5%BD%95/</id>
-    <published>2022-04-01T23:49:02.000Z</published>
-    <updated>2022-04-01T23:49:02.000Z</updated>
-    
-    
-    <summary type="html">不过是讨生活</summary>
-    
-    
-    
-    
-    <category term="Note" scheme="https://69asgard.github.io/tags/Note/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5611185</title>
-    <link href="https://69asgard.github.io/2022/03/30/5611185/"/>
-    <id>https://69asgard.github.io/2022/03/30/5611185/</id>
-    <published>2022-03-30T14:29:42.000Z</published>
-    <updated>2022-03-30T14:29:42.000Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;script type=&quot;text&amp;#x2F;javascript&quot; src=&quot;https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text&amp;#x2F;javascri</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>IP地图</title>
-    <link href="https://69asgard.github.io/2022/03/20/IP%E5%9C%B0%E5%9B%BE/"/>
-    <id>https://69asgard.github.io/2022/03/20/IP%E5%9C%B0%E5%9B%BE/</id>
-    <published>2022-03-20T01:00:44.000Z</published>
-    <updated>2022-03-20T01:00:44.000Z</updated>
-    
-    
-    <summary type="html">地图定位非常不准确呢，甚至还不如IP属地。。。</summary>
-    
-    
-    
-    
-    <category term="Tool" scheme="https://69asgard.github.io/tags/Tool/"/>
     
   </entry>
   

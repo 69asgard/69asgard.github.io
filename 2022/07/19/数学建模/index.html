@@ -1,0 +1,831 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Alan Root">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="不过是讨生活">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数学建模">
+<meta property="og:url" content="https://69asgard.github.io/2022/07/19/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/index.html">
+<meta property="og:site_name" content="太渊-Asgard">
+<meta property="og:description" content="不过是讨生活">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://69asgard.github.io/images/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/csiamlogo_small.jpg">
+<meta property="og:image" content="https://69asgard.github.io/images/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/image-20220724183002721.png">
+<meta property="article:published_time" content="2022-07-19T06:56:58.000Z">
+<meta property="article:author" content="Alan Root">
+<meta property="article:tag" content="Note">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://69asgard.github.io/images/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/csiamlogo_small.jpg">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>数学建模 - 太渊-Asgard</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/mac.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"69asgard.github.io","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+
+  
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="太渊-Asgard" type="application/atom+xml">
+</head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>太渊-Asgard</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="数学建模"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-author" aria-hidden="true"></i>
+        Alan Root
+      </span>
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2022-07-19 14:56" pubdate>
+          2022年7月19日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          1.5k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          9 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="padding-left: 2rem; margin-right: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">数学建模</h1>
+            
+            <div class="markdown-body">
+              
+              <h4 id="基础信息"><a href="#基础信息" class="headerlink" title="基础信息"></a>基础信息</h4><p><strong>欢迎参加世界上规模最大的数学建模竞赛 – 一次参赛，终生受益！</strong></p>
+<p>该竞赛创办于1992年，每年一届，是首批列入<a target="_blank" rel="noopener" href="http://rank.moocollege.com/"><strong>“高校学科竞赛排行榜”</strong></a>的19项竞赛之一。2021年，来自全国及美国、马来西亚等国家的1566所院校&#x2F;校区、49529队(本科组45075队、专科组4454队)、近15万人报名参赛。</p>
+<p>2022年赛题于竞赛开始时（2022年9月15日晚上6：00）发布在本站、<a target="_blank" rel="noopener" href="http://cumcm.cnki.net/">中国知网</a>、<a target="_blank" rel="noopener" href="http://dxs.moe.gov.cn/zx/qkt/sxjm/">中国大学生在线</a>、<a target="_blank" rel="noopener" href="http://www.hep.com.cn/">高等教育出版社</a>、<a target="_blank" rel="noopener" href="http://cumcm.icourses.cn/">中国高校数学建模课程中心</a>、<a target="_blank" rel="noopener" href="http://www.shumo.com/">中国数模</a>等网站。报名参赛、论文提交请通过<a target="_blank" rel="noopener" href="http://cumcm.cnki.net/">中国知网</a>进行。</p>
+<p><strong>竞赛主办单位及合作机构</strong><br><em>主办：</em> <a target="_blank" rel="noopener" href="http://www.csiam.org.cn/"><img src="/../images/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/csiamlogo_small.jpg" srcset="/img/loading.gif" lazyload alt="CSIAM">中国工业与应用数学学会</a><br><em>合作伙伴及独家冠名赞助商：</em> <a target="_blank" rel="noopener" href="http://www.hep.com.cn/">高等教育出版社</a>   <em>合作网站：</em><a target="_blank" rel="noopener" href="http://dxs.moe.gov.cn/zx/qkt/sxjm/">中国大学生在线网站</a><br><em>合作伙伴及服务支持赞助商：</em> <a target="_blank" rel="noopener" href="http://www.cnki.net/">中国知网</a><br><strong>联系方式:</strong> 电话：+86(10)6278-1785; Email: <a href="mailto:&#99;&#117;&#x6d;&#x63;&#109;&#64;&#x63;&#x73;&#x69;&#97;&#109;&#x2e;&#111;&#x72;&#x67;&#x2e;&#99;&#x6e;">&#99;&#117;&#x6d;&#x63;&#109;&#64;&#x63;&#x73;&#x69;&#97;&#109;&#x2e;&#111;&#x72;&#x67;&#x2e;&#99;&#x6e;</a></p>
+<h4 id="参考方案"><a href="#参考方案" class="headerlink" title="参考方案"></a>参考方案</h4><p>写论文的时候利用语音输入来加快书写速度，但是注意要发音准确一点，尽量减少校准错字。</p>
+<p>多看一些他们写的论文，能够评估并且快速领会到论文的要点是什么。</p>
+<p>参加比赛的论文和我们平常写的论文还是有不少差别的。</p>
+<p>准备一个word文档，里面就是一些小的插件，有一个模板。</p>
+<p>一些不错的点子，比方说插入一些思维导图。</p>
+<p>如果可以的话，尽量多学会一些算法，明白在处理什么问题的时候应当使用什么样的解法，更高效更便捷，当然实在不行比赛的时候再学也不迟。</p>
+<p>说那么多，其实还是多练习，多实践，多操作，无他，唯手熟尔。</p>
+<p>处理问题的时候学会把问题化解。化简问题在于，拆大为小、以小博大，化不能为能。</p>
+<p>这个比赛题目里面有一些公式可能太复杂了，打字敲进去的话效率可能太低了一点，干脆使用word自带的墨迹公式，配合我的数位板输入进去好了。</p>
+<p>还有很多图片要画，嗯，尽量不要使用数位板手写输入，那样会很奇怪。当然如果有那种把手写体变成印刷体的工具的话，倒也可以。</p>
+<p>事实证明，有不少公式用墨迹识别效果很差，比方说矩阵。</p>
+<h4 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h4><p>emmmm，这次比赛就用这个好了。</p>
+<p>排版要求2018年版</p>
+<p><img src="/../images/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/image-20220724183002721.png" srcset="/img/loading.gif" lazyload alt="image-20220724183002721"></p>
+<p>首行缩进开启和关闭的快捷键是什么？</p>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/28122209"><strong>写学术论文</strong>，<strong>需要学会哪些Word技巧</strong>? - 知乎</a></p>
+<h4 id="latex"><a href="#latex" class="headerlink" title="latex"></a>latex</h4><p>以后也会用呗，</p>
+<h4 id="MATLAB"><a href="#MATLAB" class="headerlink" title="MATLAB"></a>MATLAB</h4><p>作图</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-built_in">plot</span>(b) <span class="hljs-comment">%作图函数</span><br>grid on <span class="hljs-comment">%添加网格线</span><br></code></pre></td></tr></table></figure>
+
+<p>1、打开MATLAB的**plot函数的一个图形。 **</p>
+<p>2、<strong>在plot函数后加上grid on</strong>即可添加网格线。</p>
+<p>3、如果想要添加网格线的数据，及添加更密集的网格线，可以使用<strong>grid minor</strong>这个指令。</p>
+<br>
+
+<p>矩阵</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs matlab">A = [<span class="hljs-number">3</span> <span class="hljs-number">2</span> <span class="hljs-number">1</span>; <span class="hljs-number">2</span> <span class="hljs-number">4</span> <span class="hljs-number">1</span>; <span class="hljs-number">3</span> <span class="hljs-number">9</span> <span class="hljs-number">2</span>]	<span class="hljs-comment">%生成</span><br>B = A&#x27;	<span class="hljs-comment">%转置</span><br><br>[D,V] = eig(A)	<span class="hljs-comment">%特征向量、特征值</span><br>E = inv(A)	<span class="hljs-comment">%逆</span><br>F = A*E	<span class="hljs-comment">%乘法、验证逆矩阵</span><br></code></pre></td></tr></table></figure>
+
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><code class="hljs matlab">A = <br>     <span class="hljs-number">3</span>     <span class="hljs-number">2</span>     <span class="hljs-number">1</span><br>     <span class="hljs-number">2</span>     <span class="hljs-number">4</span>     <span class="hljs-number">1</span><br>     <span class="hljs-number">3</span>     <span class="hljs-number">9</span>     <span class="hljs-number">2</span><br><br>B = <br>     <span class="hljs-number">3</span>     <span class="hljs-number">2</span>     <span class="hljs-number">3</span><br>     <span class="hljs-number">2</span>     <span class="hljs-number">4</span>     <span class="hljs-number">9</span><br>     <span class="hljs-number">1</span>     <span class="hljs-number">1</span>     <span class="hljs-number">2</span><br><br>D = <span class="hljs-comment">%特征向量</span><br>   <span class="hljs-number">-0.3534</span>   <span class="hljs-number">-0.5691</span>   <span class="hljs-number">-0.2508</span><br>   <span class="hljs-number">-0.4152</span>    <span class="hljs-number">0.1144</span>   <span class="hljs-number">-0.1181</span><br>   <span class="hljs-number">-0.8383</span>    <span class="hljs-number">0.8143</span>    <span class="hljs-number">0.9608</span><br><br>V = <span class="hljs-comment">%特征值、按行对应</span><br>    <span class="hljs-number">7.7217</span>         <span class="hljs-number">0</span>         <span class="hljs-number">0</span><br>         <span class="hljs-number">0</span>    <span class="hljs-number">1.1673</span>         <span class="hljs-number">0</span><br>         <span class="hljs-number">0</span>         <span class="hljs-number">0</span>    <span class="hljs-number">0.1109</span><br><br>E = <br>   <span class="hljs-number">-1.0000</span>    <span class="hljs-number">5.0000</span>   <span class="hljs-number">-2.0000</span><br>   <span class="hljs-number">-1.0000</span>    <span class="hljs-number">3.0000</span>   <span class="hljs-number">-1.0000</span><br>    <span class="hljs-number">6.0000</span>  <span class="hljs-number">-21.0000</span>    <span class="hljs-number">8.0000</span><br><br>F = <span class="hljs-comment">%本身乘以逆矩阵为单位矩阵</span><br>    <span class="hljs-number">1.0000</span>         <span class="hljs-number">0</span>         <span class="hljs-number">0</span><br>    <span class="hljs-number">0.0000</span>    <span class="hljs-number">1.0000</span>         <span class="hljs-number">0</span><br>    <span class="hljs-number">0.0000</span>         <span class="hljs-number">0</span>    <span class="hljs-number">1.0000</span><br><br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p>你应该回过去好好把你的高等代数重新学一遍。</p>
+</blockquote>
+<p>求解A*x &#x3D; b , 使用反斜杠\ 运算符</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs matlab">b = [<span class="hljs-number">1</span> <span class="hljs-number">3</span> <span class="hljs-number">5</span>]<br>x = A\b<br></code></pre></td></tr></table></figure>
+
+<script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
+              
+            </div>
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Note/">#Note</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>数学建模</div>
+      <div>https://69asgard.github.io/2022/07/19/数学建模/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Alan Root</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2022年7月19日</div>
+        </div>
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2022/07/22/%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91%E7%96%AF%E9%AD%94%E5%90%A7/" title="公式编辑疯魔吧">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">公式编辑疯魔吧</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/07/12/%E4%B8%A5%E9%87%91%E6%B5%B7%E9%87%87%E8%AE%BF%E5%AE%9E%E5%BD%95%E4%BF%AE%E6%94%B9%E7%89%88v2-0/" title="严金海采访实录 修改版v2.0">
+                        <span class="hidden-mobile">严金海采访实录 修改版v2.0</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+    <!-- 备案信息 ICP for China -->
+    <div class="beian">
+  <span>
+    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+      京ICP证123456号
+    </a>
+  </span>
+  
+    
+      <span>
+        <a
+          href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12345678"
+          rel="nofollow noopener"
+          class="beian-police"
+          target="_blank"
+        >
+          
+            <span style="visibility: hidden; width: 0">|</span>
+            <img src="/img/police_beian.png" srcset="/img/loading.gif" lazyload alt="police-icon"/>
+          
+          <span>京公网安备12345678号</span>
+        </a>
+      </span>
+    
+  
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
+
+
+  <script>
+  (function() {
+    var enableLang = CONFIG.code_language.enable && CONFIG.code_language.default;
+    var enableCopy = CONFIG.copy_btn;
+    if (!enableLang && !enableCopy) {
+      return;
+    }
+
+    function getBgClass(ele) {
+      return Fluid.utils.getBackgroundLightness(ele) >= 0 ? 'code-widget-light' : 'code-widget-dark';
+    }
+
+    var copyTmpl = '';
+    copyTmpl += '<div class="code-widget">';
+    copyTmpl += 'LANG';
+    copyTmpl += '</div>';
+    jQuery('.markdown-body pre').each(function() {
+      var $pre = jQuery(this);
+      if ($pre.find('code.mermaid').length > 0) {
+        return;
+      }
+      if ($pre.find('span.line').length > 0) {
+        return;
+      }
+
+      var lang = '';
+
+      if (enableLang) {
+        lang = CONFIG.code_language.default;
+        if ($pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2 && $pre.children().hasClass('hljs')) {
+          lang = $pre[0].children[0].classList[1];
+        } else if ($pre[0].getAttribute('data-language')) {
+          lang = $pre[0].getAttribute('data-language');
+        } else if ($pre.parent().hasClass('sourceCode') && $pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2) {
+          lang = $pre[0].children[0].classList[1];
+          $pre.parent().addClass('code-wrapper');
+        } else if ($pre.parent().hasClass('markdown-body') && $pre[0].classList.length === 0) {
+          $pre.wrap('<div class="code-wrapper"></div>');
+        }
+        lang = lang.toUpperCase().replace('NONE', CONFIG.code_language.default);
+      }
+      $pre.append(copyTmpl.replace('LANG', lang).replace('code-widget">',
+        getBgClass($pre[0]) + (enableCopy ? ' code-widget copy-btn" data-clipboard-snippet><i class="iconfont icon-copy"></i>' : ' code-widget">')));
+
+      if (enableCopy) {
+        Fluid.utils.createScript('https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js', function() {
+          var clipboard = new window.ClipboardJS('.copy-btn', {
+            target: function(trigger) {
+              var nodes = trigger.parentNode.childNodes;
+              for (var i = 0; i < nodes.length; i++) {
+                if (nodes[i].tagName === 'CODE') {
+                  return nodes[i];
+                }
+              }
+            }
+          });
+          clipboard.on('success', function(e) {
+            e.clearSelection();
+            e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-copy', 'icon-success');
+            setTimeout(function() {
+              e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-success', 'icon-copy');
+            }, 2000);
+          });
+        });
+      }
+    });
+  })();
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        MathJax = {
+          tex    : {
+            inlineMath: { '[+]': [['$', '$']] }
+          },
+          loader : {
+            load: ['ui/lazy']
+          },
+          options: {
+            renderActions: {
+              findScript    : [10, doc => {
+                document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                  const display = !!node.type.match(/; *mode=display/);
+                  const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                  const text = document.createTextNode('');
+                  node.parentNode.replaceChild(text, node);
+                  math.start = { node: text, delim: '', n: 0 };
+                  math.end = { node: text, delim: '', n: 0 };
+                  doc.math.push(math);
+                });
+              }, '', false],
+              insertedScript: [200, () => {
+                document.querySelectorAll('mjx-container').forEach(node => {
+                  let target = node.parentNode;
+                  if (target.nodeName.toLowerCase() === 'li') {
+                    target.parentNode.classList.add('has-jax');
+                  }
+                });
+              }, '', false]
+            }
+          }
+        };
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.1/es5/tex-mml-chtml.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
