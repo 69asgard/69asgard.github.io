@@ -25,12 +25,12 @@
 <meta property="og:site_name" content="太渊-Asgard">
 <meta property="og:description" content="由于需要Matlab代码的同学太多，以致于资源群日常满员。同时，因为部分同学表示github使用不方便，因此将代码直接放在专栏投稿，以便大家查阅。转载请注明出处。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://69asgard.github.io/images/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/f2bff85f47dcfad30a29d380739a5ae60dfe1107.jpg@96w_96h_1c_1s.webp">
+<meta property="og:image" content="https://69asgard.github.io/2022/05/14/images/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/f2bff85f47dcfad30a29d380739a5ae60dfe1107.jpg@96w_96h_1c_1s.webp">
 <meta property="article:published_time" content="2022-05-14T04:27:30.000Z">
 <meta property="article:author" content="Alan Root">
 <meta property="article:tag" content="Note">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://69asgard.github.io/images/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/f2bff85f47dcfad30a29d380739a5ae60dfe1107.jpg@96w_96h_1c_1s.webp">
+<meta name="twitter:image" content="https://69asgard.github.io/2022/05/14/images/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/f2bff85f47dcfad30a29d380739a5ae60dfe1107.jpg@96w_96h_1c_1s.webp">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -232,7 +232,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          9.9k 字
+          9.2k 字
         
       </span>
     
@@ -243,7 +243,7 @@
         
         
         
-          55 分钟
+          52 分钟
         
       </span>
     
@@ -303,62 +303,388 @@
             
             <div class="markdown-body">
               
-              <h1 id="1小时Matlab速成代码资料"><a href="#1小时Matlab速成代码资料" class="headerlink" title="1小时Matlab速成代码资料"></a>1小时Matlab速成代码资料</h1><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/read/technology#rid=34?from=articleDetail">学习 </a>2020-10-15 21:213.7万阅读 · 1307喜欢 · 65评论</p>
-<p><a target="_blank" rel="noopener" href="https://space.bilibili.com/20703319"><img src="/../images/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/f2bff85f47dcfad30a29d380739a5ae60dfe1107.jpg@96w_96h_1c_1s.webp" srcset="/img/loading.gif" lazyload alt="img"></a></p>
+              <h1>1小时Matlab速成代码资料</h1>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/read/technology#rid=34?from=articleDetail">学习 </a>2020-10-15 21:213.7万阅读 · 1307喜欢 · 65评论</p>
+<p><a target="_blank" rel="noopener" href="https://space.bilibili.com/20703319"><img src="../images/MATLAB%E4%BB%A3%E7%A0%81%E5%8F%82%E8%80%83/f2bff85f47dcfad30a29d380739a5ae60dfe1107.jpg@96w_96h_1c_1s.webp" srcset="/img/loading.gif" lazyload alt="img"></a></p>
 <p><a target="_blank" rel="noopener" href="https://space.bilibili.com/20703319">glanny</a></p>
 <p>粉丝：7264文章：4</p>
 <p>关注</p>
 <p>由于需要Matlab代码的同学太多，以致于资源群日常满员。同时，因为部分同学表示github使用不方便，因此将代码直接放在专栏投稿，以便大家查阅。转载请注明出处。</p>
-<h2 id="第1部分：变量定义和基本运算"><a href="#第1部分：变量定义和基本运算" class="headerlink" title="第1部分：变量定义和基本运算"></a>第1部分：变量定义和基本运算</h2><blockquote>
+<h2 id="第1部分：变量定义和基本运算">第1部分：变量定义和基本运算</h2>
+<blockquote>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">%%</span><br><span class="hljs-comment">% 建议有C语言或其他编程基础，了解线性代数和矩阵相关知识</span><br><span class="hljs-comment">% https://ww2.mathworks.cn/help/matlab/</span><br><span class="hljs-comment">% 加*为了解内容</span><br><span class="hljs-comment">% 生成矩阵</span><br><span class="hljs-comment">% 直接法</span><br> a = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>;<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>];<br><span class="hljs-comment">% 冒号一维矩阵 a = 开始：步长：结束，步长为1可省略</span><br> b = <span class="hljs-number">1</span>:<span class="hljs-number">1</span>:<span class="hljs-number">10</span>; <span class="hljs-comment">% 1,2,...10</span><br> b = <span class="hljs-number">1</span>:<span class="hljs-number">10</span>; <span class="hljs-comment">%与上一个等价</span><br><span class="hljs-comment">% 函数生成</span><br> <span class="hljs-comment">% linspace(开始，结束，元素个数)，等差生成指定元素数的一维矩阵，省略个数则生成100个</span><br>   c = <span class="hljs-built_in">linspace</span>(<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">5</span>);<br> <span class="hljs-comment">% 特殊矩阵</span><br>   e = <span class="hljs-built_in">eye</span>(<span class="hljs-number">4</span>); <span class="hljs-comment">% eye(维数)单位阵</span><br>   z = <span class="hljs-built_in">zeros</span>(<span class="hljs-number">1</span>,<span class="hljs-number">4</span>); <span class="hljs-comment">% zeros(维数)全零阵</span><br>   o = <span class="hljs-built_in">ones</span>(<span class="hljs-number">4</span>,<span class="hljs-number">1</span>); <span class="hljs-comment">% ones(维数)全1阵</span><br>   r = <span class="hljs-built_in">rand</span>(<span class="hljs-number">4</span>); <span class="hljs-comment">% rand(维数)0~1分布随机阵</span><br>   rn = <span class="hljs-built_in">randn</span>(<span class="hljs-number">4</span>); <span class="hljs-comment">% randn(维数)0均值Gaussian分布随机阵</span><br></code></pre></td></tr></table></figure>
-
-<p>​            </p>
+<p>​</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">%%</span><br><span class="hljs-comment">% 矩阵运算</span><br>diag_a = <span class="hljs-built_in">diag</span>(a,<span class="hljs-number">1</span>); <span class="hljs-comment">% diag(行向量，主对角线上方第k条斜线)用行向量生成对角阵</span><br>tril_a = <span class="hljs-built_in">tril</span>(a,<span class="hljs-number">1</span>); <span class="hljs-comment">% tril(矩阵，主对角线上方第k条斜线)生成矩阵的下三角阵，triu上三角阵</span><br><span class="hljs-comment">% 加、减、乘、乘方</span><br> a*a<br><span class="hljs-comment">% 点运算</span><br> <span class="hljs-comment">% a.*b , a./b , a.\b , a.^b 对应元素的*,/,\,^运算</span><br> a.*a<br><span class="hljs-comment">% 逆矩阵</span><br> pinv(a) <span class="hljs-comment">% 伪逆矩阵，当a不是方阵，求广义逆矩阵；当a是可逆方阵，结果与逆矩阵相同</span><br><span class="hljs-comment">% 特征值，特征向量</span><br> [v,D] = eig(a); <span class="hljs-comment">% 输出v为特征向量，D为特征值对角阵</span><br><span class="hljs-comment">% *行列式</span><br> det(a)<br><span class="hljs-comment">% *秩</span><br> rank(a)<br><span class="hljs-comment">% *伴随</span><br> <span class="hljs-built_in">compan</span>(b)<br></code></pre></td></tr></table></figure>
-
-<p>​     </p>
+<p>​</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">%%</span><br><span class="hljs-comment">% 矩阵的修改</span><br><span class="hljs-comment">%部分替换</span><br> chg_a = a;<br> chg_a(<span class="hljs-number">2</span>,<span class="hljs-number">3</span>) = <span class="hljs-number">4</span>; <span class="hljs-comment">% (行，列)元素替换</span><br> chg_a(<span class="hljs-number">1</span>,:) = [<span class="hljs-number">2</span>,<span class="hljs-number">2</span>,<span class="hljs-number">2</span>]; <span class="hljs-comment">% (行,:)替换行，为[]删除该行</span><br> chg_a(:,<span class="hljs-number">1</span>) = []; <span class="hljs-comment">% (:,列)替换列，为[]删除该列</span><br><span class="hljs-comment">% 转置</span><br> T_a = a&#x27;;<br><span class="hljs-comment">% 指定维数拼接</span><br> c1_a = <span class="hljs-built_in">cat</span>(<span class="hljs-number">1</span>,a,a); <span class="hljs-comment">% 垂直拼接</span><br> c2_a = <span class="hljs-built_in">cat</span>(<span class="hljs-number">2</span>,a,a); <span class="hljs-comment">% 水平拼接</span><br><span class="hljs-comment">% *变维</span><br> rs_a = <span class="hljs-built_in">reshape</span>(a,<span class="hljs-number">1</span>,<span class="hljs-number">9</span>); <span class="hljs-comment">% 元素个数不变，矩阵变为m*n</span><br></code></pre></td></tr></table></figure>
-
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">%%</span><br><span class="hljs-comment">% 信息获取</span><br><span class="hljs-comment">% 矩阵的行列数</span><br> [row_a, col_a] = <span class="hljs-built_in">size</span>(a); <span class="hljs-comment">% [行数，列数]</span><br><span class="hljs-comment">% 行列中最大的</span><br> len_a = <span class="hljs-built_in">length</span>(a);<br></code></pre></td></tr></table></figure>
-
-<p>​     </p>
+<p>​</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">%%</span><br><span class="hljs-comment">% 多维数组</span><br><span class="hljs-comment">% 创建</span><br> <span class="hljs-comment">% 直接法</span><br>   mul_1(:,:,<span class="hljs-number">1</span>) = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>;<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>];<br>   mul_1(:,:,<span class="hljs-number">2</span>) = [<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>];<br> <span class="hljs-comment">% *扩展法</span><br>   mul_2 = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>;<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>];<br>   mul_2(:,:,<span class="hljs-number">2</span>) = [<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>]; <span class="hljs-comment">% 若不赋值第一页，第一页全为0</span><br> <span class="hljs-comment">% cat法</span><br>   mul_31 = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>;<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>];<br>   mul_32 = [<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>];<br>   mul_3 = <span class="hljs-built_in">cat</span>(<span class="hljs-number">3</span>,mul_31,mul_32); <span class="hljs-comment">% 把a1a2按照“3”维连接</span><br></code></pre></td></tr></table></figure>
-
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">%%</span><br><span class="hljs-comment">% *字符串</span><br><span class="hljs-comment">% 创建</span><br> str0 = <span class="hljs-string">&#x27;hello world&#x27;</span>; <span class="hljs-comment">% 单引号引起</span><br> str1 = <span class="hljs-string">&#x27;I&#x27;&#x27;m a student&#x27;</span>; <span class="hljs-comment">% 字符串中单引号写两遍</span><br> str3 = [<span class="hljs-string">&#x27;I&#x27;&#x27;m&#x27;</span> <span class="hljs-string">&#x27;a&#x27;</span> <span class="hljs-string">&#x27;student&#x27;</span>]; <span class="hljs-comment">% 方括号链接多字符串</span><br> str4 = strcat(str0, str1); <span class="hljs-comment">% strcat连接字符串函数</span><br> str5 = strvcat(str0, str1); <span class="hljs-comment">% strvcat连接产生多行字符串</span><br> str6 = double(str0); <span class="hljs-comment">% 取str0的ASCII值，也可用abs函数</span><br> str7 = char(str6); <span class="hljs-comment">% 把ASCII转为字符串</span><br><span class="hljs-comment">% 操作</span><br> <span class="hljs-comment">% 比较</span><br>   strcmp(str0, str1); <span class="hljs-comment">% 相等为1，不等为0</span><br>   strncmp(str0, str1, <span class="hljs-number">3</span>); <span class="hljs-comment">% 比较前3个是否相等(n)</span><br>   strcmpi(str0, str1); <span class="hljs-comment">% 忽略大小写比较(i)</span><br>   strncmpi(str0, str1, <span class="hljs-number">3</span>); <span class="hljs-comment">% 忽略大小写比较前3个是否相等</span><br> <span class="hljs-comment">% 查找替换</span><br>   strfind(str0, str1); <span class="hljs-comment">% 在str0找到str1的位置</span><br>   strmatch(str1, str0); <span class="hljs-comment">% 在str0字符串数组中找到str1开头的行数</span><br>   strtok(str0); <span class="hljs-comment">% 截取str0第一个分隔符（空格，tab，回车）前的部分</span><br>   strrep(str0, str1, str2); <span class="hljs-comment">% 在str0中用str2替换str1</span><br> <span class="hljs-comment">% 其他</span><br>   upper(str0); <span class="hljs-comment">% 转大写，lower转小写</span><br>   strjust(str0, <span class="hljs-string">&#x27;right&#x27;</span>); <span class="hljs-comment">% 将str0右对齐，left左对齐，center中间对齐</span><br>   strtrim(str0); <span class="hljs-comment">% 删除str0开头结尾空格</span><br>   eval(str0); <span class="hljs-comment">% 将str0作为代码执行</span><br><br><span class="hljs-comment">%%</span><br><span class="hljs-comment">%转换</span><br><span class="hljs-comment">% ___2___ --&gt; 如num2str，将数字转字符串； dec2hex，将十进制转十六进制</span><br>str_b = num2str(b);<br><span class="hljs-comment">% abs，double取ASCII码；char把ASCII转字符串</span><br>abs_str = <span class="hljs-built_in">abs</span>(<span class="hljs-string">&#x27;aAaA&#x27;</span>); <br></code></pre></td></tr></table></figure>
-
-
 </blockquote>
-<h2 id="第2部分：程序结构"><a href="#第2部分：程序结构" class="headerlink" title="第2部分：程序结构"></a>第2部分：程序结构</h2><blockquote>
-<p>%%<br>a &#x3D; 5;<br>x &#x3D; [1, 2]; y &#x3D;[3, 4];</p>
-<p>%%<br>%选择结构<br>  %if-elseif-else-end<br>    if a&gt;0<br>      disp(x);<br>    elseif a&#x3D;&#x3D;0<br>      disp(a);<br>    else<br>      disp(a-1);<br>    end</p>
-<p>  %switch-case-otherwise-end<br>    switch a<br>      case 0<br>        disp(a);<br>      case 1<br>        disp(a+1);<br>      otherwise<br>        disp(‘aaa’);<br>    end</p>
-<p>  %try-catch<br>    try<br>      z &#x3D; x*y;<br>    catch<br>      z &#x3D; x.*y; % 若try出错，则执行<br>    end<br>    disp(z);</p>
-<p>%%<br>% 循环结构<br>  % for 循环变量&#x3D;初值:步长:终值 - end<br>  for i&#x3D;0:1:10 % 步长为负，则初值大于终值<br>    disp(i); % 循环体内不可对循环变量做修改<br>  end</p>
-<p>  % while-end<br>  while a&gt;2<br>    disp(a);<br>    a &#x3D; a-1;<br>  end</p>
-<p>%%<br>%程序控制<br>  %continue 跳过当次循环剩下语句，进入下一循环<br>  %break 跳出当前循环<br>  %return 跳出程序并返回</p>
-<p>%%<br>%m文件<br>  %脚本文件：没有输入输出参数，执行后变量结果返回工作空间，可直接运行<br>    %以下是脚本文件，文件名假设为exp.m<br>    %**********************************************<br>      clear<br>      r &#x3D; 5;<br>      s &#x3D; pi<em>r</em>r;<br>      p &#x3D; 2<em>pi</em>r;<br>      disp(s)<br>      disp(p)<br>    %**********************************************<br>    %以下是调用<br>    %**********************************************<br>      exp<br>    %**********************************************<br>  %函数文件：以function开头，有输入输出，变量为局部变量不返回工作空间，需要调用<br>    %以下是函数文件<br>    %**********************************************<br>      function [s, p] &#x3D; circ(r) % 文件命名应与函数名一致，系统找文件名circ.m<br>      %CIRC 计算圆面积和周长 % 简单说明<br>      %参数：输入参数r:圆半径；输出参数s:圆面积，p:周长 % 详细说明<br>        s &#x3D; pi<em>r</em>r;<br>        p &#x3D; 2<em>pi</em>r;<br>      end<br>    %**********************************************<br>    %以下是调用<br>    %**********************************************<br>      [a, b] &#x3D; circ(5); % 返回为多个参数时，若写a &#x3D; circ(5)则保留第一个返回值<br>    %**********************************************<br>    %<em>以下是带子函数的函数文件<br>    %</em>*********************************************<br>    function y &#x3D; key(w) % 主函数放第一个，函数名为key<br>      if w&#x3D;&#x3D;0<br>        y &#x3D; type0(w); % 调用子函数type0<br>      else<br>        y &#x3D; type1(w);<br>      end<br>    end<br>    function y0 &#x3D; type0(a) % 子函数，各子函数之间顺序无所谓<br>      y0 &#x3D; a+1;<br>    end<br>    function y1 &#x3D; type1(a)<br>      y1 &#x3D; a+4;<br>    end<br>    %**********************************************<br>    %<em>函数输入输出参数可以不定<br>    %nargin：输入参数个数，nargout：输出参数个数<br>    %varargin：输入参数内容的元胞数组，varargout：输出参数<br>    %以下是函数文件<br>    %</em>*********************************************<br>    function varargout &#x3D; idk(varargin)<br>      x &#x3D; length(varargin);<br>      varargout{1} &#x3D; x;<br>      varargout{2} &#x3D; x+1;<br>    end<br>    %********************************************** </p>
+<h2 id="第2部分：程序结构">第2部分：程序结构</h2>
+<blockquote>
+<p>%%<br>
+a = 5;<br>
+x = [1, 2]; y =[3, 4];</p>
+<p>%%<br>
+%选择结构<br>
+%if-elseif-else-end<br>
+if a&gt;0<br>
+disp(x);<br>
+elseif a==0<br>
+disp(a);<br>
+else<br>
+disp(a-1);<br>
+end</p>
+<p>%switch-case-otherwise-end<br>
+switch a<br>
+case 0<br>
+disp(a);<br>
+case 1<br>
+disp(a+1);<br>
+otherwise<br>
+disp(‘aaa’);<br>
+end</p>
+<p>%try-catch<br>
+try<br>
+z = x*y;<br>
+catch<br>
+z = x.*y; % 若try出错，则执行<br>
+end<br>
+disp(z);</p>
+<p>%%<br>
+% 循环结构<br>
+% for 循环变量=初值:步长:终值 - end<br>
+for i=0:1:10 % 步长为负，则初值大于终值<br>
+disp(i); % 循环体内不可对循环变量做修改<br>
+end</p>
+<p>% while-end<br>
+while a&gt;2<br>
+disp(a);<br>
+a = a-1;<br>
+end</p>
+<p>%%<br>
+%程序控制<br>
+%continue 跳过当次循环剩下语句，进入下一循环<br>
+%break 跳出当前循环<br>
+%return 跳出程序并返回</p>
+<p>%%<br>
+%m文件<br>
+%脚本文件：没有输入输出参数，执行后变量结果返回工作空间，可直接运行<br>
+%以下是脚本文件，文件名假设为exp.m<br>
+%**********************************************<br>
+clear<br>
+r = 5;<br>
+s = pi<em>r</em>r;<br>
+p = 2<em>pi</em>r;<br>
+disp(s)<br>
+disp§<br>
+%**********************************************<br>
+%以下是调用<br>
+%**********************************************<br>
+exp<br>
+%**********************************************<br>
+%函数文件：以function开头，有输入输出，变量为局部变量不返回工作空间，需要调用<br>
+%以下是函数文件<br>
+%**********************************************<br>
+function [s, p] = circ® % 文件命名应与函数名一致，系统找文件名circ.m<br>
+%CIRC 计算圆面积和周长 % 简单说明<br>
+%参数：输入参数r:圆半径；输出参数s:圆面积，p:周长 % 详细说明<br>
+s = pi<em>r</em>r;<br>
+p = 2<em>pi</em>r;<br>
+end<br>
+%**********************************************<br>
+%以下是调用<br>
+%**********************************************<br>
+[a, b] = circ(5); % 返回为多个参数时，若写a = circ(5)则保留第一个返回值<br>
+%**********************************************<br>
+%<em>以下是带子函数的函数文件<br>
+%</em>*********************************************<br>
+function y = key(w) % 主函数放第一个，函数名为key<br>
+if w==0<br>
+y = type0(w); % 调用子函数type0<br>
+else<br>
+y = type1(w);<br>
+end<br>
+end<br>
+function y0 = type0(a) % 子函数，各子函数之间顺序无所谓<br>
+y0 = a+1;<br>
+end<br>
+function y1 = type1(a)<br>
+y1 = a+4;<br>
+end<br>
+%**********************************************<br>
+%<em>函数输入输出参数可以不定<br>
+%nargin：输入参数个数，nargout：输出参数个数<br>
+%varargin：输入参数内容的元胞数组，varargout：输出参数<br>
+%以下是函数文件<br>
+%</em>*********************************************<br>
+function varargout = idk(varargin)<br>
+x = length(varargin);<br>
+varargout{1} = x;<br>
+varargout{2} = x+1;<br>
+end<br>
+%**********************************************</p>
 </blockquote>
-<h2 id="第3部分：图像绘制"><a href="#第3部分：图像绘制" class="headerlink" title="第3部分：图像绘制"></a>第3部分：图像绘制</h2><blockquote>
-<p>%%<br>x &#x3D; 0:0.1:2*pi;<br>y1 &#x3D; sin(x);<br>y2 &#x3D; cos(x);</p>
-<p>%%<br>% 二维曲线绘制<br>  % 基本函数<br>    % plot(y)<br>      % y为向量<br>        plot(y1); % 纵坐标为y的值；横坐标自动为元素序号(角标+1)，此处为1~9<br>      % y为矩阵<br>        figure; % 开启新绘图窗口，下一次绘图在新窗口<br>        y &#x3D; [y1’, y2’];<br>        plot(y); % 当y为矩阵，按每一列画出曲线，颜色自动区分<br>    % plot(x, y)<br>      % xy为向量<br>        plot(x, y1); % 先绘制曲线<br>    % plot(x1, y1, x2, y2…)<br>      plot(x, y1, x, y2); % 在同一个窗口同一坐标轴绘制多条曲线<br>  % 线性图形格式设置<br>    % 线形颜色数据点<br>      plot(x, y1, ‘b:o’); % 蓝色 点线 圆圈<br>      % b蓝 g绿 r红 c青 m紫 y黄 k黑 w白<br>      % -实线 :点线 –虚线 -.点画线<br>      % .实点 o圆圈 x叉 +十字 <em>星号 s方块 d钻石 v下三角 ^上三角 &lt;左三角 &gt;右三角 p五角星 h六角星<br>    % 坐标轴<br>      plot(x, y1);<br>      axis([-1</em>pi, 3*pi, -1.5, 1.5]); % 规定横纵坐标范围<br>   % 图形修饰<br>    % 标题标签<br>      title(‘a title’); % 图像标题<br>      xlabel(‘this is x’); % x轴标记，同理还有ylabel，zlabel<br>    %图例设置<br>      legend(‘hahaha’, ‘location’, ‘best’); % str的顺序与绘图顺序一致; ‘best’指图例位置最佳化，还有其他位置<br>    %图形保持<br>      plot(x, y1);<br>      hold on; % 在原有窗口y1曲线上增加绘制下一个图形<br>      plot(x, y2); % y2在同一窗口内被绘制<br>      hold off;<br>    %分割绘制<br>      subplot(2, 2, 1); % 分割成2x2区域，在第一块区域绘制下一个图形<br>      plot(x, y1); % y1被绘制在4块区域的第一块<br>      subplot(2, 2, 2); % 分割方法相同，区域改变<br>      plot(x, y2); % y2在第二块区域</p>
-<p>%%<br>%<em>二维特殊图形绘制<br>  %柱状图<br>    bar(x, y, width, ‘参数’); % x横坐标向量，m个元素; y为向量时，每个x画一竖条共m条，矩阵mxn时，每个x画n条;<br>                  % width宽度默认0.8，超过1各条会重叠;<br>                  % 参数有grouped分组式，stacked堆栈式; 默认grouped<br>                  % bar垂直柱状图,barh水平柱状图,bar3三维柱状图,barh3水平三维柱状图(三维多一个参数detached, 且为默认)<br>  %饼形图<br>    pie(x, explode, ‘lable’); % x为向量显示每个元素占总和百分比, 为矩阵显示每个元素占所有总和百分比<br>                  % explode向量与x同长度，为1表示该元素被分离突出显示，默认全0不分离<br>                  % pie3绘制三维饼图<br>  %直方图<br>    hist(y, n); % y为向量，把横坐标分为n段绘制<br>    hist(y, x); % x为向量，用于指定每段中间值, 若取N &#x3D; hist(y, x), N为每段元素个数<br>  %离散数据图<br>    stairs(x, y, ‘b-o’); % 阶梯图，参数同plot<br>    stem(x, y, ‘fill’); % 火柴杆图，参数fill是填充火柴杆，或定义线形<br>    candle(HI, LO, CL, OP); % 蜡烛图:HI为最高价格向量,LO为最低价格向量,CL为收盘价格向量,OP为开盘价格向量<br>  %向量图<br>    compass(u, v, ‘b-o’); % 罗盘图横坐标u纵坐标v<br>    compass(Z, ‘b-o’); % 罗盘图复向量Z<br>    feather(u, v, ‘b-o’); % 羽毛图横坐标u纵坐标v<br>    feather(Z, ‘b-o’); % 羽毛图复向量Z<br>    quiver(x, y, u, v); % 以(x, y)为起点(u, v)为终点向量场图<br>  %极坐标图<br>    % polar(theta, rho, ‘b-o’); % 极角theta, 半径rho<br>    theta &#x3D; -pi:0.01:pi;<br>    rho &#x3D; sin(theta);<br>    polar(theta, rho, ‘b’)<br>  %对数坐标图<br>    semilogx(x1, y1, ‘b-o’); % 把x轴对数刻度表示, semilogy是y轴对数刻度表示，loglog是两个坐标都用对数表示<br>  %双纵坐标<br>    plotyy(x1, y1, x2, y2, ‘fun1’, ‘fun2’); % fun规定了两条条线的绘制方式，如plot,semilogx,semilogy,loglog,stem等<br>  %函数绘图<br>    f &#x3D; ‘sin(2</em>x)’;<br>    ezplot(f, [0, 2<em>pi]); % 绘制f并规定横坐标范围，也有[xmin, xmax, ymin, ymax]<br>    x &#x3D; ‘2</em>cos(t)’;<br>    y &#x3D; ‘4<em>sin(t)’;<br>    ezplot(x, y); % 绘制x(t),y(t)在[0, 2</em>pi]图像, 也可以在最后用[tmin, tmax]规定t的范围</p>
-<p>%%<br>%三维曲线曲面绘制<br>  %三维曲线<br>    x &#x3D; 0:0.1:2<em>pi;<br>    y &#x3D; sin(x); z &#x3D; cos(x);<br>    plot3(x, y, z, ‘b-</em>‘);<br>  %三维曲面<br>    %三维网格<br>      x &#x3D; -5:0.1:5; % 规定了x轴采样点，也规定了x轴范围<br>      y &#x3D; -4:0.1:4; % 规定了y轴采样点，也规定了y轴范围<br>      [X, Y] &#x3D; meshgrid(x, y); % 得到了xoy面网格点<br>      Z &#x3D; X.^2+Y.^2;<br>      mesh(X, Y, Z) % XY是meshgrid得到的网格点，Z是网格顶点，c是用色矩阵可省略<br>    %三维表面图<br>      x &#x3D; -5:0.1:5;<br>      y &#x3D; -4:0.1:4;<br>      [X, Y] &#x3D; meshgrid(x, y);<br>      Z &#x3D; X.^2+Y.^2; % 以上部分同上<br>      surf(X, Y, Z) % 与上一个类似</p>
+<h2 id="第3部分：图像绘制">第3部分：图像绘制</h2>
+<blockquote>
+<p>%%<br>
+x = 0:0.1:2*pi;<br>
+y1 = sin(x);<br>
+y2 = cos(x);</p>
+<p>%%<br>
+% 二维曲线绘制<br>
+% 基本函数<br>
+% plot(y)<br>
+% y为向量<br>
+plot(y1); % 纵坐标为y的值；横坐标自动为元素序号(角标+1)，此处为1~9<br>
+% y为矩阵<br>
+figure; % 开启新绘图窗口，下一次绘图在新窗口<br>
+y = [y1’, y2’];<br>
+plot(y); % 当y为矩阵，按每一列画出曲线，颜色自动区分<br>
+% plot(x, y)<br>
+% xy为向量<br>
+plot(x, y1); % 先绘制曲线<br>
+% plot(x1, y1, x2, y2…)<br>
+plot(x, y1, x, y2); % 在同一个窗口同一坐标轴绘制多条曲线<br>
+% 线性图形格式设置<br>
+% 线形颜色数据点<br>
+plot(x, y1, ‘b:o’); % 蓝色 点线 圆圈<br>
+% b蓝 g绿 r红 c青 m紫 y黄 k黑 w白<br>
+% -实线 :点线 --虚线 -.点画线<br>
+% .实点 o圆圈 x叉 +十字 <em>星号 s方块 d钻石 v下三角 ^上三角 &lt;左三角 &gt;右三角 p五角星 h六角星<br>
+% 坐标轴<br>
+plot(x, y1);<br>
+axis([-1</em>pi, 3*pi, -1.5, 1.5]); % 规定横纵坐标范围<br>
+% 图形修饰<br>
+% 标题标签<br>
+title(‘a title’); % 图像标题<br>
+xlabel(‘this is x’); % x轴标记，同理还有ylabel，zlabel<br>
+%图例设置<br>
+legend(‘hahaha’, ‘location’, ‘best’); % str的顺序与绘图顺序一致; 'best’指图例位置最佳化，还有其他位置<br>
+%图形保持<br>
+plot(x, y1);<br>
+hold on; % 在原有窗口y1曲线上增加绘制下一个图形<br>
+plot(x, y2); % y2在同一窗口内被绘制<br>
+hold off;<br>
+%分割绘制<br>
+subplot(2, 2, 1); % 分割成2x2区域，在第一块区域绘制下一个图形<br>
+plot(x, y1); % y1被绘制在4块区域的第一块<br>
+subplot(2, 2, 2); % 分割方法相同，区域改变<br>
+plot(x, y2); % y2在第二块区域</p>
+<p>%%<br>
+%<em>二维特殊图形绘制<br>
+%柱状图<br>
+bar(x, y, width, ‘参数’); % x横坐标向量，m个元素; y为向量时，每个x画一竖条共m条，矩阵mxn时，每个x画n条;<br>
+% width宽度默认0.8，超过1各条会重叠;<br>
+% 参数有grouped分组式，stacked堆栈式; 默认grouped<br>
+% bar垂直柱状图,barh水平柱状图,bar3三维柱状图,barh3水平三维柱状图(三维多一个参数detached, 且为默认)<br>
+%饼形图<br>
+pie(x, explode, ‘lable’); % x为向量显示每个元素占总和百分比, 为矩阵显示每个元素占所有总和百分比<br>
+% explode向量与x同长度，为1表示该元素被分离突出显示，默认全0不分离<br>
+% pie3绘制三维饼图<br>
+%直方图<br>
+hist(y, n); % y为向量，把横坐标分为n段绘制<br>
+hist(y, x); % x为向量，用于指定每段中间值, 若取N = hist(y, x), N为每段元素个数<br>
+%离散数据图<br>
+stairs(x, y, ‘b-o’); % 阶梯图，参数同plot<br>
+stem(x, y, ‘fill’); % 火柴杆图，参数fill是填充火柴杆，或定义线形<br>
+candle(HI, LO, CL, OP); % 蜡烛图:HI为最高价格向量,LO为最低价格向量,CL为收盘价格向量,OP为开盘价格向量<br>
+%向量图<br>
+compass(u, v, ‘b-o’); % 罗盘图横坐标u纵坐标v<br>
+compass(Z, ‘b-o’); % 罗盘图复向量Z<br>
+feather(u, v, ‘b-o’); % 羽毛图横坐标u纵坐标v<br>
+feather(Z, ‘b-o’); % 羽毛图复向量Z<br>
+quiver(x, y, u, v); % 以(x, y)为起点(u, v)为终点向量场图<br>
+%极坐标图<br>
+% polar(theta, rho, ‘b-o’); % 极角theta, 半径rho<br>
+theta = -pi:0.01:pi;<br>
+rho = sin(theta);<br>
+polar(theta, rho, ‘b’)<br>
+%对数坐标图<br>
+semilogx(x1, y1, ‘b-o’); % 把x轴对数刻度表示, semilogy是y轴对数刻度表示，loglog是两个坐标都用对数表示<br>
+%双纵坐标<br>
+plotyy(x1, y1, x2, y2, ‘fun1’, ‘fun2’); % fun规定了两条条线的绘制方式，如plot,semilogx,semilogy,loglog,stem等<br>
+%函数绘图<br>
+f = 'sin(2</em>x)‘;<br>
+ezplot(f, [0, 2<em>pi]); % 绘制f并规定横坐标范围，也有[xmin, xmax, ymin, ymax]<br>
+x = '2</em>cos(t)’;<br>
+y = '4<em>sin(t)';<br>
+ezplot(x, y); % 绘制x(t),y(t)在[0, 2</em>pi]图像, 也可以在最后用[tmin, tmax]规定t的范围</p>
+<p>%%<br>
+%三维曲线曲面绘制<br>
+%三维曲线<br>
+x = 0:0.1:2<em>pi;<br>
+y = sin(x); z = cos(x);<br>
+plot3(x, y, z, 'b-</em>');<br>
+%三维曲面<br>
+%三维网格<br>
+x = -5:0.1:5; % 规定了x轴采样点，也规定了x轴范围<br>
+y = -4:0.1:4; % 规定了y轴采样点，也规定了y轴范围<br>
+[X, Y] = meshgrid(x, y); % 得到了xoy面网格点<br>
+Z = X.^2+Y.^2;<br>
+mesh(X, Y, Z) % XY是meshgrid得到的网格点，Z是网格顶点，c是用色矩阵可省略<br>
+%三维表面图<br>
+x = -5:0.1:5;<br>
+y = -4:0.1:4;<br>
+[X, Y] = meshgrid(x, y);<br>
+Z = X.^2+Y.^2; % 以上部分同上<br>
+surf(X, Y, Z) % 与上一个类似</p>
 </blockquote>
-<h2 id="第4部分：多项式"><a href="#第4部分：多项式" class="headerlink" title="第4部分：多项式"></a>第4部分：多项式</h2><blockquote>
-<p>%%<br>%多项式<br>  %创建<br>    p &#x3D; [1, 2, 3, 4]; % 系数向量，按x降幂排列，最右边是常数<br>    f1 &#x3D; poly2str(p, ‘x’); % 生成好看的字符串 f1 &#x3D; x^3 + 2 x^2 + 3 x + 4，不被认可的运算式<br>    f2 &#x3D; poly2sym(p); % 生成可用的符号函数 f2 &#x3D; x^3 + 2<em>x^2 + 3</em>x + 4<br>  %求值<br>    x &#x3D; 4;<br>    y1 &#x3D; polyval(p, x); % 代入求值；若x1为矩阵，则对每个值单独求值<br>  %求根<br>    r &#x3D; roots(p); % p同上，由系数求根，结果为根植矩阵<br>    p0 &#x3D; poly(r); % 由根求系数，结果为系数矩阵</p>
-<p>%%<br>%数据插值<br>  %一维插值<br>    %yi &#x3D; interp1(X, Y, xi, ‘method’)<br>    X &#x3D; [-3, -1, 0, 1, 3];<br>    Y &#x3D; [9, 1, 0, 1, 9]; % XY为已知点横纵坐标向量<br>    y2 &#x3D; interp1(X, Y, 2); % 差值预估在x&#x3D;2的y的值，x不能超过已知范围(此处x&lt;3)<br>    y2m &#x3D; interp1(X, Y, 2, ‘spline’); % 用spline方法(三次样条)差值预估在x&#x3D;2的y的值<br>  %二维插值<br>    %zi &#x3D; interp1(X, Y, Z, xi, yi, ‘method’)</p>
-<p>%%<br>X &#x3D; [2, 3, 9, 15, 6, 7, 4];<br>A &#x3D; [1, 7, 2; 9, 5, 3; 8, 4 ,6];<br>B &#x3D; [1, 7, 3; 9, 5, 3; 8, 4 ,6];<br>%数据统计<br>  %矩阵最大最小值<br>    y &#x3D; max(X); % 求矩阵X的最大值，min最小值<br>    [y, k] &#x3D; max(X); % 求最大值，k为该值的角标<br>    [y, k] &#x3D; max(A, [], 2); % A是矩阵，’2’时返回y每一行最大元素构成的列向量，k元素所在列；’1’时与上述相同<br>  %均值和中值<br>    y &#x3D; mean(X); % 均值<br>    y &#x3D; median(X); % 中值<br>    y &#x3D; mean(A, 2); % ‘2’时返回y每一行均值构成的列向量；’1’时与上述相同<br>    y &#x3D; median(A, 2); % ‘2’时返回y每一行中值构成的列向量；’1’时与上述相同<br>  %排序<br>    Y &#x3D; sort(A, 1, ‘ascend’); % sort(矩阵, dim, ‘method’)dim为1按列排序，2按行排序；ascend升序，descend降序<br>    [Y, I] &#x3D; sort(A, 1, ‘ascend’); % I保留了元素之前在A的位置<br>  %求和求积累加累乘<br>    y &#x3D; sum(X); % 求和<br>    y &#x3D; prod(X); % 求积<br>    y &#x3D; cumsum(X); % 累加<br>    y &#x3D; cumprod(X); % 累乘</p>
-<p>%%<br>%*数值计算<br>  %最(极)值<br>    %多元函数在给定初值附近找最小值点<br>    x &#x3D; fminsearch(fun, x0);<br>  %函数零点<br>    x &#x3D; fzero(fun, x0); % 在给定初值x0附近找零点</p>
+<h2 id="第4部分：多项式">第4部分：多项式</h2>
+<blockquote>
+<p>%%<br>
+%多项式<br>
+%创建<br>
+p = [1, 2, 3, 4]; % 系数向量，按x降幂排列，最右边是常数<br>
+f1 = poly2str(p, ‘x’); % 生成好看的字符串 f1 = x^3 + 2 x^2 + 3 x + 4，不被认可的运算式<br>
+f2 = poly2sym§; % 生成可用的符号函数 f2 = x^3 + 2<em>x^2 + 3</em>x + 4<br>
+%求值<br>
+x = 4;<br>
+y1 = polyval(p, x); % 代入求值；若x1为矩阵，则对每个值单独求值<br>
+%求根<br>
+r = roots§; % p同上，由系数求根，结果为根植矩阵<br>
+p0 = poly®; % 由根求系数，结果为系数矩阵</p>
+<p>%%<br>
+%数据插值<br>
+%一维插值<br>
+%yi = interp1(X, Y, xi, ‘method’)<br>
+X = [-3, -1, 0, 1, 3];<br>
+Y = [9, 1, 0, 1, 9]; % XY为已知点横纵坐标向量<br>
+y2 = interp1(X, Y, 2); % 差值预估在x=2的y的值，x不能超过已知范围(此处x&lt;3)<br>
+y2m = interp1(X, Y, 2, ‘spline’); % 用spline方法(三次样条)差值预估在x=2的y的值<br>
+%二维插值<br>
+%zi = interp1(X, Y, Z, xi, yi, ‘method’)</p>
+<p>%%<br>
+X = [2, 3, 9, 15, 6, 7, 4];<br>
+A = [1, 7, 2; 9, 5, 3; 8, 4 ,6];<br>
+B = [1, 7, 3; 9, 5, 3; 8, 4 ,6];<br>
+%数据统计<br>
+%矩阵最大最小值<br>
+y = max(X); % 求矩阵X的最大值，min最小值<br>
+[y, k] = max(X); % 求最大值，k为该值的角标<br>
+[y, k] = max(A, [], 2); % A是矩阵，'2’时返回y每一行最大元素构成的列向量，k元素所在列；'1’时与上述相同<br>
+%均值和中值<br>
+y = mean(X); % 均值<br>
+y = median(X); % 中值<br>
+y = mean(A, 2); % '2’时返回y每一行均值构成的列向量；'1’时与上述相同<br>
+y = median(A, 2); % '2’时返回y每一行中值构成的列向量；'1’时与上述相同<br>
+%排序<br>
+Y = sort(A, 1, ‘ascend’); % sort(矩阵, dim, ‘method’)dim为1按列排序，2按行排序；ascend升序，descend降序<br>
+[Y, I] = sort(A, 1, ‘ascend’); % I保留了元素之前在A的位置<br>
+%求和求积累加累乘<br>
+y = sum(X); % 求和<br>
+y = prod(X); % 求积<br>
+y = cumsum(X); % 累加<br>
+y = cumprod(X); % 累乘</p>
+<p>%%<br>
+%*数值计算<br>
+%最(极)值<br>
+%多元函数在给定初值附近找最小值点<br>
+x = fminsearch(fun, x0);<br>
+%函数零点<br>
+x = fzero(fun, x0); % 在给定初值x0附近找零点</p>
 </blockquote>
 <p>第5部分：符号函数</p>
 <blockquote>
-<p>%%<br>%符号对象创建<br>  %sym函数<br>    p &#x3D; sin(pi&#x2F;3);<br>    P &#x3D; sym(p, ‘r’); % 用数值p创建符号常量P；’d’浮点数’f’有理分式的浮点数’e’有理数和误差’r’有理数<br>  %syms函数<br>    syms x; % 声明符号变量<br>    f &#x3D; 7<em>x^2 + 2</em>x+9; % 创建符号函数<br>  %符号运算<br>    % 加减乘除外<br>    % ‘转置 ； &#x3D;&#x3D;相等 ； ~&#x3D;不等<br>    % sin, cos, tan; asin, acos, atan 三角反三角<br>    % sinh, cosh, tanh; asinh, acosh, atanh 双曲反双曲<br>    % conj复数共轭；real复数实部；imag复数虚部；abs复数模；angle复数幅角<br>    % diag矩阵对角；triu矩阵上三角；tril矩阵下三角；inv逆矩阵；det行列式；rank秩；poly特征多项式；<br>    % |—-expm矩阵指数函数；eig矩阵特征值和特征向量；svd奇异值分解；<br>  %符号对象精度转换<br>    digits; % 显示当前用于计算的精度<br>    digits(16); % 将计算精度改为16位，降低精度有时可以加快程序运算速度或减少空间占用<br>    a16 &#x3D; vpa(sqrt(2)); % vpa括起的运算使sqrt(2)运算按照规定的精度执行<br>    a8 &#x3D; vpa(sqrt(2), 8); % 在vpa内控制精度，离开这一步精度恢复</p>
-<p>%%<br>%符号多项式函数运算<br>  %*符号表达形式与相互转化<br>    %多项式展开整理<br>      g &#x3D; expand(f); % 展开<br>      h &#x3D; collect(g); % 整理(默认按x整理)<br>      h1 &#x3D; collect(f, x); % 按x整理（降幂排列）<br>    %因式分解展开质因数<br>      fac &#x3D; factor(h); % 因式分解<br>      factor(12); % 对12分解质因数<br>  %符号多项式向量形式与计算<br>    syms a b c;<br>    n &#x3D; [a, b, c];<br>    roots(n); % 求符号多项式ax^2+bx+c的根<br>    n &#x3D; [1, 2, 3];<br>    roots(n); % 求符号多项式带入a&#x3D;1, b&#x3D;2, c&#x3D;3的根<br>  %*反函数<br>    fi &#x3D; finverse(f, x); % 对f中的变量x求反函数</p>
-<p>%%<br>%符号微积分<br>   %函数的极限和级数运算<br>    % 常量a，b<br>    %极限<br>      limit(f, x, 4); % 求f(x), x-&gt;4<br>      limit(f, 4); % 默认变量-&gt;4<br>      limit(f); % 默认变量-&gt;0<br>      limit(f, x, 4, ‘right’); % 求f(x), x-&gt;4+, ‘left’ x-&gt;4-<br>    %*基本级数运算<br>      %求和<br>        symsum(s, x, 3, 5); % 计算表达式s变量x从3到5的级数和，或symsum(s, x, [a b])或symsum(s, x, [a;b])<br>        symsum(s, 3, 5); % 计算s默认变量从3到5的级数和<br>        symsum(s); % 计算s默认变量从0到n-1的级数和<br>      %一维泰勒展开<br>        taylor(f, x, 4); % f在x&#x3D;4处展开为五阶泰勒级数<br>        taylor(f, x); % f在x&#x3D;0处展开为五阶泰勒级数<br>        taylor(f); % f在默认变量&#x3D;0处展开为五阶泰勒级数<br>  %符号微分<br>    %单变量求导（单变量偏导）<br>      n &#x3D; 1; % 常量n<br>      fn &#x3D; diff(f, x, n); % f对x的n阶导<br>      f1 &#x3D; diff(f, x); % f对x的1阶导<br>      diff(f, n); % f对默认变量的n阶导<br>      diff(f); % 默认变量1阶导<br>    %多元偏导<br>      fxy &#x3D; diff(f, x, y); % 先求x偏导，再求y偏导<br>      fxyz &#x3D; diff(f, x, y, z); % 先求x偏导，再求y偏导,再求z偏导<br>  %符号积分<br>    %积分命令<br>      int(f, x, 1, 2); % 函数f变量x在1~2区间定积分<br>      int(f, 1, 2); % 函数f默认变量在ab区间定积分<br>      int(f, x); % 函数f变量x不定积分<br>      int(f); % 函数f默认变量不定积分<br>      % 傅里叶，拉普拉斯，Z变换</p>
-<p>%%<br>%<em>符号方程求解<br>  %符号代数方程<br>    %一元方程<br>      eqn1 &#x3D; a</em>x&#x3D;&#x3D;b;<br>      S &#x3D; solve(eqn1); % 返回eqn符号解<br>    %多元方程组<br>      eqn21 &#x3D; x-y&#x3D;&#x3D;a;<br>      eqn22 &#x3D; 2*x+y&#x3D;&#x3D;b;<br>      [Sx, Sy] &#x3D; solve(eqn21, eqn22, x, y); % [Svar1,…SvarN]&#x3D;solve(eqn1,…eqnM, var1,…varN),MN不一定相等<br>      [Sxn, Syn] &#x3D; solve(eqn21, eqn22, x, y, ‘ReturnCondition’, true); % 加上参数ReturnCondition可返回通解及解的条件<br>      % 其他参数(参数加上true生效)<br>        % IgnoreProperty，忽略变量定义时一些假设<br>        % IgnoreAnalyticConstraints，忽略分析限制；<br>        % MaxDegree，大于3解显性解；<br>        % PrincipleValue，仅主值<br>        % Real，仅实数解<br>    %非线性fsolve<br>      X &#x3D; fsolve(fun, X0, optimset(option)); % fun函数.m文件名；X0求根初值；option选项如(‘Display’,’off’)不显示中间结果等</p>
+<p>%%<br>
+%符号对象创建<br>
+%sym函数<br>
+p = sin(pi/3);<br>
+P = sym(p, ‘r’); % 用数值p创建符号常量P；'d’浮点数’f’有理分式的浮点数’e’有理数和误差’r’有理数<br>
+%syms函数<br>
+syms x; % 声明符号变量<br>
+f = 7<em>x^2 + 2</em>x+9; % 创建符号函数<br>
+%符号运算<br>
+% 加减乘除外<br>
+% '转置 ； ==相等 ； ~=不等<br>
+% sin, cos, tan; asin, acos, atan 三角反三角<br>
+% sinh, cosh, tanh; asinh, acosh, atanh 双曲反双曲<br>
+% conj复数共轭；real复数实部；imag复数虚部；abs复数模；angle复数幅角<br>
+% diag矩阵对角；triu矩阵上三角；tril矩阵下三角；inv逆矩阵；det行列式；rank秩；poly特征多项式；<br>
+% |----expm矩阵指数函数；eig矩阵特征值和特征向量；svd奇异值分解；<br>
+%符号对象精度转换<br>
+digits; % 显示当前用于计算的精度<br>
+digits(16); % 将计算精度改为16位，降低精度有时可以加快程序运算速度或减少空间占用<br>
+a16 = vpa(sqrt(2)); % vpa括起的运算使sqrt(2)运算按照规定的精度执行<br>
+a8 = vpa(sqrt(2), 8); % 在vpa内控制精度，离开这一步精度恢复</p>
+<p>%%<br>
+%符号多项式函数运算<br>
+%*符号表达形式与相互转化<br>
+%多项式展开整理<br>
+g = expand(f); % 展开<br>
+h = collect(g); % 整理(默认按x整理)<br>
+h1 = collect(f, x); % 按x整理（降幂排列）<br>
+%因式分解展开质因数<br>
+fac = factor(h); % 因式分解<br>
+factor(12); % 对12分解质因数<br>
+%符号多项式向量形式与计算<br>
+syms a b c;<br>
+n = [a, b, c];<br>
+roots(n); % 求符号多项式ax^2+bx+c的根<br>
+n = [1, 2, 3];<br>
+roots(n); % 求符号多项式带入a=1, b=2, c=3的根<br>
+%*反函数<br>
+fi = finverse(f, x); % 对f中的变量x求反函数</p>
+<p>%%<br>
+%符号微积分<br>
+%函数的极限和级数运算<br>
+% 常量a，b<br>
+%极限<br>
+limit(f, x, 4); % 求f(x), x-&gt;4<br>
+limit(f, 4); % 默认变量-&gt;4<br>
+limit(f); % 默认变量-&gt;0<br>
+limit(f, x, 4, ‘right’); % 求f(x), x-&gt;4+, ‘left’ x-&gt;4-<br>
+%*基本级数运算<br>
+%求和<br>
+symsum(s, x, 3, 5); % 计算表达式s变量x从3到5的级数和，或symsum(s, x, [a b])或symsum(s, x, [a;b])<br>
+symsum(s, 3, 5); % 计算s默认变量从3到5的级数和<br>
+symsum(s); % 计算s默认变量从0到n-1的级数和<br>
+%一维泰勒展开<br>
+taylor(f, x, 4); % f在x=4处展开为五阶泰勒级数<br>
+taylor(f, x); % f在x=0处展开为五阶泰勒级数<br>
+taylor(f); % f在默认变量=0处展开为五阶泰勒级数<br>
+%符号微分<br>
+%单变量求导（单变量偏导）<br>
+n = 1; % 常量n<br>
+fn = diff(f, x, n); % f对x的n阶导<br>
+f1 = diff(f, x); % f对x的1阶导<br>
+diff(f, n); % f对默认变量的n阶导<br>
+diff(f); % 默认变量1阶导<br>
+%多元偏导<br>
+fxy = diff(f, x, y); % 先求x偏导，再求y偏导<br>
+fxyz = diff(f, x, y, z); % 先求x偏导，再求y偏导,再求z偏导<br>
+%符号积分<br>
+%积分命令<br>
+int(f, x, 1, 2); % 函数f变量x在1~2区间定积分<br>
+int(f, 1, 2); % 函数f默认变量在ab区间定积分<br>
+int(f, x); % 函数f变量x不定积分<br>
+int(f); % 函数f默认变量不定积分<br>
+% 傅里叶，拉普拉斯，Z变换</p>
+<p>%%<br>
+%<em>符号方程求解<br>
+%符号代数方程<br>
+%一元方程<br>
+eqn1 = a</em>x==b;<br>
+S = solve(eqn1); % 返回eqn符号解<br>
+%多元方程组<br>
+eqn21 = x-y==a;<br>
+eqn22 = 2*x+y==b;<br>
+[Sx, Sy] = solve(eqn21, eqn22, x, y); % [Svar1,…SvarN]=solve(eqn1,…eqnM, var1,…varN),MN不一定相等<br>
+[Sxn, Syn] = solve(eqn21, eqn22, x, y, ‘ReturnCondition’, true); % 加上参数ReturnCondition可返回通解及解的条件<br>
+% 其他参数(参数加上true生效)<br>
+% IgnoreProperty，忽略变量定义时一些假设<br>
+% IgnoreAnalyticConstraints，忽略分析限制；<br>
+% MaxDegree，大于3解显性解；<br>
+% PrincipleValue，仅主值<br>
+% Real，仅实数解<br>
+%非线性fsolve<br>
+X = fsolve(fun, X0, optimset(option)); % fun函数.m文件名；X0求根初值；option选项如(‘Display’,‘off’)不显示中间结果等</p>
 </blockquote>
 <p>转载请注明出处</p>
 <p>本文为我原创本文禁止转载或摘编</p>
-<p><a target="_blank" rel="noopener" href="https://search.bilibili.com/article?keyword=%E9%80%9F%E6%88%90&from_source=article"> 速成 </a><a target="_blank" rel="noopener" href="https://search.bilibili.com/article?keyword=Matlab&from_source=article">Matlab</a></p>
+<p><a target="_blank" rel="noopener" href="https://search.bilibili.com/article?keyword=%E9%80%9F%E6%88%90&amp;from_source=article"> 速成 </a><a target="_blank" rel="noopener" href="https://search.bilibili.com/article?keyword=Matlab&amp;from_source=article">Matlab</a></p>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
               
             </div>
