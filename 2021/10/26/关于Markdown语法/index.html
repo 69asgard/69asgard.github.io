@@ -302,20 +302,12 @@
             
             <div class="markdown-body">
               
-              <p>数学公式<br>
-$x+y+z=1.$<br>
-使用两个$符号包裹起来。<br>
-哦，对了，还有这个<br>
-mathjax: true<br>
-下面是代码块，不过颜色单调，不是很好看。</p>
+              <p>数学公式<br>$x+y+z&#x3D;1.$<br>使用两个$符号包裹起来。<br>哦，对了，还有这个<br>mathjax: true<br>下面是代码块，不过颜色单调，不是很好看。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">mathjax: <span class="hljs-literal">true</span> <span class="hljs-string">&quot;额&quot;</span><br></code></pre></td></tr></table></figure>
-<p>格式是：(三个顿号)<br>
-bash<br>
-mathjax: true “额”</p>
+<p>格式是：(三个顿号)<br> bash<br>mathjax: true “额”</p>
 <p>（bash）这玩意好像没啥用，，，不，他可以标识代码类型</p>
-<p>markdown代码块语言类型[<a target="_blank" rel="noopener" href="https://blog.csdn.net/u010349629/article/details/102946762">https://blog.csdn.net/u010349629/article/details/102946762</a>]</p>
-<p>转换表格工具箱<br>
-<a target="_blank" rel="noopener" href="http://tableconvert.com">tableconvert.com</a></p>
+<p>markdown代码块语言类型[<a target="_blank" rel="noopener" href="https://blog.csdn.net/u010349629/article/details/102946762]">https://blog.csdn.net/u010349629/article/details/102946762]</a></p>
+<p>转换表格工具箱<br>tableconvert.com</p>
 <table>
 <thead>
 <tr>
@@ -324,8 +316,7 @@ mathjax: true “额”</p>
 <th><strong>说明</strong></th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td>Shell</td>
 <td>bash , shell</td>
 <td></td>
@@ -415,11 +406,9 @@ mathjax: true “额”</p>
 <td></td>
 <td></td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
 <p>引用</p>
-<p>引用其它要素：<br>
-引用的区块内也可以使用其他的语法，包括标题、列表、代码区块等。</p>
+<p>引用其它要素：<br>引用的区块内也可以使用其他的语法，包括标题、列表、代码区块等。</p>
 <p>代码：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;1.1 这是第一行列表项。<br>&gt;&gt;2.1 这是第二行列表项。<br>&gt;&gt;&gt;-这是第三行列表项。<br>&gt; <span class="hljs-comment">### 给出一些例子代码：</span><br>&gt;```bash<br>&gt; <span class="hljs-built_in">return</span> shell_exec(<span class="hljs-string">&quot;echo <span class="hljs-variable">$input</span> | <span class="hljs-variable">$markdown_script</span>&quot;</span>);<br>&gt;```(后面还有结尾)<br></code></pre></td></tr></table></figure>
 <blockquote>
@@ -430,21 +419,13 @@ mathjax: true “额”</p>
 <p>-这是第三行列表项。</p>
 </blockquote>
 </blockquote>
-<h3 id="给出一些例子代码：">给出一些例子代码：</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;<span class="hljs-built_in">return</span> shell_exec(<span class="hljs-string">&quot;echo <span class="hljs-variable">$input</span> | <span class="hljs-variable">$markdown_script</span>&quot;</span>);<br></code></pre></td></tr></table></figure>
+<h3 id="给出一些例子代码："><a href="#给出一些例子代码：" class="headerlink" title="给出一些例子代码："></a>给出一些例子代码：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt;<span class="hljs-built_in">return</span> shell_exec(<span class="hljs-string">&quot;echo <span class="hljs-variable">$input</span> | <span class="hljs-variable">$markdown_script</span>&quot;</span>);<br></code></pre></td></tr></table></figure>
 </blockquote>
-<p>引用中内容换行：<br>
-有时候引用的内容太长，需要分段落层次，可以使用 <br> 实现换行。<br>
-举例：</p>
+<p>引用中内容换行：<br>有时候引用的内容太长，需要分段落层次，可以使用 <br> 实现换行。<br>举例：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">&gt; $\underline&#123;幽默小故事，笑死人不偿命&#125;$&lt;br&gt;<br>我：“老板，你这清炒油麦菜是荤菜还是素菜？<br>老板：“当然是素菜了”&lt;br&gt;<br>我：“那这条虫是怎么回事”<br>老板：“呃……它也是来吃饭的。”&lt;br&gt;<br>我：“它吃饭凭什么我付钱？我又不认识它！”<br>老板哭着说：“它为了这顿饭，把命都丢了，你还能要求它AA制吗？”<br></code></pre></td></tr></table></figure>
+
 <blockquote>
-<p>$\underline{幽默小故事，笑死人不偿命}$<br><br>
-我：“老板，你这清炒油麦菜是荤菜还是素菜？<br>
-老板：“当然是素菜了”<br><br>
-我：“那这条虫是怎么回事”<br>
-老板：“呃……它也是来吃饭的。”<br><br>
-我：“它吃饭凭什么我付钱？我又不认识它！”<br>
-老板哭着说：“它为了这顿饭，把命都丢了，你还能要求它AA制吗？”</p>
+<p>$\underline{幽默小故事，笑死人不偿命}$<br><br>我：“老板，你这清炒油麦菜是荤菜还是素菜？<br>老板：“当然是素菜了”<br><br>我：“那这条虫是怎么回事”<br>老板：“呃……它也是来吃饭的。”<br><br>我：“它吃饭凭什么我付钱？我又不认识它！”<br>老板哭着说：“它为了这顿饭，把命都丢了，你还能要求它AA制吗？”</p>
 </blockquote>
 <p><a target="_blank" rel="noopener" href="https://m.runoob.com/markdown/md-paragraph.html">段落格式教程</a></p>
 <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">
